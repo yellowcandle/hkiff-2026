@@ -47,6 +47,7 @@ interface BrochureScreening {
 
 interface WebsiteScreening {
   ticketUrl?: string;
+  guestAttend?: boolean;
 }
 
 interface OutputScreening {
@@ -222,7 +223,7 @@ function main() {
       ticketUrl,
     };
 
-    if (s.guestAttend) {
+    if (s.guestAttend || webData?.guestAttend) {
       out.guestAttend = true;
     }
 

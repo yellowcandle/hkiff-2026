@@ -10,7 +10,8 @@
     "time": "19:30",
     "venueId": "kg",
     "screeningCode": "01KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-woman-and-child-01",
@@ -101,7 +102,8 @@
     "time": "14:15",
     "venueId": "kg",
     "screeningCode": "02KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-balentes-01",
@@ -127,7 +129,8 @@
     "time": "14:30",
     "venueId": "pe",
     "screeningCode": "02PE01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-ice-grave-01",
@@ -312,7 +315,8 @@
     "time": "20:00",
     "venueId": "mc",
     "screeningCode": "02MC03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-stars-01",
@@ -338,7 +342,8 @@
     "time": "20:30",
     "venueId": "kg",
     "screeningCode": "02KG03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-vive-lamour-01",
@@ -468,7 +473,8 @@
     "time": "14:00",
     "venueId": "kg",
     "screeningCode": "03KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-cageman-01",
@@ -481,7 +487,8 @@
     "time": "14:00",
     "venueId": "mc",
     "screeningCode": "03MC01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-woman-and-child-02",
@@ -546,7 +553,8 @@
     "time": "15:30",
     "venueId": "pe",
     "screeningCode": "03PE02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-face-to-face-jia-zhangke-01",
@@ -602,7 +610,8 @@
     "time": "17:15",
     "venueId": "is",
     "screeningCode": "03IS03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-aniki-bobo-01",
@@ -758,7 +767,8 @@
     "time": "21:15",
     "venueId": "kg",
     "screeningCode": "03KG03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-master-class-tian-zhuangzhuang-01",
@@ -891,7 +901,8 @@
     "time": "14:30",
     "venueId": "kg",
     "screeningCode": "04KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-the-voice-of-hind-rajab-01",
@@ -917,7 +928,8 @@
     "time": "14:30",
     "venueId": "mc",
     "screeningCode": "04MC01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-red-sorghum-01",
@@ -930,7 +942,8 @@
     "time": "14:30",
     "venueId": "ct",
     "screeningCode": "04CT01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-all-greens-02",
@@ -1093,7 +1106,8 @@
     "time": "18:00",
     "venueId": "mc",
     "screeningCode": "04MC02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-the-drama-01",
@@ -1158,7 +1172,8 @@
     "time": "19:30",
     "venueId": "pe",
     "screeningCode": "04PE04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-bashu-the-little-stranger-02",
@@ -1252,7 +1267,8 @@
     "time": "21:45",
     "venueId": "is",
     "screeningCode": "04IS05",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-shape-of-momo-02",
@@ -1330,7 +1346,8 @@
     "time": "12:30",
     "venueId": "pe",
     "screeningCode": "05PE01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-short-film-competition-programme-ii-01",
@@ -1369,7 +1386,8 @@
     "time": "14:15",
     "venueId": "gl",
     "screeningCode": "05GL01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-duse-02",
@@ -1499,7 +1517,8 @@
     "time": "17:00",
     "venueId": "ct",
     "screeningCode": "05CT02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-joe-hsieh-animation-collection-01",
@@ -1551,7 +1570,8 @@
     "time": "17:45",
     "venueId": "kg",
     "screeningCode": "05KG02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-the-secret-01",
@@ -1590,7 +1610,8 @@
     "time": "19:15",
     "venueId": "pe",
     "screeningCode": "05PE04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-pillion-02",
@@ -1656,6 +1677,7 @@
     "venueId": "ct",
     "screeningCode": "05CT03",
     "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true,
     "event": {
       "type": "pre-talk"
     }
@@ -1775,7 +1797,8 @@
     "time": "12:30",
     "venueId": "ts",
     "screeningCode": "06TS01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-meets-the-world-02",
@@ -1931,7 +1954,8 @@
     "time": "17:30",
     "venueId": "ts",
     "screeningCode": "06TS03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-the-sword-01",
@@ -2009,7 +2033,8 @@
     "time": "20:15",
     "venueId": "kg",
     "screeningCode": "06KG03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-in-our-time-01",
@@ -2152,7 +2177,8 @@
     "time": "14:30",
     "venueId": "kg",
     "screeningCode": "07KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-amilcar-02",
@@ -2442,7 +2468,8 @@
     "time": "22:00",
     "venueId": "pe",
     "screeningCode": "07PE04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-joe-hsieh-animation-collection-02",
@@ -2585,7 +2612,8 @@
     "time": "17:15",
     "venueId": "ac",
     "screeningCode": "08AC03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-whispers-in-the-woods-01",
@@ -2676,7 +2704,8 @@
     "time": "19:30",
     "venueId": "ts",
     "screeningCode": "08TS03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-deep-quiet-room-01",
@@ -2689,7 +2718,8 @@
     "time": "20:45",
     "venueId": "ek",
     "screeningCode": "08EK01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-yes-02",
@@ -2715,7 +2745,8 @@
     "time": "21:30",
     "venueId": "kg",
     "screeningCode": "08KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-mares-nest-01",
@@ -2728,7 +2759,8 @@
     "time": "21:30",
     "venueId": "ac",
     "screeningCode": "08AC05",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-i-understand-your-displeasure-01",
@@ -2767,7 +2799,8 @@
     "time": "21:45",
     "venueId": "ts",
     "screeningCode": "08TS04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-ah-girl-01",
@@ -2806,7 +2839,8 @@
     "time": "14:45",
     "venueId": "gl",
     "screeningCode": "09GL01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-goodbye-sisters-01",
@@ -2819,7 +2853,8 @@
     "time": "14:45",
     "venueId": "ts",
     "screeningCode": "09TS01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-24-city-01",
@@ -2910,7 +2945,8 @@
     "time": "17:30",
     "venueId": "gl",
     "screeningCode": "09GL02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-seminar-on-new-voices-of-asia-01",
@@ -3017,7 +3053,8 @@
     "time": "21:30",
     "venueId": "kg",
     "screeningCode": "09KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-the-captive-02",
@@ -3069,7 +3106,8 @@
     "time": "22:00",
     "venueId": "pe",
     "screeningCode": "09PE04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-past-future-continuous-01",
@@ -3108,7 +3146,8 @@
     "time": "12:30",
     "venueId": "ts",
     "screeningCode": "10TS01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-i-understand-your-displeasure-02",
@@ -3290,7 +3329,8 @@
     "time": "19:00",
     "venueId": "gl",
     "screeningCode": "10GL03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-deep-quiet-room-02",
@@ -3303,7 +3343,8 @@
     "time": "19:30",
     "venueId": "pe",
     "screeningCode": "10PE03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-world-animation-for-adults-01",
@@ -3355,7 +3396,8 @@
     "time": "20:30",
     "venueId": "ek",
     "screeningCode": "10EK02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-private-revolutions-public-spaces-works-from-the-m-asian-avant-garde-film-collection-01",
@@ -3485,7 +3527,8 @@
     "time": "12:30",
     "venueId": "pe",
     "screeningCode": "11PE01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-writing-life-annie-ernaux-through-the-eyes-of-high-school-students-02",
@@ -3511,7 +3554,8 @@
     "time": "14:00",
     "venueId": "kg",
     "screeningCode": "11KG01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-mary-stephen-shades-of-silk-shorts-02",
@@ -3550,7 +3594,8 @@
     "time": "14:45",
     "venueId": "ac",
     "screeningCode": "11AC02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-rose-02",
@@ -3752,7 +3797,8 @@
     "time": "19:30",
     "venueId": "ac",
     "screeningCode": "11AC04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-ah-girl-02",
@@ -3804,7 +3850,8 @@
     "time": "20:30",
     "venueId": "kg",
     "screeningCode": "11KG03",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-certified-copy-01",
@@ -3843,7 +3890,8 @@
     "time": "22:00",
     "venueId": "ts",
     "screeningCode": "11TS04",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-sangre-del-toro-02",
@@ -3869,7 +3917,8 @@
     "time": "22:15",
     "venueId": "gl",
     "screeningCode": "11GL05",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-the-tale-of-silyan-02",
@@ -3895,7 +3944,8 @@
     "time": "12:30",
     "venueId": "is",
     "screeningCode": "12IS01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-spare-queens-02",
@@ -3908,7 +3958,8 @@
     "time": "12:30",
     "venueId": "pe",
     "screeningCode": "12PE01",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-elephants-squirrels-02",
@@ -4181,7 +4232,8 @@
     "time": "19:30",
     "venueId": "kg",
     "screeningCode": "12KG02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-in-i-in-motion-02",
@@ -4233,7 +4285,8 @@
     "time": "20:30",
     "venueId": "ek",
     "screeningCode": "12EK02",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-short-film-competition-programme-iii-02",
@@ -4246,7 +4299,8 @@
     "time": "21:30",
     "venueId": "ac",
     "screeningCode": "12AC05",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-sleep-no-more-02",
@@ -4259,7 +4313,8 @@
     "time": "21:45",
     "venueId": "is",
     "screeningCode": "12IS05",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-how-to-divorce-during-the-war-02",
@@ -4272,7 +4327,8 @@
     "time": "21:45",
     "venueId": "gl",
     "screeningCode": "12GL05",
-    "ticketUrl": "https://www.uutix.com/hkiff50pb"
+    "ticketUrl": "https://www.uutix.com/hkiff50pb",
+    "guestAttend": true
   },
   {
     "id": "s-amoeba-02",
