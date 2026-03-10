@@ -1,0 +1,165 @@
+[
+  {
+    "id": "gala-presentation",
+    "label": { "en": "Gala Presentation", "zh": "星光盛宴" },
+    "description": {
+      "en": "Premieres and galas featuring major works from around the world.",
+      "zh": "全球主要電影首映禮及星光晚宴。"
+    },
+    "subSections": [
+      { "id": "galas", "label": { "en": "Galas", "zh": "首映禮" } },
+      { "id": "cinephile-paradise", "label": { "en": "Cinephile Paradise", "zh": "影迷嘉年華" } }
+    ]
+  },
+  {
+    "id": "focus",
+    "label": { "en": "Focus", "zh": "焦點" },
+    "description": {
+      "en": "Spotlight on a featured filmmaker or theme.",
+      "zh": "聚焦特定電影人或主題的專題單元。"
+    },
+    "subSections": [
+      {
+        "id": "juliette-binoche",
+        "label": {
+          "en": "Juliette Binoche: The Choreographer of Emotion",
+          "zh": "茱麗葉庇洛仙 動之以情"
+        }
+      },
+      {
+        "id": "revisiting-chinese-cinema",
+        "label": {
+          "en": "Revisiting Chinese Cinema: The Beginning of a New Journey",
+          "zh": "華語電影：長風破浪啟航時"
+        }
+      }
+    ]
+  },
+  {
+    "id": "firebird-awards",
+    "label": { "en": "Firebird Awards", "zh": "火鳥大獎" },
+    "description": {
+      "en": "Competitive section for emerging filmmakers.",
+      "zh": "新進電影人競賽單元。"
+    },
+    "subSections": [
+      {
+        "id": "young-cinema-chinese",
+        "label": {
+          "en": "Young Cinema Competition (Chinese Language)",
+          "zh": "新秀電影競賽（華語）"
+        }
+      },
+      {
+        "id": "young-cinema-world",
+        "label": {
+          "en": "Young Cinema Competition (World)",
+          "zh": "新秀電影競賽（世界）"
+        }
+      },
+      {
+        "id": "documentary-competition",
+        "label": { "en": "Documentary Competition", "zh": "紀錄片競賽" }
+      },
+      {
+        "id": "short-film-competition",
+        "label": { "en": "Short Film Competition", "zh": "國際短片競賽" }
+      },
+      {
+        "id": "new-voices-of-asia",
+        "label": { "en": "New Voices of Asia", "zh": "亞洲新聲浪" }
+      }
+    ]
+  },
+  {
+    "id": "pan-chinese-cinema",
+    "label": { "en": "Pan-Chinese Cinema", "zh": "華語電影" },
+    "description": {
+      "en": "Celebrating Chinese-language cinema from across the region.",
+      "zh": "展示來自大中華地區的精選華語電影。"
+    },
+    "subSections": [
+      {
+        "id": "jia-zhangke-filmmaker-in-focus",
+        "label": {
+          "en": "Jia Zhangke, Filmmaker in Focus",
+          "zh": "焦點影人 賈樟柯"
+        }
+      },
+      {
+        "id": "chinese-language-restored-classics",
+        "label": {
+          "en": "Chinese-language Restored Classics",
+          "zh": "華語修復經典"
+        }
+      }
+    ]
+  },
+  {
+    "id": "masters-auteurs",
+    "label": { "en": "Masters & Auteurs", "zh": "大師與作者" },
+    "description": {
+      "en": "Works by the world's most celebrated filmmakers, including director retrospectives and auteur spotlights.",
+      "zh": "世界頂尖電影大師的作品，包括導演回顧及作者風格精選。"
+    },
+    "subSections": [
+      { "id": "the-masters", "label": { "en": "The Masters", "zh": "大師級" } },
+      { "id": "auteurs", "label": { "en": "Auteurs", "zh": "作者風" } },
+      {
+        "id": "anthony-chen-trilogy",
+        "label": {
+          "en": "Anthony Chen's 'Growing Up' Trilogy",
+          "zh": "陳哲藝的成長三部曲"
+        }
+      },
+      {
+        "id": "mary-stephen",
+        "label": {
+          "en": "Mary Stephen: Inner Thoughts in Moving Image",
+          "zh": "雪美蓮的光影私語"
+        }
+      }
+    ]
+  },
+  {
+    "id": "world-cinema",
+    "label": { "en": "World Cinema", "zh": "世界電影" },
+    "description": {
+      "en": "Global Vision — a curated selection of outstanding works from international cinema.",
+      "zh": "環球視野 — 精選國際電影傑作。"
+    },
+    "subSections": [
+      { "id": "global-vision-asia", "label": { "en": "Global Vision — Asia", "zh": "環球視野 — 亞洲" } },
+      { "id": "global-vision-europe", "label": { "en": "Global Vision — Europe", "zh": "環球視野 — 歐洲" } },
+      { "id": "global-vision-america", "label": { "en": "Global Vision — America", "zh": "環球視野 — 美洲" } },
+      { "id": "global-vision-africa", "label": { "en": "Global Vision — Africa", "zh": "環球視野 — 非洲" } }
+    ]
+  },
+  {
+    "id": "documentaries",
+    "label": { "en": "Documentaries", "zh": "紀錄片" },
+    "description": {
+      "en": "Non-fiction films spanning reality bites and filmmakers & filmmaking.",
+      "zh": "涵蓋「真的假不了」及「影人影事」的紀錄片精選。"
+    },
+    "subSections": [
+      { "id": "reality-bites", "label": { "en": "Reality Bites", "zh": "真的假不了" } },
+      { "id": "filmmakers-and-filmmaking", "label": { "en": "Filmmakers and Filmmaking", "zh": "影人影事" } }
+    ]
+  },
+  {
+    "id": "kaleidoscope",
+    "label": { "en": "Kaleidoscope", "zh": "五光十色" },
+    "description": {
+      "en": "A vibrant mix of genre films including Fantastic Beats, Animation Unlimited, Midnight Heat, Poetry in Motion, and Restored Classics.",
+      "zh": "多元類型電影，包括奇幻青春、超人氣動畫、我愛午夜長、詩影像及修復經典。"
+    },
+    "subSections": [
+      { "id": "fantastic-beats", "label": { "en": "Fantastic Beats", "zh": "奇幻青春" } },
+      { "id": "animation-unlimited", "label": { "en": "Animation Unlimited", "zh": "超人氣動畫" } },
+      { "id": "midnight-heat", "label": { "en": "Midnight Heat", "zh": "我愛午夜長" } },
+      { "id": "poetry-in-motion", "label": { "en": "Poetry in Motion", "zh": "詩影像" } },
+      { "id": "restored-classics", "label": { "en": "Restored Classics", "zh": "修復經典" } }
+    ]
+  }
+]

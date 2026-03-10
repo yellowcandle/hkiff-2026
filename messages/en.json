@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "films": "Films",
+    "schedule": "Schedule",
+    "home": "Home",
+    "plan": "My Plan"
+  },
+  "home": {
+    "title": "HKIFF 50",
+    "subtitle": "Hong Kong International Film Festival — 50th Edition",
+    "dates": "3–14 April 2026",
+    "browseFilms": "Browse Films",
+    "viewSchedule": "View Schedule",
+    "featuredFilms": "Featured Films"
+  },
+  "films": {
+    "title": "Film Catalogue",
+    "searchPlaceholder": "Search films...",
+    "allSections": "All Sections",
+    "filmCount": "{count} films",
+    "noResults": "No films found matching your search.",
+    "director": "Director",
+    "country": "Country",
+    "runtime": "Runtime",
+    "language": "Language",
+    "subtitles": "Subtitles",
+    "synopsis": "Synopsis",
+    "screenings": "Screenings",
+    "noScreenings": "No screenings scheduled.",
+    "minutes": "min",
+    "buyTickets": "Buy Tickets"
+  },
+  "schedule": {
+    "title": "Schedule",
+    "allDates": "All Dates",
+    "noScreenings": "No screenings on this date."
+  },
+  "plan": {
+    "title": "My Plan",
+    "empty": "Your plan is empty. Start adding screenings from the film catalogue.",
+    "browseFilms": "Browse Films",
+    "share": "Share / Export",
+    "copied": "Copied!",
+    "removeScreening": "Remove screening",
+    "conflict": "Conflict",
+    "conflictWith": "Conflicts with {title}",
+    "duplicateFilm": "You already have another screening of this film in your plan",
+    "inPlan": "In Plan",
+    "addToPlan": "Add to Plan",
+    "selected": "✓ Selected",
+    "bookingCodes": "Booking codes"
+  },
+  "favourites": {
+    "addFavourite": "Add to favourites",
+    "removeFavourite": "Remove from favourites",
+    "favouritesOnly": "Favourites",
+    "noFavourites": "No favourites yet. Star films to save them here.",
+    "storageError": "Could not save — storage is full."
+  },
+  "footer": {
+    "copyright": "© 2026 Hong Kong International Film Festival Society. All rights reserved.",
+    "website": "hkiff.org.hk"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "films": "電影",
+    "schedule": "節目表",
+    "home": "主頁",
+    "plan": "我的計劃"
+  },
+  "home": {
+    "title": "香港國際電影節50",
+    "subtitle": "香港國際電影節 — 第五十屆",
+    "dates": "2026年4月3日至14日",
+    "browseFilms": "瀏覽電影",
+    "viewSchedule": "查看節目表",
+    "featuredFilms": "精選電影"
+  },
+  "films": {
+    "title": "電影目錄",
+    "searchPlaceholder": "搜尋電影⋯",
+    "allSections": "所有單元",
+    "filmCount": "{count} 部電影",
+    "noResults": "找不到符合搜尋條件的電影。",
+    "director": "導演",
+    "country": "國家／地區",
+    "runtime": "片長",
+    "language": "語言",
+    "subtitles": "字幕",
+    "synopsis": "劇情簡介",
+    "screenings": "放映場次",
+    "noScreenings": "暫無放映場次。",
+    "minutes": "分鐘",
+    "buyTickets": "購票"
+  },
+  "schedule": {
+    "title": "節目表",
+    "allDates": "所有日期",
+    "noScreenings": "該日期沒有放映場次。"
+  },
+  "plan": {
+    "title": "我的計劃",
+    "empty": "計劃尚未新增任何場次。請前往電影目錄選擇場次。",
+    "browseFilms": "瀏覽電影",
+    "share": "分享 / 匯出",
+    "copied": "已複製！",
+    "removeScreening": "移除場次",
+    "conflict": "時段衝突",
+    "conflictWith": "與「{title}」時段衝突",
+    "duplicateFilm": "你已在計劃中加入了此電影的另一場次",
+    "inPlan": "已加入",
+    "addToPlan": "加入計劃",
+    "selected": "✓ 已選",
+    "bookingCodes": "訂票編號"
+  },
+  "favourites": {
+    "addFavourite": "加入收藏",
+    "removeFavourite": "取消收藏",
+    "favouritesOnly": "收藏",
+    "noFavourites": "尚未收藏任何電影。點擊星號即可收藏。",
+    "storageError": "無法儲存——儲存空間已滿。"
+  },
+  "footer": {
+    "copyright": "© 2026 香港國際電影節協會。版權所有。",
+    "website": "hkiff.org.hk"
+  }
+}

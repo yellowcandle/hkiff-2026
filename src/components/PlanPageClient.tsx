@@ -1,0 +1,219 @@
+"use client";
+
+import { useState } from "react";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { usePlan } from "@/components/PlanContext";
+import { buildExportText } from "@/components/PlanExport";
+import type { Film, Screening, Venue } from "@/lib/types";
+
+interface Props {
+  screenings: Screening[];
+  films: Film[];
+  venues: Venue[];
+  locale: "en" | "zh";
+}
+
+function timeToMinutes(time: string): number {
+  const [h, m] = time.split(":").map(Number);
+  return h * 60 + m;
+}
+
+function minutesToTime(minutes: number): string {
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+}
+
+function formatDateHeading(dateStr: string, locale: "en" | "zh"): string {
+  const date = new Date(dateStr + "T00:00:00");
+  if (locale === "zh") {
+    const days = ["日", "一", "二", "三", "四", "五", "六"];
+    return `${date.getMonth() + 1}月${date.getDate()}日（${days[date.getDay()]}）`;
+  }
+  return date.toLocaleDateString("en-GB", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+  });
+}
+
+export default function PlanPageClient({ screenings, films, venues, locale }: Props) {
+  const t = useTranslations("plan");
+  const { plan, removeScreening, getConflictsFor } = usePlan();
+  const [copied, setCopied] = useState(false);
+  const [shareError, setShareError] = useState(false);
+
+  const screeningMap = new Map(screenings.map((s) => [s.id, s]));
+  const filmMap = new Map(films.map((f) => [f.id, f]));
+  const venueMap = new Map(venues.map((v) => [v.id, v]));
+
+  // Resolve plan items, skipping stale IDs (task 6.6)
+  const planItems = plan
+    .map((id) => {
+      const screening = screeningMap.get(id);
+      if (!screening) return null;
+      const film = filmMap.get(screening.filmId);
+      if (!film) return null;
+      return { id, screening, film, venue: venueMap.get(screening.venueId) };
+    })
+    .filter(
+      (x): x is { id: string; screening: Screening; film: Film; venue: Venue | undefined } =>
+        x !== null
+    );
+
+  // Group by date
+  const byDate = new Map<string, typeof planItems>();
+  for (const item of planItems) {
+    const d = item.screening.date;
+    if (!byDate.has(d)) byDate.set(d, []);
+    byDate.get(d)!.push(item);
+  }
+  for (const dayItems of byDate.values()) {
+    dayItems.sort(
+      (a, b) =>
+        timeToMinutes(a.screening.time) - timeToMinutes(b.screening.time)
+    );
+  }
+  const sortedDates = [...byDate.keys()].sort();
+
+  // Share/export handler
+  async function handleShare() {
+    setShareError(false);
+    try {
+      const text = buildExportText(plan, screenings, films, venues, locale);
+      if (navigator.share) {
+        await navigator.share({ text });
+      } else {
+        await navigator.clipboard.writeText(text);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      }
+    } catch (err) {
+      // User cancelled share (DOMException: AbortError) — not an error
+      if (err instanceof DOMException && err.name === "AbortError") return;
+      setShareError(true);
+      setTimeout(() => setShareError(false), 3000);
+    }
+  }
+
+  // Empty state
+  if (planItems.length === 0) {
+    return (
+      <div className="text-center py-16">
+        <p className="text-neutral-500 mb-6">{t("empty")}</p>
+        <Link
+          href="/films"
+          className="inline-block bg-red-600 text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-red-700 transition-colors"
+        >
+          {t("browseFilms")}
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      {/* Share/Export button */}
+      <div className="flex justify-end mb-6">
+        <button
+          onClick={handleShare}
+          disabled={planItems.length === 0}
+          className="bg-neutral-900 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-neutral-700 transition-colors disabled:opacity-40"
+        >
+          {shareError ? "Failed to copy" : copied ? t("copied") : t("share")}
+        </button>
+      </div>
+
+      {/* Date sections */}
+      <div className="space-y-8">
+        {sortedDates.map((date) => {
+          const dayItems = byDate.get(date)!;
+          const conflictCount = dayItems.filter((item) =>
+            getConflictsFor(item.id).length > 0
+          ).length;
+
+          return (
+            <section key={date}>
+              <div className="flex items-center gap-3 mb-3">
+                <h2 className="font-semibold text-lg">
+                  {formatDateHeading(date, locale)}
+                </h2>
+                {conflictCount > 0 && (
+                  <span className="text-xs font-medium text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">
+                    ⚠ {conflictCount} {t("conflict")}
+                  </span>
+                )}
+              </div>
+
+              <div className="space-y-2">
+                {dayItems.map((item) => {
+                  const { id, screening, film, venue } = item;
+                  const startMin = timeToMinutes(screening.time);
+                  const endTime = minutesToTime(startMin + (film.runtime ?? 0));
+                  const conflictIds = getConflictsFor(id);
+                  const hasConflict = conflictIds.length > 0;
+
+                  return (
+                    <div
+                      key={id}
+                      className={`flex items-start justify-between rounded-lg px-4 py-3 border ${
+                        hasConflict
+                          ? "border-amber-300 bg-amber-50"
+                          : "border-neutral-200 bg-neutral-50"
+                      }`}
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="font-mono text-sm font-medium text-neutral-700">
+                            {screening.time}–{endTime}
+                          </span>
+                          {hasConflict && (
+                            <span className="text-xs text-amber-700">⚠</span>
+                          )}
+                          <span className="text-xs text-neutral-400 font-mono">
+                            [{screening.screeningCode}]
+                          </span>
+                        </div>
+                        <p className="font-semibold text-sm mt-0.5 truncate">
+                          {film.title[locale]}
+                        </p>
+                        <p className="text-xs text-neutral-500">
+                          {venue?.name[locale] ?? screening.venueId}
+                        </p>
+
+                        {/* Conflict details */}
+                        {conflictIds.map((cId) => {
+                          const cScreening = screeningMap.get(cId);
+                          const cFilm = cScreening
+                            ? filmMap.get(cScreening.filmId)
+                            : undefined;
+                          return cFilm ? (
+                            <p
+                              key={cId}
+                              className="text-xs text-amber-700 mt-1"
+                            >
+                              {t("conflictWith", { title: cFilm.title[locale] })}
+                            </p>
+                          ) : null;
+                        })}
+                      </div>
+
+                      <button
+                        onClick={() => removeScreening(id)}
+                        aria-label={t("removeScreening")}
+                        className="ml-3 text-neutral-400 hover:text-red-600 transition-colors text-lg leading-none mt-0.5"
+                      >
+                        ×
+                      </button>
+                    </div>
+                  );
+                })}
+              </div>
+            </section>
+          );
+        })}
+      </div>
+    </div>
+  );
+}

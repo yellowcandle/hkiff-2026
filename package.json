@@ -1,0 +1,31 @@
+{
+  "name": "hkiff-scaffold",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "deploy": "next build && npx wrangler pages deploy out --project-name hkiff-2026",
+    "preview": "next build && npx wrangler pages dev out"
+  },
+  "dependencies": {
+    "next": "15.5.2",
+    "next-intl": "^4.8.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.2",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5",
+    "wrangler": "^4.71.0"
+  }
+}

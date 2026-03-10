@@ -1,0 +1,83 @@
+[
+  {
+    "id": "kg",
+    "code": "KG",
+    "name": { "en": "Hong Kong Cultural Centre Grand Theatre", "zh": "香港文化中心大劇院" },
+    "address": {
+      "en": "10 Salisbury Road, Tsim Sha Tsui, Kowloon",
+      "zh": "九龍尖沙咀梳士巴利道10號"
+    }
+  },
+  {
+    "id": "ek",
+    "code": "EK",
+    "name": { "en": "East Kowloon Cultural Centre, The Hall", "zh": "東九文化中心劇院" },
+    "address": {
+      "en": "60 Ngau Tau Kok Road, Kowloon",
+      "zh": "九龍牛頭角道60號"
+    }
+  },
+  {
+    "id": "is",
+    "code": "IS",
+    "name": { "en": "Emperor Cinemas iSQUARE", "zh": "英皇戲院 尖沙咀iSQUARE" },
+    "address": {
+      "en": "L7, iSQUARE, 63 Nathan Road, Tsim Sha Tsui, Kowloon",
+      "zh": "九龍尖沙咀彌敦道63號國際廣場7樓"
+    }
+  },
+  {
+    "id": "gl",
+    "code": "GL",
+    "name": { "en": "GALA CINEMA", "zh": "GALA CINEMA" },
+    "address": {
+      "en": "Level 8, Langham Place Mall, 8 Argyle Street, Mong Kok, Kowloon",
+      "zh": "九龍旺角亞皆老街8號朗豪坊商場8樓"
+    }
+  },
+  {
+    "id": "pe",
+    "code": "PE",
+    "name": { "en": "PREMIERE Elements", "zh": "PREMIERE Elements" },
+    "address": {
+      "en": "2/F, Elements Mall, 1 Austin Road West, Kowloon",
+      "zh": "九龍尖沙咀柯士甸道西1號圓方商場2樓"
+    }
+  },
+  {
+    "id": "mc",
+    "code": "MC",
+    "name": { "en": "M+ Cinema", "zh": "M+戲院" },
+    "address": {
+      "en": "LG/F, M+, West Kowloon Cultural District, 38 Museum Drive, Kowloon",
+      "zh": "九龍博物館道38號西九文化區M+低層"
+    }
+  },
+  {
+    "id": "ts",
+    "code": "TS",
+    "name": { "en": "Emperor Cinemas Times Square", "zh": "英皇戲院 銅鑼灣時代廣場" },
+    "address": {
+      "en": "13/F, Times Square, 1 Matheson Street, Causeway Bay, Hong Kong",
+      "zh": "香港銅鑼灣勿地臣街1號時代廣場13樓"
+    }
+  },
+  {
+    "id": "ac",
+    "code": "AC",
+    "name": { "en": "Louis Koo Cinema, Hong Kong Arts Centre", "zh": "香港藝術中心古天樂電影院" },
+    "address": {
+      "en": "2 Harbour Road, Wan Chai, Hong Kong",
+      "zh": "香港灣仔港灣道2號"
+    }
+  },
+  {
+    "id": "ct",
+    "code": "CT",
+    "name": { "en": "Hong Kong City Hall Theatre", "zh": "香港大會堂劇院" },
+    "address": {
+      "en": "5 Edinburgh Place, Central, Hong Kong",
+      "zh": "香港中環愛丁堡廣場5號"
+    }
+  }
+]

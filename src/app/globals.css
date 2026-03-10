@@ -1,0 +1,296 @@
+@import "tailwindcss";
+
+/* ============================================
+   HKIFF 50 — Cinema Editorial Design System
+   ============================================ */
+
+:root {
+  /* Core palette */
+  --bg-primary: #FAFAF7;
+  --bg-secondary: #F0EDE8;
+  --bg-dark: #0A0A0A;
+  --bg-card: #FFFFFF;
+  --fg-primary: #0A0A0A;
+  --fg-secondary: #555555;
+  --fg-muted: #999999;
+  --fg-inverse: #FFFFFF;
+  --accent: #DC2626;
+  --accent-hover: #B91C1C;
+  --border: #E5E0D8;
+  --border-subtle: #F0EDE8;
+
+  /* Typography */
+  --font-display: 'Instrument Serif', 'Georgia', serif;
+  --font-body: 'DM Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing scale */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+
+  /* Transitions */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@theme inline {
+  --color-background: var(--bg-primary);
+  --color-foreground: var(--fg-primary);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+}
+
+/* ============================================
+   Base
+   ============================================ */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--fg-primary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+/* ============================================
+   Typography Classes
+   ============================================ */
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* ============================================
+   Film Grain Overlay
+   ============================================ */
+
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 128px 128px;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
+/* ============================================
+   Staggered Animations
+   ============================================ */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.8s var(--ease-out-expo) both;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.6s var(--ease-out-expo) both;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s var(--ease-out-expo) both;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.6s var(--ease-out-expo) both;
+}
+
+/* Stagger delays */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
+.delay-4 { animation-delay: 0.4s; }
+.delay-5 { animation-delay: 0.5s; }
+.delay-6 { animation-delay: 0.6s; }
+
+/* ============================================
+   Film Card Hover Effects
+   ============================================ */
+
+.film-card {
+  transition: transform 0.5s var(--ease-out-expo), box-shadow 0.5s var(--ease-out-expo);
+}
+
+.film-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.15);
+}
+
+.film-card .film-poster {
+  overflow: hidden;
+}
+
+.film-card .film-poster img {
+  transition: transform 0.6s var(--ease-out-expo);
+}
+
+.film-card:hover .film-poster img {
+  transform: scale(1.06);
+}
+
+.film-card .film-overlay {
+  opacity: 0;
+  transition: opacity 0.4s var(--ease-out-expo);
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.4) 40%,
+    transparent 100%
+  );
+}
+
+.film-card:hover .film-overlay {
+  opacity: 1;
+}
+
+/* ============================================
+   Section Chip Filter
+   ============================================ */
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: all 0.3s var(--ease-out-expo);
+  cursor: pointer;
+  white-space: nowrap;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--fg-secondary);
+}
+
+.chip:hover {
+  border-color: var(--fg-primary);
+  color: var(--fg-primary);
+}
+
+.chip-active {
+  background: var(--fg-primary);
+  color: var(--fg-inverse);
+  border-color: var(--fg-primary);
+}
+
+.chip-active:hover {
+  background: #222;
+  color: var(--fg-inverse);
+}
+
+/* ============================================
+   Custom Scrollbar
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CCC;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* ============================================
+   Utility
+   ============================================ */
+
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+}
+
+.border-accent {
+  border-color: var(--accent);
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: radial-gradient(ellipse 80% 50% at 50% -20%, rgba(220, 38, 38, 0.12), transparent),
+              linear-gradient(to bottom, #0A0A0A, #111111);
+}
+
+/* Divider line */
+.editorial-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border), transparent);
+}

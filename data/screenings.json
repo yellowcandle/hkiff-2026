@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "s-we-are-all-strangers-01",
+    "filmId": "we-are-all-strangers",
+    "filmTitle": {
+      "en": "We Are All Strangers",
+      "zh": "我們不是陌生人"
+    },
+    "date": "2026-04-01",
+    "time": "19:30",
+    "venueId": "kg",
+    "screeningCode": "01KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2944"
+  },
+  {
+    "id": "s-woman-and-child-01",
+    "filmId": "woman-and-child",
+    "filmTitle": {
+      "en": "Woman and Child",
+      "zh": "少年童 下的時禮"
+    },
+    "date": "2026-04-01",
+    "time": "21:15",
+    "venueId": "is",
+    "screeningCode": "01IS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2949"
+  },
+  {
+    "id": "s-below-the-clouds-01",
+    "filmId": "below-the-clouds",
+    "filmTitle": {
+      "en": "Below the Clouds",
+      "zh": "浮雲盡處是人間"
+    },
+    "date": "2026-04-01",
+    "time": "21:45",
+    "venueId": "gl",
+    "screeningCode": "01GL01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2807"
+  },
+  {
+    "id": "s-the-chronology-of-water-01",
+    "filmId": "the-chronology-of-water",
+    "filmTitle": {
+      "en": "The Chronology of Water",
+      "zh": "水的編年史"
+    },
+    "date": "2026-04-01",
+    "time": "21:30",
+    "venueId": "pe",
+    "screeningCode": "01PE01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2912"
+  },
+  {
+    "id": "s-duse-01",
+    "filmId": "duse",
+    "filmTitle": {
+      "en": "Duse",
+      "zh": "一代名伶的絕唱"
+    },
+    "date": "2026-04-01",
+    "time": "21:30",
+    "venueId": "ts",
+    "screeningCode": "01TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2820"
+  },
+  {
+    "id": "s-saint-joan-01",
+    "filmId": "saint-joan",
+    "filmTitle": {
+      "en": "Saint Joan",
+      "zh": "聖貞德傳"
+    },
+    "date": "2026-04-01",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "01AC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2890"
+  },
+  {
+    "id": "s-yellow-earth-01",
+    "filmId": "yellow-earth",
+    "filmTitle": {
+      "en": "Yellow Earth",
+      "zh": "黃土地"
+    },
+    "date": "2026-04-02",
+    "time": "14:15",
+    "venueId": "kg",
+    "screeningCode": "02KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2956"
+  },
+  {
+    "id": "s-ghost-elephants-01",
+    "filmId": "ghost-elephants",
+    "filmTitle": {
+      "en": "Ghost Elephants",
+      "zh": "尋找幽靈大象"
+    },
+    "date": "2026-04-02",
+    "time": "17:45",
+    "venueId": "kg",
+    "screeningCode": "02KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2830"
+  },
+  {
+    "id": "s-were-nothing-at-all-01",
+    "filmId": "were-nothing-at-all",
+    "filmTitle": {
+      "en": "We're Nothing At All",
+      "zh": "我們不是什麼"
+    },
+    "date": "2026-04-02",
+    "time": "20:30",
+    "venueId": "kg",
+    "screeningCode": "02KG03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2946"
+  },
+  {
+    "id": "s-calle-malaga-01",
+    "filmId": "calle-malaga",
+    "filmTitle": {
+      "en": "Calle Málaga",
+      "zh": "公寓的二度春光"
+    },
+    "date": "2026-04-02",
+    "time": "18:45",
+    "venueId": "is",
+    "screeningCode": "02IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2811"
+  },
+  {
+    "id": "s-we-are-fruits-01",
+    "filmId": "we-are-the-fruits-of-the-forest",
+    "filmTitle": {
+      "en": "We Are the Fruits of the Forest",
+      "zh": "我們是森林之果"
+    },
+    "date": "2026-04-02",
+    "time": "21:15",
+    "venueId": "is",
+    "screeningCode": "02IS03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2945"
+  },
+  {
+    "id": "s-yes-01",
+    "filmId": "yes",
+    "filmTitle": {
+      "en": "Yes",
+      "zh": "狂舔夫妻檔"
+    },
+    "date": "2026-04-02",
+    "time": "18:45",
+    "venueId": "gl",
+    "screeningCode": "02GL02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2957"
+  },
+  {
+    "id": "s-the-last-viking-01",
+    "filmId": "the-last-viking",
+    "filmTitle": {
+      "en": "The Last Viking",
+      "zh": "夾Band尋寶維京佬"
+    },
+    "date": "2026-04-02",
+    "time": "21:45",
+    "venueId": "gl",
+    "screeningCode": "02GL03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2922"
+  },
+  {
+    "id": "s-all-greens-01",
+    "filmId": "all-greens",
+    "filmTitle": {
+      "en": "All Greens",
+      "zh": "青青校園少女草"
+    },
+    "date": "2026-04-02",
+    "time": "21:45",
+    "venueId": "pe",
+    "screeningCode": "02PE04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2794"
+  },
+  {
+    "id": "s-back-home-01",
+    "filmId": "back-home",
+    "filmTitle": {
+      "en": "Back Home",
+      "zh": "回家"
+    },
+    "date": "2026-04-02",
+    "time": "14:30",
+    "venueId": "pe",
+    "screeningCode": "02PE01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2802"
+  },
+  {
+    "id": "s-hair-paper-water-01",
+    "filmId": "hair-paper-water",
+    "filmTitle": {
+      "en": "Hair, Paper, Water...",
+      "zh": "失憶的字裏人間"
+    },
+    "date": "2026-04-02",
+    "time": "17:45",
+    "venueId": "mc",
+    "screeningCode": "02MC02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2835"
+  },
+  {
+    "id": "s-barbara-forever-01",
+    "filmId": "barbara-forever",
+    "filmTitle": {
+      "en": "Barbara Forever",
+      "zh": "平生覺：芭芭拉漢馬的鬼兒路"
+    },
+    "date": "2026-04-02",
+    "time": "20:00",
+    "venueId": "mc",
+    "screeningCode": "02MC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2804"
+  },
+  {
+    "id": "s-orphan-01",
+    "filmId": "orphan",
+    "filmTitle": {
+      "en": "Orphan",
+      "zh": "亂世孤雛"
+    },
+    "date": "2026-04-02",
+    "time": "21:30",
+    "venueId": "ts",
+    "screeningCode": "02TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2872"
+  },
+  {
+    "id": "s-do-you-love-me-01",
+    "filmId": "do-you-love-me",
+    "filmTitle": {
+      "en": "Do You Love Me",
+      "zh": "貝爸特，你還愛我嗎？"
+    },
+    "date": "2026-04-02",
+    "time": "22:15",
+    "venueId": "ts",
+    "screeningCode": "02TS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2818"
+  },
+  {
+    "id": "s-balentes-01",
+    "filmId": "balentes",
+    "filmTitle": {
+      "en": "Balentes",
+      "zh": "盜馬少年的歷險"
+    },
+    "date": "2026-04-02",
+    "time": "14:30",
+    "venueId": "ac",
+    "screeningCode": "02AC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2803"
+  },
+  {
+    "id": "s-i-only-rest-in-the-storm-01",
+    "filmId": "i-only-rest-in-the-storm",
+    "filmTitle": {
+      "en": "I Only Rest in the Storm",
+      "zh": "西非響影"
+    },
+    "date": "2026-04-02",
+    "time": "17:00",
+    "venueId": "ac",
+    "screeningCode": "02AC02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2839"
+  },
+  {
+    "id": "s-levers-01",
+    "filmId": "levers",
+    "filmTitle": {
+      "en": "Levers",
+      "zh": "無太陽下的新事"
+    },
+    "date": "2026-04-02",
+    "time": "19:00",
+    "venueId": "ac",
+    "screeningCode": "02AC04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2850"
+  },
+  {
+    "id": "s-foggy-tale-01",
+    "filmId": "a-foggy-tale",
+    "filmTitle": {
+      "en": "A Foggy Tale",
+      "zh": "大灘"
+    },
+    "date": "2026-04-03",
+    "time": "21:10",
+    "venueId": "kg",
+    "screeningCode": "03KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2786"
+  },
+  {
+    "id": "s-mirrors-no3-01",
+    "filmId": "mirrors-no-3",
+    "filmTitle": {
+      "en": "Mirrors No. 3",
+      "zh": "鏡子第三章章"
+    },
+    "date": "2026-04-03",
+    "time": "22:00",
+    "venueId": "is",
+    "screeningCode": "03IS05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2860"
+  },
+  {
+    "id": "s-salvation-01",
+    "filmId": "salvation",
+    "filmTitle": {
+      "en": "Salvation",
+      "zh": "被放贖之名"
+    },
+    "date": "2026-04-03",
+    "time": "21:45",
+    "venueId": "gl",
+    "screeningCode": "03GL03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2891"
+  },
+  {
+    "id": "s-meets-the-world-01",
+    "filmId": "meets-the-world",
+    "filmTitle": {
+      "en": "Meets the World",
+      "zh": "她們不像預期的遇上"
+    },
+    "date": "2026-04-03",
+    "time": "21:30",
+    "venueId": "pe",
+    "screeningCode": "03PE04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2856"
+  },
+  {
+    "id": "s-million-01",
+    "filmId": "million",
+    "filmTitle": {
+      "en": "Million",
+      "zh": "大選邁進記"
+    },
+    "date": "2026-04-03",
+    "time": "20:30",
+    "venueId": "mc",
+    "screeningCode": "03MC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/million"
+  },
+  {
+    "id": "s-lectura-01",
+    "filmId": "lectura",
+    "filmTitle": {
+      "en": "Lectura",
+      "zh": "激情"
+    },
+    "date": "2026-04-03",
+    "time": "18:45",
+    "venueId": "ts",
+    "screeningCode": "03TS03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/lectura"
+  },
+  {
+    "id": "s-year-one-01",
+    "filmId": "year-one",
+    "filmTitle": {
+      "en": "Year One",
+      "zh": "意大利第一年"
+    },
+    "date": "2026-04-03",
+    "time": "20:00",
+    "venueId": "ct",
+    "screeningCode": "03CT01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2955"
+  },
+  {
+    "id": "s-we-are-all-strangers-02",
+    "filmId": "we-are-all-strangers",
+    "filmTitle": {
+      "en": "We Are All Strangers",
+      "zh": "我們不是陌生人"
+    },
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "kg",
+    "screeningCode": "04KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2944"
+  },
+  {
+    "id": "s-the-drama-01",
+    "filmId": "the-drama",
+    "filmTitle": {
+      "en": "The Drama",
+      "zh": "戲劇性婚禮"
+    },
+    "date": "2026-04-04",
+    "time": "19:00",
+    "venueId": "kg",
+    "screeningCode": "04KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2916"
+  },
+  {
+    "id": "s-sirat-01",
+    "filmId": "sirat",
+    "filmTitle": {
+      "en": "Sirât",
+      "zh": "末世狂沙"
+    },
+    "date": "2026-04-04",
+    "time": "21:45",
+    "venueId": "kg",
+    "screeningCode": "04KG03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2899"
+  },
+  {
+    "id": "s-gloaming-in-luomu-01",
+    "filmId": "gloaming-in-luomu",
+    "filmTitle": {
+      "en": "Gloaming in Luomu",
+      "zh": "羅目的黃昏"
+    },
+    "date": "2026-04-04",
+    "time": "21:45",
+    "venueId": "is",
+    "screeningCode": "04IS04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2831"
+  },
+  {
+    "id": "s-the-voice-of-hind-rajab-01",
+    "filmId": "the-voice-of-hind-rajab",
+    "filmTitle": {
+      "en": "The Voice of Hind Rajab",
+      "zh": "加沙女孩的聲音"
+    },
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "is",
+    "screeningCode": "04IS03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2932"
+  },
+  {
+    "id": "s-the-stars-and-moon-are-holes-01",
+    "filmId": "the-stars-and-moon-are-holes-in-the-sky",
+    "filmTitle": {
+      "en": "The Stars and Moon are Holes in the Sky",
+      "zh": "星與月是天上的洞"
+    },
+    "date": "2026-04-04",
+    "time": "18:15",
+    "venueId": "gl",
+    "screeningCode": "04GL02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2928"
+  },
+  {
+    "id": "s-all-greens-02",
+    "filmId": "all-greens",
+    "filmTitle": {
+      "en": "All Greens",
+      "zh": "青青校園少女草"
+    },
+    "date": "2026-04-04",
+    "time": "14:45",
+    "venueId": "gl",
+    "screeningCode": "04GL01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2794"
+  },
+  {
+    "id": "s-almost-home-01",
+    "filmId": "almost-home",
+    "filmTitle": {
+      "en": "Almost Home",
+      "zh": "快要到達家了"
+    },
+    "date": "2026-04-04",
+    "time": "19:30",
+    "venueId": "pe",
+    "screeningCode": "04PE03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2796"
+  },
+  {
+    "id": "s-platform-01",
+    "filmId": "platform",
+    "filmTitle": {
+      "en": "Platform",
+      "zh": "站台"
+    },
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "pe",
+    "screeningCode": "04PE02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2879"
+  },
+  {
+    "id": "s-epic-elvis-presley-01",
+    "filmId": "epic-elvis-presley-in-concert",
+    "filmTitle": {
+      "en": "EPIC: Elvis Presley in Concert",
+      "zh": "EPIC：貓王演唱會"
+    },
+    "date": "2026-04-04",
+    "time": "22:00",
+    "venueId": "pe",
+    "screeningCode": "04PE05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2825"
+  },
+  {
+    "id": "s-shape-of-momo-01",
+    "filmId": "shape-of-momo",
+    "filmTitle": {
+      "en": "Shape of Momo",
+      "zh": "餃子的形狀"
+    },
+    "date": "2026-04-04",
+    "time": "16:30",
+    "venueId": "mc",
+    "screeningCode": "04MC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2894"
+  },
+  {
+    "id": "s-share-of-momo-01",
+    "filmId": "shape-of-momo",
+    "filmTitle": {
+      "en": "Shape of Momo",
+      "zh": "餃子的形狀"
+    },
+    "date": "2026-04-04",
+    "time": "21:45",
+    "venueId": "mc",
+    "screeningCode": "04MC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2894"
+  },
+  {
+    "id": "s-almost-home-02",
+    "filmId": "almost-home",
+    "filmTitle": {
+      "en": "Almost Home",
+      "zh": "快要到達家了"
+    },
+    "date": "2026-04-04",
+    "time": "13:00",
+    "venueId": "ac",
+    "screeningCode": "04AC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2796"
+  },
+  {
+    "id": "s-on-your-lap-01",
+    "filmId": "on-your-lap",
+    "filmTitle": {
+      "en": "On Your Lap",
+      "zh": "無貓咖之味"
+    },
+    "date": "2026-04-04",
+    "time": "22:00",
+    "venueId": "ac",
+    "screeningCode": "04AC04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2871"
+  },
+  {
+    "id": "s-xiao-wu-01",
+    "filmId": "xiao-wu",
+    "filmTitle": {
+      "en": "Xiao Wu",
+      "zh": "小武"
+    },
+    "date": "2026-04-03",
+    "time": "14:00",
+    "venueId": "kg",
+    "screeningCode": "03KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2954"
+  },
+  {
+    "id": "s-sound-of-falling-01",
+    "filmId": "sound-of-falling",
+    "filmTitle": {
+      "en": "Sound of Falling",
+      "zh": "墜落之聲"
+    },
+    "date": "2026-04-03",
+    "time": "15:30",
+    "venueId": "mc",
+    "screeningCode": "03MC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2902"
+  },
+  {
+    "id": "s-cageman-01",
+    "filmId": "cageman",
+    "filmTitle": {
+      "en": "Cageman",
+      "zh": "籠民"
+    },
+    "date": "2026-04-03",
+    "time": "14:00",
+    "venueId": "pe",
+    "screeningCode": "03PE01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2810"
+  },
+  {
+    "id": "s-spying-stars-01",
+    "filmId": "spying-stars",
+    "filmTitle": {
+      "en": "Spying Stars",
+      "zh": "世外大眼"
+    },
+    "date": "2026-04-03",
+    "time": "16:30",
+    "venueId": "ac",
+    "screeningCode": "03AC02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2904"
+  },
+  {
+    "id": "s-the-tale-of-silyan-01",
+    "filmId": "the-tale-of-silyan",
+    "filmTitle": {
+      "en": "The Tale of Silyan",
+      "zh": "鶴島桑田"
+    },
+    "date": "2026-04-03",
+    "time": "14:30",
+    "venueId": "ac",
+    "screeningCode": "03AC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2931"
+  },
+  {
+    "id": "s-eight-bridges-01",
+    "filmId": "eight-bridges",
+    "filmTitle": {
+      "en": "EIGHT BRIDGES",
+      "zh": "穿州過省八座橋"
+    },
+    "date": "2026-04-03",
+    "time": "18:30",
+    "venueId": "ac",
+    "screeningCode": "03AC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2822"
+  },
+  {
+    "id": "s-sangre-del-toro-01",
+    "filmId": "sangre-del-toro",
+    "filmTitle": {
+      "en": "Sangre Del Toro",
+      "zh": "觀拖的血色美學"
+    },
+    "date": "2026-04-03",
+    "time": "12:30",
+    "venueId": "ac",
+    "screeningCode": "03AC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2892"
+  },
+  {
+    "id": "s-nouvelle-vague-01",
+    "filmId": "nouvelle-vague",
+    "filmTitle": {
+      "en": "Nouvelle Vague",
+      "zh": "斷了氣中戲劇"
+    },
+    "date": "2026-04-04",
+    "time": "17:45",
+    "venueId": "kg",
+    "screeningCode": "04KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2868"
+  },
+  {
+    "id": "s-truly-naked-01",
+    "filmId": "truly-naked",
+    "filmTitle": {
+      "en": "Truly Naked",
+      "zh": "我的初戀赤裸裸"
+    },
+    "date": "2026-04-04",
+    "time": "17:30",
+    "venueId": "pe",
+    "screeningCode": "04PE01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2938"
+  },
+  {
+    "id": "s-divine-comedy-01",
+    "filmId": "divine-comedy",
+    "filmTitle": {
+      "en": "Divine Comedy",
+      "zh": "犯禁神作"
+    },
+    "date": "2026-04-04",
+    "time": "12:30",
+    "venueId": "pe",
+    "screeningCode": "04PB01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2817"
+  },
+  {
+    "id": "s-landmarks-01",
+    "filmId": "landmarks",
+    "filmTitle": {
+      "en": "Landmarks",
+      "zh": "被奪去的土地"
+    },
+    "date": "2026-04-04",
+    "time": "12:30",
+    "venueId": "ts",
+    "screeningCode": "04TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2848"
+  },
+  {
+    "id": "s-battleship-potemkin-01",
+    "filmId": "battleship-potemkin",
+    "filmTitle": {
+      "en": "Battleship Potemkin",
+      "zh": "波特金號戰艦"
+    },
+    "date": "2026-04-04",
+    "time": "15:45",
+    "venueId": "ac",
+    "screeningCode": "04AC02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2806"
+  },
+  {
+    "id": "s-red-sorghum-01",
+    "filmId": "red-sorghum",
+    "filmTitle": {
+      "en": "Red Sorghum",
+      "zh": "紅高梁"
+    },
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "ac",
+    "screeningCode": "04AC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2884"
+  },
+  {
+    "id": "s-sound-of-falling-02",
+    "filmId": "sound-of-falling",
+    "filmTitle": {
+      "en": "Sound of Falling",
+      "zh": "墜落之聲"
+    },
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "gl",
+    "screeningCode": "04GL01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2902"
+  },
+  {
+    "id": "s-la-grazia-01",
+    "filmId": "la-grazia",
+    "filmTitle": {
+      "en": "La Grazia",
+      "zh": "總統的恩典"
+    },
+    "date": "2026-04-10",
+    "time": "21:15",
+    "venueId": "kg",
+    "screeningCode": "10KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2847"
+  },
+  {
+    "id": "s-mountains-may-depart-01",
+    "filmId": "mountains-may-depart",
+    "filmTitle": {
+      "en": "Mountains May Depart",
+      "zh": "山河故人"
+    },
+    "date": "2026-04-10",
+    "time": "12:30",
+    "venueId": "ek",
+    "screeningCode": "10EK01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2863"
+  },
+  {
+    "id": "s-a-poet-01",
+    "filmId": "a-poet",
+    "filmTitle": {
+      "en": "A Poet",
+      "zh": "詩花正傳之詩人子弟"
+    },
+    "date": "2026-04-10",
+    "time": "17:00",
+    "venueId": "is",
+    "screeningCode": "10IS03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2788"
+  },
+  {
+    "id": "s-blue-heron-01",
+    "filmId": "blue-heron",
+    "filmTitle": {
+      "en": "Blue Heron",
+      "zh": "青鷺與少年"
+    },
+    "date": "2026-04-10",
+    "time": "15:00",
+    "venueId": "is",
+    "screeningCode": "10IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2808"
+  },
+  {
+    "id": "s-sleep-no-more-01",
+    "filmId": "sleep-no-more",
+    "filmTitle": {
+      "en": "Sleep No More",
+      "zh": "斷手癲醒先工廠"
+    },
+    "date": "2026-04-10",
+    "time": "19:00",
+    "venueId": "gl",
+    "screeningCode": "10GL02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2900"
+  },
+  {
+    "id": "s-deep-quiet-room-01",
+    "filmId": "deep-quiet-room",
+    "filmTitle": {
+      "en": "Deep Quiet Room",
+      "zh": "深度安靜"
+    },
+    "date": "2026-04-10",
+    "time": "19:30",
+    "venueId": "pe",
+    "screeningCode": "10PE02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2816"
+  },
+  {
+    "id": "s-my-fathers-shadow-01",
+    "filmId": "my-fathers-shadow",
+    "filmTitle": {
+      "en": "My Father's Shadow",
+      "zh": "爸爸的背影"
+    },
+    "date": "2026-04-10",
+    "time": "15:00",
+    "venueId": "is",
+    "screeningCode": "10IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2864"
+  },
+  {
+    "id": "s-memories-01",
+    "filmId": "memory",
+    "filmTitle": {
+      "en": "Memory",
+      "zh": "紅塵自語童年"
+    },
+    "date": "2026-04-10",
+    "time": "12:30",
+    "venueId": "ts",
+    "screeningCode": "10TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2858"
+  },
+  {
+    "id": "s-the-love-that-remains-01",
+    "filmId": "the-love-that-remains",
+    "filmTitle": {
+      "en": "The Love That Remains",
+      "zh": "總有愛在"
+    },
+    "date": "2026-04-10",
+    "time": "21:45",
+    "venueId": "is",
+    "screeningCode": "10IS04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2923"
+  },
+  {
+    "id": "s-short-film-competition-1-01",
+    "filmId": "short-film-competition-programme-i",
+    "filmTitle": {
+      "en": "Short Film Competition Programme I",
+      "zh": "國際短片競賽節目（一）"
+    },
+    "date": "2026-04-10",
+    "time": "21:30",
+    "venueId": "ts",
+    "screeningCode": "10TS04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2895"
+  },
+  {
+    "id": "s-after-the-hunt-01",
+    "filmId": "after-the-hunt",
+    "filmTitle": {
+      "en": "After the Hunt",
+      "zh": "巡獵之後"
+    },
+    "date": "2026-04-10",
+    "time": "21:45",
+    "venueId": "ac",
+    "screeningCode": "10AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2790"
+  },
+  {
+    "id": "s-queen-kelly-01",
+    "filmId": "queen-kelly",
+    "filmTitle": {
+      "en": "Queen Kelly",
+      "zh": "多情謝後"
+    },
+    "date": "2026-04-11",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "11AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2882"
+  },
+  {
+    "id": "s-silent-friend-01",
+    "filmId": "silent-friend",
+    "filmTitle": {
+      "en": "Silent Friend",
+      "zh": "寂靜的朋友"
+    },
+    "date": "2026-04-07",
+    "time": "14:30",
+    "venueId": "kg",
+    "screeningCode": "07KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2898"
+  },
+  {
+    "id": "s-three-goodbyes-01",
+    "filmId": "three-goodbyes",
+    "filmTitle": {
+      "en": "Three Goodbyes",
+      "zh": "愛的三次告別"
+    },
+    "date": "2026-04-07",
+    "time": "19:00",
+    "venueId": "kg",
+    "screeningCode": "07KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2935"
+  },
+  {
+    "id": "s-the-voice-of-hind-rajab-02",
+    "filmId": "the-voice-of-hind-rajab",
+    "filmTitle": {
+      "en": "The Voice of Hind Rajab",
+      "zh": "加沙女孩的聲音"
+    },
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "kg",
+    "screeningCode": "07KG03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2932"
+  },
+  {
+    "id": "s-wet-season-01",
+    "filmId": "wet-season",
+    "filmTitle": {
+      "en": "Wet Season",
+      "zh": "熱帶雨"
+    },
+    "date": "2026-04-07",
+    "time": "21:15",
+    "venueId": "is",
+    "screeningCode": "07IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2947"
+  },
+  {
+    "id": "s-the-chronology-of-water-02",
+    "filmId": "the-chronology-of-water",
+    "filmTitle": {
+      "en": "The Chronology of Water",
+      "zh": "水的編年史"
+    },
+    "date": "2026-04-07",
+    "time": "17:15",
+    "venueId": "is",
+    "screeningCode": "07IS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2912"
+  },
+  {
+    "id": "s-mag-mag-01",
+    "filmId": "mag-mag",
+    "filmTitle": {
+      "en": "Mag Mag",
+      "zh": "梅裙女"
+    },
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "gl",
+    "screeningCode": "07GL04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2852"
+  },
+  {
+    "id": "s-funky-freaky-freaks-01",
+    "filmId": "funky-freaky-freaks",
+    "filmTitle": {
+      "en": "Funky Freaky Freaks",
+      "zh": "衝衝衝世代"
+    },
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "pe",
+    "screeningCode": "07PE04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2829"
+  },
+  {
+    "id": "s-the-drama-02",
+    "filmId": "the-drama",
+    "filmTitle": {
+      "en": "The Drama",
+      "zh": "戲劇性婚禮"
+    },
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "pe",
+    "screeningCode": "07PE04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2916"
+  },
+  {
+    "id": "s-the-rocky-horror-picture-show-01",
+    "filmId": "the-rocky-horror-picture-show",
+    "filmTitle": {
+      "en": "The Rocky Horror Picture Show",
+      "zh": "洛奇恐怖晚會"
+    },
+    "date": "2026-04-07",
+    "time": "21:45",
+    "venueId": "ts",
+    "screeningCode": "07TS05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2926"
+  },
+  {
+    "id": "s-queen-kelly-02",
+    "filmId": "queen-kelly",
+    "filmTitle": {
+      "en": "Queen Kelly",
+      "zh": "多情謝後"
+    },
+    "date": "2026-04-07",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "07AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2882"
+  },
+  {
+    "id": "s-the-dating-menu-01",
+    "filmId": "the-dating-menu",
+    "filmTitle": {
+      "en": "The Dating Menu",
+      "zh": "顧前發辦"
+    },
+    "date": "2026-04-08",
+    "time": "21:30",
+    "venueId": "ek",
+    "screeningCode": "08EK01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2914"
+  },
+  {
+    "id": "s-on-the-road-01",
+    "filmId": "on-the-road",
+    "filmTitle": {
+      "en": "On the Road",
+      "zh": "路且路擊（暫譯）"
+    },
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "gl",
+    "screeningCode": "08GL03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2870"
+  },
+  {
+    "id": "s-the-currents-01",
+    "filmId": "the-currents",
+    "filmTitle": {
+      "en": "The Currents",
+      "zh": "心潮的漩渦"
+    },
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "pe",
+    "screeningCode": "08PE03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2913"
+  },
+  {
+    "id": "s-last-night-i-conquered-01",
+    "filmId": "last-night-i-conquered-the-city-of-thebes",
+    "filmTitle": {
+      "en": "Last Night I Conquered the City of Thebes",
+      "zh": "羅馬治城私話時"
+    },
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "mc",
+    "screeningCode": "08MC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2849"
+  },
+  {
+    "id": "s-mares-nest-01",
+    "filmId": "mares-nest",
+    "filmTitle": {
+      "en": "Mare's Nest",
+      "zh": "縫縫世界如童話"
+    },
+    "date": "2026-04-08",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "08AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2854"
+  },
+  {
+    "id": "s-spare-queens-01",
+    "filmId": "spare-queens",
+    "filmTitle": {
+      "en": "Spare Queens",
+      "zh": "大分瓶"
+    },
+    "date": "2026-04-09",
+    "time": "21:30",
+    "venueId": "kg",
+    "screeningCode": "09KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2903"
+  },
+  {
+    "id": "s-after-the-hunt-02",
+    "filmId": "after-the-hunt",
+    "filmTitle": {
+      "en": "After the Hunt",
+      "zh": "巡獵之後"
+    },
+    "date": "2026-04-09",
+    "time": "21:00",
+    "venueId": "ek",
+    "screeningCode": "09EK01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2790"
+  },
+  {
+    "id": "s-the-captive-01",
+    "filmId": "the-captive",
+    "filmTitle": {
+      "en": "The Captive",
+      "zh": "文豪成記"
+    },
+    "date": "2026-04-09",
+    "time": "21:30",
+    "venueId": "is",
+    "screeningCode": "09IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2910"
+  },
+  {
+    "id": "s-rose-01",
+    "filmId": "rose",
+    "filmTitle": {
+      "en": "Rose",
+      "zh": "撩動迷離的薇絲"
+    },
+    "date": "2026-04-09",
+    "time": "21:45",
+    "venueId": "gl",
+    "screeningCode": "09GL04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2887"
+  },
+  {
+    "id": "s-monte-cucina-01",
+    "filmId": "monte-cucina",
+    "filmTitle": {
+      "en": "Monte Cucina",
+      "zh": "地慾廚房"
+    },
+    "date": "2026-04-09",
+    "time": "21:45",
+    "venueId": "gl",
+    "screeningCode": "09GL03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2858"
+  },
+  {
+    "id": "s-nighttime-sounds-01",
+    "filmId": "nighttime-sounds",
+    "filmTitle": {
+      "en": "Nighttime Sounds",
+      "zh": "你的眼睛比太陽明亮"
+    },
+    "date": "2026-04-09",
+    "time": "22:00",
+    "venueId": "pe",
+    "screeningCode": "09PE04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2867"
+  },
+  {
+    "id": "s-pin-de-fartie-01",
+    "filmId": "pin-de-fartie",
+    "filmTitle": {
+      "en": "Pin de Fartie",
+      "zh": "無何有變美"
+    },
+    "date": "2026-04-09",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "09AC04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2878"
+  },
+  {
+    "id": "s-cyclone-01",
+    "filmId": "cyclone",
+    "filmTitle": {
+      "en": "Cyclone",
+      "zh": "超風"
+    },
+    "date": "2026-04-12",
+    "time": "19:30",
+    "venueId": "kg",
+    "screeningCode": "12KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2814"
+  },
+  {
+    "id": "s-sleep-no-more-02",
+    "filmId": "sleep-no-more",
+    "filmTitle": {
+      "en": "Sleep No More",
+      "zh": "斷手癲醒先工廠"
+    },
+    "date": "2026-04-12",
+    "time": "21:45",
+    "venueId": "is",
+    "screeningCode": "12IS05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2900"
+  },
+  {
+    "id": "s-how-to-divorce-01",
+    "filmId": "how-to-divorce-during-the-war",
+    "filmTitle": {
+      "en": "How to Divorce During the War",
+      "zh": "分居總要愛在戰時"
+    },
+    "date": "2026-04-12",
+    "time": "21:45",
+    "venueId": "gl",
+    "screeningCode": "12GL05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2838"
+  },
+  {
+    "id": "s-amoeba-01",
+    "filmId": "amoeba",
+    "filmTitle": {
+      "en": "Amoeba",
+      "zh": "橡"
+    },
+    "date": "2026-04-12",
+    "time": "21:45",
+    "venueId": "pe",
+    "screeningCode": "12PE05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2798"
+  },
+  {
+    "id": "s-queen-at-sea-01",
+    "filmId": "queen-at-sea",
+    "filmTitle": {
+      "en": "Queen at Sea",
+      "zh": "欲愛流離"
+    },
+    "date": "2026-04-12",
+    "time": "14:30",
+    "venueId": "kg",
+    "screeningCode": "12KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2881"
+  },
+  {
+    "id": "s-a-foggy-tale-02",
+    "filmId": "a-foggy-tale",
+    "filmTitle": {
+      "en": "A Foggy Tale",
+      "zh": "大灘"
+    },
+    "date": "2026-04-12",
+    "time": "19:00",
+    "venueId": "ek",
+    "screeningCode": "12EK01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2786"
+  },
+  {
+    "id": "s-jia-zhangke-a-guy-from-fenyang-01",
+    "filmId": "jia-zhangke-a-guy-from-fenyang",
+    "filmTitle": {
+      "en": "Jia Zhangke, a Guy from Fenyang",
+      "zh": "汾陽小子賈樟柯"
+    },
+    "date": "2026-04-12",
+    "time": "15:15",
+    "venueId": "ts",
+    "screeningCode": "12TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2845"
+  },
+  {
+    "id": "s-good-valley-stories-01",
+    "filmId": "good-valley-stories",
+    "filmTitle": {
+      "en": "Good Valley Stories",
+      "zh": "從前有個快活谷"
+    },
+    "date": "2026-04-12",
+    "time": "19:15",
+    "venueId": "ts",
+    "screeningCode": "12TS04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2833"
+  },
+  {
+    "id": "s-all-my-sisters-01",
+    "filmId": "all-my-sisters",
+    "filmTitle": {
+      "en": "All My Sisters",
+      "zh": "伊朗女孩十八變"
+    },
+    "date": "2026-04-12",
+    "time": "12:45",
+    "venueId": "ts",
+    "screeningCode": "12TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2795"
+  },
+  {
+    "id": "s-caught-by-the-tides-01",
+    "filmId": "caught-by-the-tides",
+    "filmTitle": {
+      "en": "Caught by the Tides",
+      "zh": "風流一代"
+    },
+    "date": "2026-04-12",
+    "time": "14:45",
+    "venueId": "ac",
+    "screeningCode": "12AC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2812"
+  },
+  {
+    "id": "s-everything-else-is-noise-01",
+    "filmId": "everything-else-is-noise",
+    "filmTitle": {
+      "en": "Everything Else is Noise",
+      "zh": "噪音滋滋處處聞"
+    },
+    "date": "2026-04-12",
+    "time": "19:45",
+    "venueId": "ac",
+    "screeningCode": "12AC04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2826"
+  },
+  {
+    "id": "s-short-film-competition-3-01",
+    "filmId": "short-film-competition-programme-iii",
+    "filmTitle": {
+      "en": "Short Film Competition Programme III",
+      "zh": "國際短片競賽節目（三）"
+    },
+    "date": "2026-04-12",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "12AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2897"
+  },
+  {
+    "id": "s-the-day-diaries-01",
+    "filmId": "the-day-diaries",
+    "filmTitle": {
+      "en": "The Day Diaries",
+      "zh": "小津日記"
+    },
+    "date": "2026-04-07",
+    "time": "18:45",
+    "venueId": "ac",
+    "screeningCode": "07AC04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/the-day-diaries"
+  },
+  {
+    "id": "s-in-public-01",
+    "filmId": "in-public",
+    "filmTitle": {
+      "en": "In Public",
+      "zh": "公共場所"
+    },
+    "date": "2026-04-06",
+    "time": "16:00",
+    "venueId": "kg",
+    "screeningCode": "06KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2953"
+  },
+  {
+    "id": "s-the-christophers-01",
+    "filmId": "the-christophers",
+    "filmTitle": {
+      "en": "The Christophers",
+      "zh": "基督的士"
+    },
+    "date": "2026-04-06",
+    "time": "14:30",
+    "venueId": "kg",
+    "screeningCode": "06KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2911"
+  },
+  {
+    "id": "s-romenia-01",
+    "filmId": "romenia",
+    "filmTitle": {
+      "en": "Romenia",
+      "zh": "這年夏天，愛之尋蹤"
+    },
+    "date": "2026-04-06",
+    "time": "18:30",
+    "venueId": "kg",
+    "screeningCode": "06KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2886"
+  },
+  {
+    "id": "s-magellan-01",
+    "filmId": "magellan",
+    "filmTitle": {
+      "en": "Magellan",
+      "zh": "麥哲倫之死"
+    },
+    "date": "2026-04-06",
+    "time": "18:45",
+    "venueId": "gl",
+    "screeningCode": "06GL03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2853"
+  },
+  {
+    "id": "s-meets-the-world-02",
+    "filmId": "meets-the-world",
+    "filmTitle": {
+      "en": "Meets the World",
+      "zh": "她們不像預期的遇上"
+    },
+    "date": "2026-04-06",
+    "time": "14:15",
+    "venueId": "is",
+    "screeningCode": "06IS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2856"
+  },
+  {
+    "id": "s-no-its-not-01",
+    "filmId": "no-its-not",
+    "filmTitle": {
+      "en": "No It's Not",
+      "zh": "也家不在家"
+    },
+    "date": "2026-04-06",
+    "time": "21:45",
+    "venueId": "is",
+    "screeningCode": "06IS05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/no-its-not"
+  },
+  {
+    "id": "s-sound-of-falling-03",
+    "filmId": "sound-of-falling",
+    "filmTitle": {
+      "en": "Sound of Falling",
+      "zh": "墜落之聲"
+    },
+    "date": "2026-04-06",
+    "time": "15:30",
+    "venueId": "pe",
+    "screeningCode": "06PE02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2902"
+  },
+  {
+    "id": "s-good-boy-01",
+    "filmId": "good-boy",
+    "filmTitle": {
+      "en": "Good Boy",
+      "zh": "發條狗"
+    },
+    "date": "2026-04-06",
+    "time": "14:45",
+    "venueId": "is",
+    "screeningCode": "06IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2832"
+  },
+  {
+    "id": "s-ah-fei-01",
+    "filmId": "ah-fei",
+    "filmTitle": {
+      "en": "Ah Fei",
+      "zh": "油麻菜籽"
+    },
+    "date": "2026-04-06",
+    "time": "14:30",
+    "venueId": "ct",
+    "screeningCode": "06CT01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2791"
+  },
+  {
+    "id": "s-landmarks-02",
+    "filmId": "landmarks",
+    "filmTitle": {
+      "en": "Landmarks",
+      "zh": "被奪去的土地"
+    },
+    "date": "2026-04-06",
+    "time": "17:15",
+    "venueId": "ts",
+    "screeningCode": "06TS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2848"
+  },
+  {
+    "id": "s-three-colours-blue-01",
+    "filmId": "three-colours-blue",
+    "filmTitle": {
+      "en": "Three Colours: Blue",
+      "zh": "藍白紅三部曲之藍"
+    },
+    "date": "2026-04-11",
+    "time": "14:00",
+    "venueId": "kg",
+    "screeningCode": "11KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2934"
+  },
+  {
+    "id": "s-nouvelle-vague-02",
+    "filmId": "nouvelle-vague",
+    "filmTitle": {
+      "en": "Nouvelle Vague",
+      "zh": "斷了氣中戲劇"
+    },
+    "date": "2026-04-11",
+    "time": "18:15",
+    "venueId": "kg",
+    "screeningCode": "11KG02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2868"
+  },
+  {
+    "id": "s-silent-friend-02",
+    "filmId": "silent-friend",
+    "filmTitle": {
+      "en": "Silent Friend",
+      "zh": "寂靜的朋友"
+    },
+    "date": "2026-04-11",
+    "time": "21:00",
+    "venueId": "kg",
+    "screeningCode": "11KG03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2898"
+  },
+  {
+    "id": "s-ash-is-purest-white-01",
+    "filmId": "ash-is-purest-white",
+    "filmTitle": {
+      "en": "Ash Is Purest White",
+      "zh": "江湖兒女"
+    },
+    "date": "2026-04-11",
+    "time": "12:30",
+    "venueId": "ek",
+    "screeningCode": "11EK01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2800"
+  },
+  {
+    "id": "s-the-sword-01",
+    "filmId": "the-sword",
+    "filmTitle": {
+      "en": "The Sword",
+      "zh": "名劍"
+    },
+    "date": "2026-04-11",
+    "time": "15:15",
+    "venueId": "is",
+    "screeningCode": "11IS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2930"
+  },
+  {
+    "id": "s-sundays-01",
+    "filmId": "sundays",
+    "filmTitle": {
+      "en": "Sundays",
+      "zh": "十七歲的聖召"
+    },
+    "date": "2026-04-11",
+    "time": "12:30",
+    "venueId": "gl",
+    "screeningCode": "11GL01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2907"
+  },
+  {
+    "id": "s-panelstory-01",
+    "filmId": "panelstory-or-how-a-housing-development-is-born",
+    "filmTitle": {
+      "en": "PanelStory, or How a Housing Development Is Born",
+      "zh": "模範公屋"
+    },
+    "date": "2026-04-11",
+    "time": "17:15",
+    "venueId": "is",
+    "screeningCode": "11IS03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2874"
+  },
+  {
+    "id": "s-variations-on-a-theme-01",
+    "filmId": "variations-on-a-theme",
+    "filmTitle": {
+      "en": "Variations on a Theme",
+      "zh": "沒有人寄錄給外婆"
+    },
+    "date": "2026-04-11",
+    "time": "13:00",
+    "venueId": "gl",
+    "screeningCode": "11GL02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2942"
+  },
+  {
+    "id": "s-avant-garde-shorts-01",
+    "filmId": "avant-garde-shorts-programme",
+    "filmTitle": {
+      "en": "Avant Garde Shorts Programme",
+      "zh": "前衛短片集錦"
+    },
+    "date": "2026-04-11",
+    "time": "19:30",
+    "venueId": "ac",
+    "screeningCode": "11AC03",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2801"
+  },
+  {
+    "id": "s-short-film-competition-2-01",
+    "filmId": "short-film-competition-programme-ii",
+    "filmTitle": {
+      "en": "Short Film Competition Programme II",
+      "zh": "國際短片競賽節目（二）"
+    },
+    "date": "2026-04-11",
+    "time": "21:30",
+    "venueId": "ac",
+    "screeningCode": "11AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2896"
+  },
+  {
+    "id": "s-writing-life-annie-ernaux-01",
+    "filmId": "writing-life-annie-ernaux",
+    "filmTitle": {
+      "en": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
+      "zh": "普文令書安妮艾諾"
+    },
+    "date": "2026-04-11",
+    "time": "12:45",
+    "venueId": "ts",
+    "screeningCode": "11TS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2952"
+  },
+  {
+    "id": "s-goodbye-sisters-01",
+    "filmId": "goodbye-sisters",
+    "filmTitle": {
+      "en": "Goodbye Sisters",
+      "zh": "晶草姊妹花"
+    },
+    "date": "2026-04-11",
+    "time": "10:15",
+    "venueId": "ts",
+    "screeningCode": "11TS04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2834"
+  },
+  {
+    "id": "s-par-de-fartie-01",
+    "filmId": "pin-de-fartie",
+    "filmTitle": {
+      "en": "Pin de Fartie",
+      "zh": "無何有變美"
+    },
+    "date": "2026-04-11",
+    "time": "17:15",
+    "venueId": "ac",
+    "screeningCode": "11AC02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2878"
+  },
+  {
+    "id": "s-in-our-time-01",
+    "filmId": "in-our-time",
+    "filmTitle": {
+      "en": "In Our Time",
+      "zh": "光陰的故事"
+    },
+    "date": "2026-04-05",
+    "time": "14:00",
+    "venueId": "kg",
+    "screeningCode": "05KG01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2843"
+  },
+  {
+    "id": "s-spying-stars-02",
+    "filmId": "spying-stars",
+    "filmTitle": {
+      "en": "Spying Stars",
+      "zh": "世外大眼"
+    },
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "is",
+    "screeningCode": "05IS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2904"
+  },
+  {
+    "id": "s-saccharine-01",
+    "filmId": "saccharine",
+    "filmTitle": {
+      "en": "Saccharine",
+      "zh": "醣忍"
+    },
+    "date": "2026-04-05",
+    "time": "22:00",
+    "venueId": "gl",
+    "screeningCode": "05GL04",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2889"
+  },
+  {
+    "id": "s-the-love-that-remains-02",
+    "filmId": "the-love-that-remains",
+    "filmTitle": {
+      "en": "The Love That Remains",
+      "zh": "總有愛在"
+    },
+    "date": "2026-04-05",
+    "time": "21:45",
+    "venueId": "is",
+    "screeningCode": "05IS02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2923"
+  },
+  {
+    "id": "s-my-wife-cries-01",
+    "filmId": "my-wife-cries",
+    "filmTitle": {
+      "en": "My Wife Cries",
+      "zh": "妻之淚"
+    },
+    "date": "2026-04-05",
+    "time": "15:15",
+    "venueId": "is",
+    "screeningCode": "05IS01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2865"
+  },
+  {
+    "id": "s-truly-naked-02",
+    "filmId": "truly-naked",
+    "filmTitle": {
+      "en": "Truly Naked",
+      "zh": "我的初戀赤裸裸"
+    },
+    "date": "2026-04-05",
+    "time": "19:15",
+    "venueId": "pe",
+    "screeningCode": "05PE02",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2938"
+  },
+  {
+    "id": "s-a-mighty-adventure-01",
+    "filmId": "a-mighty-adventure",
+    "filmTitle": {
+      "en": "A Mighty Adventure",
+      "zh": "小蟲蟲大冒險"
+    },
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "pe",
+    "screeningCode": "05PE01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2787"
+  },
+  {
+    "id": "s-in-motion-01",
+    "filmId": "in-in-motion",
+    "filmTitle": {
+      "en": "In-I in Motion",
+      "zh": "尋你，覓自己"
+    },
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "pe",
+    "screeningCode": "05PE01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2844"
+  },
+  {
+    "id": "s-unknown-pleasures-01",
+    "filmId": "unknown-pleasures",
+    "filmTitle": {
+      "en": "Unknown Pleasures",
+      "zh": "任逍遙"
+    },
+    "date": "2026-04-05",
+    "time": "14:45",
+    "venueId": "mc",
+    "screeningCode": "05MC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2940"
+  },
+  {
+    "id": "s-we-are-fruits-of-the-forest-02",
+    "filmId": "we-are-the-fruits-of-the-forest",
+    "filmTitle": {
+      "en": "We Are the Fruits of the Forest",
+      "zh": "我們是森林之果"
+    },
+    "date": "2026-04-05",
+    "time": "19:00",
+    "venueId": "mc",
+    "screeningCode": "05MC01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2945"
+  },
+  {
+    "id": "s-the-rocky-horror-picture-show-02",
+    "filmId": "the-rocky-horror-picture-show",
+    "filmTitle": {
+      "en": "The Rocky Horror Picture Show",
+      "zh": "洛奇恐怖晚會"
+    },
+    "date": "2026-04-05",
+    "time": "21:00",
+    "venueId": "ac",
+    "screeningCode": "05AC05",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2926"
+  },
+  {
+    "id": "s-queen-kelly-03",
+    "filmId": "queen-kelly",
+    "filmTitle": {
+      "en": "Queen Kelly",
+      "zh": "多情謝後"
+    },
+    "date": "2026-04-05",
+    "time": "17:00",
+    "venueId": "ct",
+    "screeningCode": "05CT01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2882"
+  },
+  {
+    "id": "s-in-public-02",
+    "filmId": "in-public",
+    "filmTitle": {
+      "en": "In Public",
+      "zh": "公共場所"
+    },
+    "date": "2026-04-05",
+    "time": "17:00",
+    "venueId": "ct",
+    "screeningCode": "05CT01",
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2953"
+  }
+]

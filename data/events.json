@@ -1,0 +1,131 @@
+[
+  {
+    "id": "evt-chen-kaige-masterclass",
+    "type": "master-class",
+    "title": { "en": "Master Class: Chen Kaige", "zh": "陳凱歌大師班" },
+    "presenter": { "en": "Chen Kaige", "zh": "陳凱歌" },
+    "date": "2026-04-02",
+    "time": "15:45",
+    "venueId": "kg",
+    "eventCode": "02KG02",
+    "pageRef": 35
+  },
+  {
+    "id": "evt-jia-zhangke-face-to-face-1",
+    "type": "face-to-face",
+    "title": { "en": "Face to Face: Jia Zhangke", "zh": "賈樟柯名家講座" },
+    "presenter": { "en": "Jia Zhangke", "zh": "賈樟柯" },
+    "date": "2026-04-03",
+    "time": "15:55",
+    "venueId": "kg",
+    "eventCode": "03KG01",
+    "pageRef": 61
+  },
+  {
+    "id": "evt-jia-zhangke-face-to-face-2",
+    "type": "face-to-face",
+    "title": { "en": "Face to Face: Jia Zhangke", "zh": "賈樟柯名家講座" },
+    "presenter": { "en": "Jia Zhangke", "zh": "賈樟柯" },
+    "date": "2026-04-04",
+    "time": "17:10",
+    "venueId": "kg",
+    "eventCode": "04KG01",
+    "pageRef": 61
+  },
+  {
+    "id": "evt-tian-zhuangzhuang-masterclass",
+    "type": "master-class",
+    "title": { "en": "Master Class: Tian Zhuangzhuang", "zh": "田壯壯大師班" },
+    "presenter": { "en": "Tian Zhuangzhuang", "zh": "田壯壯" },
+    "date": "2026-04-04",
+    "time": "21:30",
+    "venueId": "ek",
+    "eventCode": "04EK01",
+    "pageRef": 36
+  },
+  {
+    "id": "evt-seminar-revisiting-chinese-cinema",
+    "type": "seminar",
+    "title": {
+      "en": "Seminar: Revisiting Chinese Cinema — Lovers",
+      "zh": "華語電影座談會：長風破浪啟航時"
+    },
+    "date": "2026-04-04",
+    "time": "16:05",
+    "venueId": "ct",
+    "eventCode": "04CT01",
+    "pageRef": 43
+  },
+  {
+    "id": "evt-tsai-mingliang-face-to-face-1",
+    "type": "face-to-face",
+    "title": { "en": "Face to Face: On Route to (Tsai Ming-Liang)", "zh": "在化之前名家講座（蔡明亮）" },
+    "presenter": { "en": "Tsai Ming-Liang", "zh": "蔡明亮" },
+    "relatedFilmTitle": { "en": "On Route to", "zh": "在化之前" },
+    "date": "2026-04-05",
+    "time": "14:30",
+    "venueId": "is",
+    "eventCode": "05IS01",
+    "pageRef": 88
+  },
+  {
+    "id": "evt-ildiko-enyedi-masterclass",
+    "type": "master-class",
+    "title": { "en": "Master Class: Ildikó Enyedi", "zh": "伊迪高安怡迪大師班" },
+    "presenter": { "en": "Ildikó Enyedi", "zh": "伊迪高安怡迪" },
+    "date": "2026-04-07",
+    "time": "16:55",
+    "venueId": "kg",
+    "eventCode": "07KG01",
+    "pageRef": 27
+  },
+  {
+    "id": "evt-tsai-mingliang-face-to-face-2",
+    "type": "face-to-face",
+    "title": { "en": "Face to Face: On Route to (Tsai Ming-Liang)", "zh": "在化之前名家講座（蔡明亮）" },
+    "presenter": { "en": "Tsai Ming-Liang", "zh": "蔡明亮" },
+    "relatedFilmTitle": { "en": "On Route to", "zh": "在化之前" },
+    "date": "2026-04-07",
+    "time": "12:30",
+    "venueId": "is",
+    "eventCode": "07IS01",
+    "pageRef": 88
+  },
+  {
+    "id": "evt-seminar-new-voices-asia",
+    "type": "seminar",
+    "title": {
+      "en": "Seminar on New Voices of Asia",
+      "zh": "亞洲新聲浪座談會"
+    },
+    "date": "2026-04-10",
+    "time": "18:20",
+    "venueId": "mc",
+    "eventCode": "10MC02",
+    "pageRef": 58
+  },
+  {
+    "id": "evt-juliette-binoche-masterclass",
+    "type": "master-class",
+    "title": { "en": "Master Class: Juliette Binoche — The Choreographer of Emotion", "zh": "茱麗葉庭洛仙大師班：動之以情" },
+    "presenter": { "en": "Juliette Binoche", "zh": "茱麗葉庭洛仙" },
+    "date": null,
+    "time": null,
+    "venueId": null,
+    "eventCode": null,
+    "pageRef": 30,
+    "note": "Date/time/venue to be confirmed from brochure p.27–30"
+  },
+  {
+    "id": "evt-huang-jianxin-masterclass",
+    "type": "master-class",
+    "title": { "en": "Master Class: Huang Jianxin", "zh": "黃建新大師班" },
+    "presenter": { "en": "Huang Jianxin", "zh": "黃建新" },
+    "date": null,
+    "time": null,
+    "venueId": null,
+    "eventCode": null,
+    "pageRef": 35,
+    "note": "Date/time/venue to be confirmed from brochure p.35"
+  }
+]
