@@ -92,7 +92,7 @@ export function buildExportText(
     locale === "zh" ? "我的 HKIFF 50 計劃" : "My HKIFF 50 Plan";
   const bookingLabel =
     locale === "zh" ? "訂票編號" : "Booking codes";
-  const divider = "─".repeat(38);
+  const divider = "─".repeat(20);
 
   const lines: string[] = [header, divider, ""];
 
