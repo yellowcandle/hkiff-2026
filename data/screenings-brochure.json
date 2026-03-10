@@ -1,0 +1,4293 @@
+[
+  {
+    "screeningCode": "01KG01",
+    "date": "2026-04-01",
+    "time": "19:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "We Are All Strangers",
+      "zh": "我們不是陌生人"
+    },
+    "filmId": "we-are-all-strangers",
+    "duration": 158,
+    "pageRef": "p.26,77"
+  },
+  {
+    "screeningCode": "01IS01",
+    "date": "2026-04-01",
+    "time": "21:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Woman and Child",
+      "zh": "少年墮下的辯證"
+    },
+    "filmId": "woman-and-child",
+    "duration": 145,
+    "pageRef": "p.83"
+  },
+  {
+    "screeningCode": "01GL01",
+    "date": "2026-04-01",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Below the Clouds",
+      "zh": "浮雲盡處是人間"
+    },
+    "filmId": "below-the-clouds",
+    "duration": 115,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "01PE01",
+    "date": "2026-04-01",
+    "time": "21:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Chronology of Water",
+      "zh": "水的編年史"
+    },
+    "filmId": "the-chronology-of-water",
+    "duration": 128,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "01TS01",
+    "date": "2026-04-01",
+    "time": "21:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Duse",
+      "zh": "一代名伶的絕唱"
+    },
+    "filmId": "duse",
+    "duration": 123,
+    "pageRef": "p.72"
+  },
+  {
+    "screeningCode": "01AC01",
+    "date": "2026-04-01",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Saint Joan",
+      "zh": "聖貞德傳"
+    },
+    "filmId": "saint-joan",
+    "duration": 110,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "02AC01",
+    "date": "2026-04-02",
+    "time": "12:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Xiao Shan Going Home / In Public",
+      "zh": "小山回家／公共場所"
+    },
+    "filmId": "xiao-shan-going-home-in-public",
+    "duration": 89,
+    "pageRef": "p.60"
+  },
+  {
+    "screeningCode": "02KG01",
+    "date": "2026-04-02",
+    "time": "14:15",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Yellow Earth",
+      "zh": "黃土地"
+    },
+    "filmId": "yellow-earth",
+    "duration": 89,
+    "pageRef": "p.35"
+  },
+  {
+    "screeningCode": "02CTE1",
+    "date": "2026-04-02",
+    "time": "15:45",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Master Class: Chen Kaige",
+      "zh": "陳凱歌大師班"
+    },
+    "filmId": "master-class-chen-kaige",
+    "pageRef": "p.66",
+    "event": {
+      "type": "master-class"
+    }
+  },
+  {
+    "screeningCode": "02KG02",
+    "date": "2026-04-02",
+    "time": "17:45",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Ghost Elephants",
+      "zh": "尋找幽靈大象"
+    },
+    "filmId": "ghost-elephants",
+    "duration": 99,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "02KG03",
+    "date": "2026-04-02",
+    "time": "20:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "We’re Nothing At All",
+      "zh": "我們不是什麼"
+    },
+    "filmId": "were-nothing-at-all",
+    "duration": 128,
+    "pageRef": "p.27"
+  },
+  {
+    "screeningCode": "02IS01",
+    "date": "2026-04-02",
+    "time": "16:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Shape of Momo",
+      "zh": "餃子的形狀"
+    },
+    "filmId": "shape-of-momo",
+    "duration": 115,
+    "pageRef": "p.83"
+  },
+  {
+    "screeningCode": "02IS02",
+    "date": "2026-04-02",
+    "time": "18:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Calle Málaga",
+      "zh": "公寓的二度春光"
+    },
+    "filmId": "calle-malaga",
+    "duration": 116,
+    "pageRef": "p.88"
+  },
+  {
+    "screeningCode": "02IS03",
+    "date": "2026-04-02",
+    "time": "21:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Vive L’Amour",
+      "zh": "愛情萬歲"
+    },
+    "filmId": "vive-lamour",
+    "duration": 118,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "02GL01",
+    "date": "2026-04-02",
+    "time": "14:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Balentes",
+      "zh": "盜馬少年的歷險"
+    },
+    "filmId": "balentes",
+    "duration": 70,
+    "pageRef": "p.101"
+  },
+  {
+    "screeningCode": "02GL02",
+    "date": "2026-04-02",
+    "time": "16:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Sundays",
+      "zh": "十七歲的聖召"
+    },
+    "filmId": "sundays",
+    "duration": 117,
+    "pageRef": "p.86"
+  },
+  {
+    "screeningCode": "02GL03",
+    "date": "2026-04-02",
+    "time": "18:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Yes",
+      "zh": "狂舔夫妻檔"
+    },
+    "filmId": "yes",
+    "duration": 150,
+    "pageRef": "p.74"
+  },
+  {
+    "screeningCode": "02GL04",
+    "date": "2026-04-02",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "The Last Viking",
+      "zh": "夾Band尋寶維京佬"
+    },
+    "filmId": "the-last-viking",
+    "duration": 116,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "02PE01",
+    "date": "2026-04-02",
+    "time": "14:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Back Home",
+      "zh": "回家"
+    },
+    "filmId": "back-home",
+    "duration": 66,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "02PE02",
+    "date": "2026-04-02",
+    "time": "16:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Franz",
+      "zh": "拼貼卡夫卡"
+    },
+    "filmId": "franz",
+    "duration": 127,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "02PE03",
+    "date": "2026-04-02",
+    "time": "19:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Mag Mag",
+      "zh": "禍禍女"
+    },
+    "filmId": "mag-mag",
+    "duration": 113,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "02PE04",
+    "date": "2026-04-02",
+    "time": "21:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "All Greens",
+      "zh": "青青校園少女草"
+    },
+    "filmId": "all-greens",
+    "duration": 119,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "02MC01",
+    "date": "2026-04-02",
+    "time": "14:45",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Bashu, the Little Stranger",
+      "zh": "小芭舒"
+    },
+    "filmId": "bashu-the-little-stranger",
+    "duration": 120,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "02MC02",
+    "date": "2026-04-02",
+    "time": "17:45",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Hair, Paper, Water...",
+      "zh": "失傳的字裏人間"
+    },
+    "filmId": "hair-paper-water",
+    "duration": 71,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "02MC03",
+    "date": "2026-04-02",
+    "time": "20:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Barbara Forever",
+      "zh": "平生覺：芭芭拉漢瑪的酷兒路"
+    },
+    "filmId": "barbara-forever",
+    "duration": 102,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "02TS01",
+    "date": "2026-04-02",
+    "time": "19:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Rose of Nevada",
+      "zh": "英倫轉生號"
+    },
+    "filmId": "rose-of-nevada",
+    "duration": 114,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "02TS02",
+    "date": "2026-04-02",
+    "time": "21:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Orphan",
+      "zh": "亂世孤雛"
+    },
+    "filmId": "orphan",
+    "duration": 132,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "02AC02",
+    "date": "2026-04-02",
+    "time": "14:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Ice Grave",
+      "zh": "探險夢埋冰原下"
+    },
+    "filmId": "ice-grave",
+    "duration": 79,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "02AC03",
+    "date": "2026-04-02",
+    "time": "16:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "I Only Rest in the Storm",
+      "zh": "西非孽影"
+    },
+    "filmId": "i-only-rest-in-the-storm",
+    "duration": 211,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "02AC04",
+    "date": "2026-04-02",
+    "time": "20:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Stars",
+      "zh": "星星問"
+    },
+    "filmId": "stars",
+    "duration": 91,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "02AC05",
+    "date": "2026-04-02",
+    "time": "22:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Do You Love Me",
+      "zh": "貝魯特，你還愛我嗎？"
+    },
+    "filmId": "do-you-love-me",
+    "duration": 75,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "03KG01",
+    "date": "2026-04-03",
+    "time": "14:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Xiao Wu",
+      "zh": "小武"
+    },
+    "filmId": "xiao-wu",
+    "duration": 113,
+    "pageRef": "p.60"
+  },
+  {
+    "screeningCode": "03KGE1",
+    "date": "2026-04-03",
+    "time": "15:55",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Face to Face: Jia Zhangke",
+      "zh": "賈樟柯名家講座"
+    },
+    "filmId": "face-to-face-jia-zhangke",
+    "pageRef": "p.61",
+    "event": {
+      "type": "face-to-face",
+      "speaker": "賈樟柯"
+    }
+  },
+  {
+    "screeningCode": "03KG02",
+    "date": "2026-04-03",
+    "time": "18:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "The Stranger",
+      "zh": "異鄉人"
+    },
+    "filmId": "the-stranger",
+    "duration": 122,
+    "pageRef": "p.43"
+  },
+  {
+    "screeningCode": "03KG03",
+    "date": "2026-04-03",
+    "time": "21:15",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "A Foggy Tale",
+      "zh": "大濛"
+    },
+    "filmId": "a-foggy-tale",
+    "duration": 110,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "03EK01",
+    "date": "2026-04-03",
+    "time": "20:00",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "The Horse Thief",
+      "zh": "盜馬賊"
+    },
+    "filmId": "the-horse-thief",
+    "duration": 89,
+    "pageRef": "p.36"
+  },
+  {
+    "screeningCode": "03EKE1",
+    "date": "2026-04-03",
+    "time": "21:30",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Master Class: Tian Zhuangzhuang",
+      "zh": "田壯壯大師班"
+    },
+    "filmId": "master-class-tian-zhuangzhuang",
+    "pageRef": "p.66",
+    "event": {
+      "type": "master-class"
+    }
+  },
+  {
+    "screeningCode": "03IS01",
+    "date": "2026-04-03",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Halo",
+      "zh": "窄路微光"
+    },
+    "filmId": "halo",
+    "duration": 106,
+    "pageRef": "p.82"
+  },
+  {
+    "screeningCode": "03IS02",
+    "date": "2026-04-03",
+    "time": "14:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Ilo Ilo",
+      "zh": "爸媽不在家"
+    },
+    "filmId": "ilo-ilo",
+    "duration": 99,
+    "pageRef": "p.77"
+  },
+  {
+    "screeningCode": "03IS03",
+    "date": "2026-04-03",
+    "time": "17:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Wet Season",
+      "zh": "熱帶雨"
+    },
+    "filmId": "wet-season",
+    "duration": 103,
+    "pageRef": "p.77"
+  },
+  {
+    "screeningCode": "03IS04",
+    "date": "2026-04-03",
+    "time": "19:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Good Boy",
+      "zh": "發條狗"
+    },
+    "filmId": "good-boy",
+    "duration": 110,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "03IS05",
+    "date": "2026-04-03",
+    "time": "22:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Mirrors No. 3",
+      "zh": "鏡子第三樂章"
+    },
+    "filmId": "mirrors-no-3",
+    "duration": 86,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "03GL01",
+    "date": "2026-04-03",
+    "time": "14:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Woman and Child",
+      "zh": "少年墮下的辯證"
+    },
+    "filmId": "woman-and-child",
+    "duration": 145,
+    "pageRef": "p.83"
+  },
+  {
+    "screeningCode": "03GL02",
+    "date": "2026-04-03",
+    "time": "17:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Aniki-Bóbó",
+      "zh": "點指兵兵小靈精"
+    },
+    "filmId": "aniki-bobo",
+    "duration": 72,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "03GL03",
+    "date": "2026-04-03",
+    "time": "19:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Urchin",
+      "zh": "廢 ．作戰"
+    },
+    "filmId": "urchin",
+    "duration": 99,
+    "pageRef": "p.86"
+  },
+  {
+    "screeningCode": "03GL04",
+    "date": "2026-04-03",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Salvation",
+      "zh": "假救贖之名"
+    },
+    "filmId": "salvation",
+    "duration": 120,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "03PE01",
+    "date": "2026-04-03",
+    "time": "12:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Pillion",
+      "zh": "天虐有情"
+    },
+    "filmId": "pillion",
+    "duration": 107,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "03PE02",
+    "date": "2026-04-03",
+    "time": "15:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Sound of Falling",
+      "zh": "墜落之聲"
+    },
+    "filmId": "sound-of-falling",
+    "duration": 155,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "03PE03",
+    "date": "2026-04-03",
+    "time": "19:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Path of Soul",
+      "zh": "能樂師的女兒"
+    },
+    "filmId": "the-path-of-soul",
+    "duration": 83,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "03PE04",
+    "date": "2026-04-03",
+    "time": "21:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Meets the World",
+      "zh": "她們不像預期的遇上"
+    },
+    "filmId": "meets-the-world",
+    "duration": 126,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "03MC01",
+    "date": "2026-04-03",
+    "time": "14:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Cageman",
+      "zh": "籠民"
+    },
+    "filmId": "cageman",
+    "duration": 150,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "03MC02",
+    "date": "2026-04-03",
+    "time": "17:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Rebels of the Neon God",
+      "zh": "青少年哪吒"
+    },
+    "filmId": "rebels-of-the-neon-god",
+    "duration": 106,
+    "pageRef": "p.36"
+  },
+  {
+    "screeningCode": "03MC03",
+    "date": "2026-04-03",
+    "time": "20:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Trillion",
+      "zh": "天涯還鱗記"
+    },
+    "filmId": "trillion",
+    "duration": 80,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "03TS01",
+    "date": "2026-04-03",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "My Father's Shadow",
+      "zh": "爸爸的背影"
+    },
+    "filmId": "my-fathers-shadow",
+    "duration": 93,
+    "pageRef": "p.88"
+  },
+  {
+    "screeningCode": "03TS02",
+    "date": "2026-04-03",
+    "time": "14:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "To the Victory!",
+      "zh": "勝利前別讓電影終結"
+    },
+    "filmId": "to-the-victory",
+    "duration": 105,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "03TS03",
+    "date": "2026-04-03",
+    "time": "17:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "La Grazia",
+      "zh": "總統的恩典"
+    },
+    "filmId": "la-grazia",
+    "duration": 133,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "03TS04",
+    "date": "2026-04-03",
+    "time": "19:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Saccharine",
+      "zh": "瘦怨"
+    },
+    "filmId": "saccharine",
+    "duration": 112,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "03TS05",
+    "date": "2026-04-03",
+    "time": "22:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Everything Else is Noise",
+      "zh": "噪音滋滋處處聞"
+    },
+    "filmId": "everything-else-is-noise",
+    "duration": 70,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "03AC01",
+    "date": "2026-04-03",
+    "time": "12:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Sangre Del Toro",
+      "zh": "戴拖路的血色美學"
+    },
+    "filmId": "sangre-del-toro",
+    "duration": 85,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "03AC02",
+    "date": "2026-04-03",
+    "time": "14:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "The Tale of Silyan",
+      "zh": "鸛鳥桑田"
+    },
+    "filmId": "the-tale-of-silyan",
+    "duration": 81,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "03AC03",
+    "date": "2026-04-03",
+    "time": "16:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Spying Stars",
+      "zh": "世外天眼"
+    },
+    "filmId": "spying-stars",
+    "duration": 98,
+    "pageRef": "p.83"
+  },
+  {
+    "screeningCode": "03AC04",
+    "date": "2026-04-03",
+    "time": "18:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "EIGHT BRIDGES",
+      "zh": "穿州過省八座橋"
+    },
+    "filmId": "eight-bridges",
+    "duration": 82,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "03CT01",
+    "date": "2026-04-03",
+    "time": "20:00",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Year One",
+      "zh": "意大利第一年"
+    },
+    "filmId": "year-one",
+    "duration": 125,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "04KG01",
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "We Are All Strangers",
+      "zh": "我們不是陌生人"
+    },
+    "filmId": "we-are-all-strangers",
+    "duration": 158,
+    "pageRef": "p.26,77"
+  },
+  {
+    "screeningCode": "04KGE1",
+    "date": "2026-04-04",
+    "time": "17:10",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Face to Face: Anthony Chen",
+      "zh": "陳哲藝名家講座"
+    },
+    "filmId": "face-to-face-anthony-chen",
+    "pageRef": "p.77",
+    "event": {
+      "type": "face-to-face",
+      "speaker": "陳哲藝"
+    }
+  },
+  {
+    "screeningCode": "04KG02",
+    "date": "2026-04-04",
+    "time": "19:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "The Drama",
+      "zh": "戲劇性婚禮"
+    },
+    "filmId": "the-drama",
+    "duration": 106,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "04KG03",
+    "date": "2026-04-04",
+    "time": "21:45",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Sirât",
+      "zh": "末世狂沙"
+    },
+    "filmId": "sirat",
+    "duration": 115,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "04EK01",
+    "date": "2026-04-04",
+    "time": "20:00",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "The Black Cannon Incident",
+      "zh": "黑砲事件"
+    },
+    "filmId": "the-black-cannon-incident",
+    "duration": 99,
+    "pageRef": "p.35"
+  },
+  {
+    "screeningCode": "04EKE1",
+    "date": "2026-04-04",
+    "time": "21:40",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Master Class: Huang Jianxin",
+      "zh": "黃建新大師班"
+    },
+    "filmId": "master-class-huang-jianxin",
+    "pageRef": "p.66",
+    "event": {
+      "type": "master-class"
+    }
+  },
+  {
+    "screeningCode": "04IS01",
+    "date": "2026-04-04",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Last Blossom",
+      "zh": "再見鳳仙花"
+    },
+    "filmId": "the-last-blossom",
+    "duration": 90,
+    "pageRef": "p.101"
+  },
+  {
+    "screeningCode": "04IS02",
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Voice of Hind Rajab",
+      "zh": "加沙女孩的聲音"
+    },
+    "filmId": "the-voice-of-hind-rajab",
+    "duration": 89,
+    "pageRef": "p.43"
+  },
+  {
+    "screeningCode": "04IS03",
+    "date": "2026-04-04",
+    "time": "16:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Calle Málaga",
+      "zh": "公寓的二度春光"
+    },
+    "filmId": "calle-malaga",
+    "duration": 116,
+    "pageRef": "p.88"
+  },
+  {
+    "screeningCode": "04IS04",
+    "date": "2026-04-04",
+    "time": "19:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Mothertongue",
+      "zh": "春樹"
+    },
+    "filmId": "mothertongue",
+    "duration": 122,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "04IS05",
+    "date": "2026-04-04",
+    "time": "21:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Gloaming in Luomu",
+      "zh": "羅目的黃昏"
+    },
+    "filmId": "gloaming-in-luomu",
+    "duration": 99,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "04GL01",
+    "date": "2026-04-04",
+    "time": "14:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "The Stars and Moon are Holes in the Sky",
+      "zh": "星與月是天上的洞"
+    },
+    "filmId": "the-stars-and-moon-are-holes-in-the-sky",
+    "duration": 122,
+    "pageRef": "p.108"
+  },
+  {
+    "screeningCode": "04GL02",
+    "date": "2026-04-04",
+    "time": "17:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "The Last Viking",
+      "zh": "夾Band尋寶維京佬"
+    },
+    "filmId": "the-last-viking",
+    "duration": 116,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "04GL03",
+    "date": "2026-04-04",
+    "time": "19:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Two Prosecutors",
+      "zh": "檢察官的密函（暫譯）"
+    },
+    "filmId": "two-prosecutors",
+    "duration": 117,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "04GL04",
+    "date": "2026-04-04",
+    "time": "22:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Hen",
+      "zh": "走佬雞"
+    },
+    "filmId": "hen",
+    "duration": 96,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "04PE01",
+    "date": "2026-04-04",
+    "time": "12:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Divine Comedy",
+      "zh": "犯禁神作"
+    },
+    "filmId": "divine-comedy",
+    "duration": 98,
+    "pageRef": "p.82"
+  },
+  {
+    "screeningCode": "04PE02",
+    "date": "2026-04-04",
+    "time": "14:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "All Greens",
+      "zh": "青青校園少女草"
+    },
+    "filmId": "all-greens",
+    "duration": 119,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "04PE03",
+    "date": "2026-04-04",
+    "time": "17:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Truly Naked",
+      "zh": "我的初戀赤裸裸"
+    },
+    "filmId": "truly-naked",
+    "duration": 102,
+    "pageRef": "p.99"
+  },
+  {
+    "screeningCode": "04PE04",
+    "date": "2026-04-04",
+    "time": "19:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Almost Home",
+      "zh": "快要到達家了"
+    },
+    "filmId": "almost-home",
+    "duration": 90,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "04PE05",
+    "date": "2026-04-04",
+    "time": "22:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "EPiC: Elvis Presley in Concert",
+      "zh": "EPiC: Elvis Presley in Concert"
+    },
+    "filmId": "epic-elvis-presley-in-concert",
+    "duration": 97,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "04MC01",
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Platform",
+      "zh": "站台"
+    },
+    "filmId": "platform",
+    "duration": 150,
+    "pageRef": "p.60"
+  },
+  {
+    "screeningCode": "04MC02",
+    "date": "2026-04-04",
+    "time": "18:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Back Home",
+      "zh": "回家"
+    },
+    "filmId": "back-home",
+    "duration": 66,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "04MC03",
+    "date": "2026-04-04",
+    "time": "20:15",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Vive L'Amour",
+      "zh": "愛情萬歲"
+    },
+    "filmId": "vive-lamour",
+    "duration": 118,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "04TS01",
+    "date": "2026-04-04",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Short Film Competition Programme I",
+      "zh": "國際短片競賽節目（一）"
+    },
+    "filmId": "short-film-competition-programme-i",
+    "duration": 101,
+    "pageRef": "p.55"
+  },
+  {
+    "screeningCode": "04TS02",
+    "date": "2026-04-04",
+    "time": "14:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Ghost Elephants",
+      "zh": "尋找幽靈大象"
+    },
+    "filmId": "ghost-elephants",
+    "duration": 99,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "04TS03",
+    "date": "2026-04-04",
+    "time": "17:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Blue Moon",
+      "zh": "詞聖的醉後一夜"
+    },
+    "filmId": "blue-moon",
+    "duration": 100,
+    "pageRef": "p.40"
+  },
+  {
+    "screeningCode": "04TS04",
+    "date": "2026-04-04",
+    "time": "19:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Nouvelle Vague",
+      "zh": "斷了氣中戲"
+    },
+    "filmId": "nouvelle-vague",
+    "duration": 106,
+    "pageRef": "p.27,40"
+  },
+  {
+    "screeningCode": "04TS05",
+    "date": "2026-04-04",
+    "time": "21:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Shape of Momo",
+      "zh": "餃子的形狀"
+    },
+    "filmId": "shape-of-momo",
+    "duration": 115,
+    "pageRef": "p.83"
+  },
+  {
+    "screeningCode": "04AC01",
+    "date": "2026-04-04",
+    "time": "15:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Levers",
+      "zh": "無太陽下的新事"
+    },
+    "filmId": "levers",
+    "duration": 95,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "04AC02",
+    "date": "2026-04-04",
+    "time": "17:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Phantoms of July",
+      "zh": "七月尋幽記"
+    },
+    "filmId": "phantoms-of-july",
+    "duration": 90,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "04AC03",
+    "date": "2026-04-04",
+    "time": "19:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Bashu, the Little Stranger",
+      "zh": "小芭舒"
+    },
+    "filmId": "bashu-the-little-stranger",
+    "duration": 120,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "04AC04",
+    "date": "2026-04-04",
+    "time": "22:00",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "On Your Lap",
+      "zh": "黑咖啡之味"
+    },
+    "filmId": "on-your-lap",
+    "duration": 100,
+    "pageRef": "p.82"
+  },
+  {
+    "screeningCode": "04CT01",
+    "date": "2026-04-04",
+    "time": "14:30",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Red Sorghum",
+      "zh": "紅高粱"
+    },
+    "filmId": "red-sorghum",
+    "duration": 93,
+    "pageRef": "p.36"
+  },
+  {
+    "screeningCode": "04CTE1",
+    "date": "2026-04-04",
+    "time": "16:05",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Seminar on Chinese Cinema",
+      "zh": "華語電影座談會"
+    },
+    "filmId": "seminar-on-chinese-cinema",
+    "pageRef": "p.43",
+    "event": {
+      "type": "seminar"
+    }
+  },
+  {
+    "screeningCode": "04CT02",
+    "date": "2026-04-04",
+    "time": "17:45",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Battleship Potemkin",
+      "zh": "波特金號戰艦"
+    },
+    "filmId": "battleship-potemkin",
+    "duration": 73,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "04CT03",
+    "date": "2026-04-04",
+    "time": "19:45",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Magellan",
+      "zh": "麥哲倫之死"
+    },
+    "filmId": "magellan",
+    "duration": 160,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "05KG01",
+    "date": "2026-04-05",
+    "time": "14:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Franz",
+      "zh": "拼貼卡夫卡"
+    },
+    "filmId": "franz",
+    "duration": 127,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "05KG02",
+    "date": "2026-04-05",
+    "time": "17:45",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "A Foggy Tale",
+      "zh": "大濛"
+    },
+    "filmId": "a-foggy-tale",
+    "duration": 110,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "05KG03",
+    "date": "2026-04-05",
+    "time": "21:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "After the Hunt",
+      "zh": "誣網之後"
+    },
+    "filmId": "after-the-hunt",
+    "duration": 139,
+    "pageRef": "p.40"
+  },
+  {
+    "screeningCode": "05EK01",
+    "date": "2026-04-05",
+    "time": "18:15",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "The Secret",
+      "zh": "瘋劫"
+    },
+    "filmId": "the-secret",
+    "duration": 90,
+    "pageRef": "p.34"
+  },
+  {
+    "screeningCode": "05EK02",
+    "date": "2026-04-05",
+    "time": "21:00",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Ah Ying",
+      "zh": "半邊人"
+    },
+    "filmId": "ah-ying",
+    "duration": 110,
+    "pageRef": "p.35"
+  },
+  {
+    "screeningCode": "05IS01",
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Spying Stars",
+      "zh": "世外天眼"
+    },
+    "filmId": "spying-stars",
+    "duration": 98,
+    "pageRef": "p.83"
+  },
+  {
+    "screeningCode": "05IS02",
+    "date": "2026-04-05",
+    "time": "17:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "We are the Fruits of the Forest",
+      "zh": "我們是森林之果"
+    },
+    "filmId": "we-are-the-fruits-of-the-forest",
+    "duration": 87,
+    "pageRef": "p.74"
+  },
+  {
+    "screeningCode": "05IS03",
+    "date": "2026-04-05",
+    "time": "19:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Captive",
+      "zh": "文豪獄成記"
+    },
+    "filmId": "the-captive",
+    "duration": 134,
+    "pageRef": "p.72"
+  },
+  {
+    "screeningCode": "05IS04",
+    "date": "2026-04-05",
+    "time": "21:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Love That Remains",
+      "zh": "總有愛在"
+    },
+    "filmId": "the-love-that-remains",
+    "duration": 109,
+    "pageRef": "p.72"
+  },
+  {
+    "screeningCode": "05GL01",
+    "date": "2026-04-05",
+    "time": "14:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "My Wife Cries",
+      "zh": "妻之淚"
+    },
+    "filmId": "my-wife-cries",
+    "duration": 93,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "05GL02",
+    "date": "2026-04-05",
+    "time": "16:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Orphan",
+      "zh": "亂世孤雛"
+    },
+    "filmId": "orphan",
+    "duration": 132,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "05GL03",
+    "date": "2026-04-05",
+    "time": "19:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Pillion",
+      "zh": "天虐有情"
+    },
+    "filmId": "pillion",
+    "duration": 107,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "05GL04",
+    "date": "2026-04-05",
+    "time": "22:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Saccharine",
+      "zh": "瘦怨"
+    },
+    "filmId": "saccharine",
+    "duration": 112,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "05PE01",
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "A Mighty Adventure",
+      "zh": "小蟲蟲大冒險"
+    },
+    "filmId": "a-mighty-adventure",
+    "duration": 75,
+    "pageRef": "p.101"
+  },
+  {
+    "screeningCode": "05PE02",
+    "date": "2026-04-05",
+    "time": "14:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Good Boy",
+      "zh": "發條狗"
+    },
+    "filmId": "good-boy",
+    "duration": 110,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "05PE03",
+    "date": "2026-04-05",
+    "time": "17:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Joe Hsieh Animation Collection",
+      "zh": "謝文明動畫短片集"
+    },
+    "filmId": "joe-hsieh-animation-collection",
+    "duration": 69,
+    "pageRef": "p.102"
+  },
+  {
+    "screeningCode": "05PE04",
+    "date": "2026-04-05",
+    "time": "19:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Funky Freaky Freaks",
+      "zh": "衝衝衝世代"
+    },
+    "filmId": "funky-freaky-freaks",
+    "duration": 87,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "05PE05",
+    "date": "2026-04-05",
+    "time": "21:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Morte Cucina",
+      "zh": "地慾廚房"
+    },
+    "filmId": "morte-cucina",
+    "duration": 96,
+    "pageRef": "p.72,99"
+  },
+  {
+    "screeningCode": "05MC01",
+    "date": "2026-04-05",
+    "time": "14:45",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Unknown Pleasures",
+      "zh": "任逍遙"
+    },
+    "filmId": "unknown-pleasures",
+    "duration": 108,
+    "pageRef": "p.60"
+  },
+  {
+    "screeningCode": "05MC02",
+    "date": "2026-04-05",
+    "time": "17:15",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "The Day She Returns",
+      "zh": "她和她談她復出的那天"
+    },
+    "filmId": "the-day-she-returns",
+    "duration": 85,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "05MC03",
+    "date": "2026-04-05",
+    "time": "19:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Sorrows and Joys of a Middle-Aged Man",
+      "zh": "哀樂中年"
+    },
+    "filmId": "sorrows-and-joys-of-a-middle-aged-man",
+    "duration": 110,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "05TS01",
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Short Film Competition Programme II",
+      "zh": "國際短片競賽節目（二）"
+    },
+    "filmId": "short-film-competition-programme-ii",
+    "duration": 100,
+    "pageRef": "p.56"
+  },
+  {
+    "screeningCode": "05TS02",
+    "date": "2026-04-05",
+    "time": "14:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Three Goodbyes",
+      "zh": "愛的三次告別"
+    },
+    "filmId": "three-goodbyes",
+    "duration": 120,
+    "pageRef": "p.86"
+  },
+  {
+    "screeningCode": "05TS03",
+    "date": "2026-04-05",
+    "time": "17:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Below the Clouds",
+      "zh": "浮雲盡處是人間"
+    },
+    "filmId": "below-the-clouds",
+    "duration": 115,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "05TS04",
+    "date": "2026-04-05",
+    "time": "19:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Megadoc",
+      "zh": "超級大都會背後：直激哥普拉"
+    },
+    "filmId": "megadoc",
+    "duration": 107,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "05TS05",
+    "date": "2026-04-05",
+    "time": "21:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Milk Teeth",
+      "zh": "乳齒脫落時"
+    },
+    "filmId": "milk-teeth",
+    "duration": 104,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "05AC01",
+    "date": "2026-04-05",
+    "time": "12:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "The Currents",
+      "zh": "心湖的漩渦"
+    },
+    "filmId": "the-currents",
+    "duration": 104,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "05AC02",
+    "date": "2026-04-05",
+    "time": "14:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Year One",
+      "zh": "意大利第一年"
+    },
+    "filmId": "year-one",
+    "duration": 125,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "05AC03",
+    "date": "2026-04-05",
+    "time": "17:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Amílcar",
+      "zh": "革命詩人手札"
+    },
+    "filmId": "amilcar",
+    "duration": 87,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "05AC04",
+    "date": "2026-04-05",
+    "time": "19:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Trillion",
+      "zh": "天涯還鱗記"
+    },
+    "filmId": "trillion",
+    "duration": 80,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "05AC05",
+    "date": "2026-04-05",
+    "time": "21:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Last Night I Conquered the City of Thebes",
+      "zh": "羅馬浴場私語時"
+    },
+    "filmId": "last-night-i-conquered-the-city-of-thebes",
+    "duration": 111,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "05CT01",
+    "date": "2026-04-05",
+    "time": "14:15",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Duse",
+      "zh": "一代名伶的絕唱"
+    },
+    "filmId": "duse",
+    "duration": 123,
+    "pageRef": "p.72"
+  },
+  {
+    "screeningCode": "05CT02",
+    "date": "2026-04-05",
+    "time": "17:00",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Queen Kelly",
+      "zh": "多情艷后"
+    },
+    "filmId": "queen-kelly",
+    "duration": 105,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "05CT03",
+    "date": "2026-04-05",
+    "time": "20:00",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "The Rocky Horror Picture Show",
+      "zh": "洛奇恐怖晚會"
+    },
+    "filmId": "the-rocky-horror-picture-show",
+    "duration": 100,
+    "pageRef": "p.107",
+    "event": {
+      "type": "pre-talk"
+    }
+  },
+  {
+    "screeningCode": "06KG01",
+    "date": "2026-04-06",
+    "time": "14:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "The Christophers",
+      "zh": "The Christophers"
+    },
+    "filmId": "the-christophers",
+    "duration": 100,
+    "pageRef": "p.40"
+  },
+  {
+    "screeningCode": "06KG02",
+    "date": "2026-04-06",
+    "time": "17:15",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Romería",
+      "zh": "這年夏天，愛之尋謎"
+    },
+    "filmId": "romeria",
+    "duration": 115,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "06KG03",
+    "date": "2026-04-06",
+    "time": "20:15",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Cageman",
+      "zh": "籠民"
+    },
+    "filmId": "cageman",
+    "duration": 150,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "06EK01",
+    "date": "2026-04-06",
+    "time": "18:00",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "The Sword",
+      "zh": "名劍"
+    },
+    "filmId": "the-sword",
+    "duration": 89,
+    "pageRef": "p.34"
+  },
+  {
+    "screeningCode": "06EK02",
+    "date": "2026-04-06",
+    "time": "20:30",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "In Our Time",
+      "zh": "光陰的故事"
+    },
+    "filmId": "in-our-time",
+    "duration": 100,
+    "pageRef": "p.34"
+  },
+  {
+    "screeningCode": "06IS01",
+    "date": "2026-04-06",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The World",
+      "zh": "世界"
+    },
+    "filmId": "the-world",
+    "duration": 143,
+    "pageRef": "p.61"
+  },
+  {
+    "screeningCode": "06IS02",
+    "date": "2026-04-06",
+    "time": "15:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Phantoms of July",
+      "zh": "七月尋幽記"
+    },
+    "filmId": "phantoms-of-july",
+    "duration": 90,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "06IS03",
+    "date": "2026-04-06",
+    "time": "17:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Stars",
+      "zh": "星星問"
+    },
+    "filmId": "stars",
+    "duration": 91,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "06IS04",
+    "date": "2026-04-06",
+    "time": "19:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Halo",
+      "zh": "窄路微光"
+    },
+    "filmId": "halo",
+    "duration": 106,
+    "pageRef": "p.82"
+  },
+  {
+    "screeningCode": "06IS05",
+    "date": "2026-04-06",
+    "time": "21:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Ilo Ilo",
+      "zh": "爸媽不在家"
+    },
+    "filmId": "ilo-ilo",
+    "duration": 99,
+    "pageRef": "p.77"
+  },
+  {
+    "screeningCode": "06GL01",
+    "date": "2026-04-06",
+    "time": "14:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Meets the World",
+      "zh": "她們不像預期的遇上"
+    },
+    "filmId": "meets-the-world",
+    "duration": 126,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "06GL02",
+    "date": "2026-04-06",
+    "time": "17:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Balentes",
+      "zh": "盜馬少年的歷險"
+    },
+    "filmId": "balentes",
+    "duration": 70,
+    "pageRef": "p.101"
+  },
+  {
+    "screeningCode": "06GL03",
+    "date": "2026-04-06",
+    "time": "18:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Magellan",
+      "zh": "麥哲倫之死"
+    },
+    "filmId": "magellan",
+    "duration": 160,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "06GL04",
+    "date": "2026-04-06",
+    "time": "22:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Mag Mag",
+      "zh": "禍禍女"
+    },
+    "filmId": "mag-mag",
+    "duration": 113,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "06PE01",
+    "date": "2026-04-06",
+    "time": "14:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Mirrors No. 3",
+      "zh": "鏡子第三樂章"
+    },
+    "filmId": "mirrors-no-3",
+    "duration": 86,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "06PE02",
+    "date": "2026-04-06",
+    "time": "16:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Two Prosecutors",
+      "zh": "檢察官的密函（暫譯）"
+    },
+    "filmId": "two-prosecutors",
+    "duration": 117,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "06PE03",
+    "date": "2026-04-06",
+    "time": "19:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Stars and Moon are Holes in the Sky",
+      "zh": "星與月是天上的洞"
+    },
+    "filmId": "the-stars-and-moon-are-holes-in-the-sky",
+    "duration": 122,
+    "pageRef": "p.108"
+  },
+  {
+    "screeningCode": "06PE04",
+    "date": "2026-04-06",
+    "time": "22:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Drama",
+      "zh": "戲劇性婚禮"
+    },
+    "filmId": "the-drama",
+    "duration": 106,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "06TS01",
+    "date": "2026-04-06",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Short Film Competition Programme III",
+      "zh": "國際短片競賽節目（三）"
+    },
+    "filmId": "short-film-competition-programme-iii",
+    "duration": 100,
+    "pageRef": "p.57"
+  },
+  {
+    "screeningCode": "06TS02",
+    "date": "2026-04-06",
+    "time": "14:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Mothertongue",
+      "zh": "春樹"
+    },
+    "filmId": "mothertongue",
+    "duration": 122,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "06TS03",
+    "date": "2026-04-06",
+    "time": "17:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Gloaming in Luomu",
+      "zh": "羅目的黃昏"
+    },
+    "filmId": "gloaming-in-luomu",
+    "duration": 99,
+    "pageRef": "p.41"
+  },
+  {
+    "screeningCode": "06TS04",
+    "date": "2026-04-06",
+    "time": "20:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "The Last Blossom",
+      "zh": "再見鳳仙花"
+    },
+    "filmId": "the-last-blossom",
+    "duration": 90,
+    "pageRef": "p.101"
+  },
+  {
+    "screeningCode": "06TS05",
+    "date": "2026-04-06",
+    "time": "22:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Urchin",
+      "zh": "廢 ．作戰"
+    },
+    "filmId": "urchin",
+    "duration": 99,
+    "pageRef": "p.86"
+  },
+  {
+    "screeningCode": "06CT01",
+    "date": "2026-04-06",
+    "time": "14:30",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Ah Fei",
+      "zh": "油麻菜籽"
+    },
+    "filmId": "ah-fei",
+    "duration": 113,
+    "pageRef": "p.35"
+  },
+  {
+    "screeningCode": "06CT02",
+    "date": "2026-04-06",
+    "time": "17:15",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "Landmarks",
+      "zh": "被奪去的土地"
+    },
+    "filmId": "landmarks",
+    "duration": 119,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "07KG01",
+    "date": "2026-04-07",
+    "time": "14:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Silent Friend",
+      "zh": "寂靜的朋友"
+    },
+    "filmId": "silent-friend",
+    "duration": 145,
+    "pageRef": "p.27"
+  },
+  {
+    "screeningCode": "07KGE1",
+    "date": "2026-04-07",
+    "time": "16:55",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Master Class: Emir Kusturica",
+      "zh": "伊迪高安怡迪大師班"
+    },
+    "filmId": "master-class-emir-kusturica",
+    "pageRef": "p.66",
+    "event": {
+      "type": "master-class",
+      "speaker": "伊迪高安怡迪"
+    }
+  },
+  {
+    "screeningCode": "07KG02",
+    "date": "2026-04-07",
+    "time": "19:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Three Goodbyes",
+      "zh": "愛的三次告別"
+    },
+    "filmId": "three-goodbyes",
+    "duration": 120,
+    "pageRef": "p.86"
+  },
+  {
+    "screeningCode": "07KG03",
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "The Voice of Hind Rajab",
+      "zh": "加沙女孩的聲音"
+    },
+    "filmId": "the-voice-of-hind-rajab",
+    "duration": 89,
+    "pageRef": "p.43"
+  },
+  {
+    "screeningCode": "07EK01",
+    "date": "2026-04-07",
+    "time": "21:00",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "The Butterfly Murders",
+      "zh": "蝶變"
+    },
+    "filmId": "the-butterfly-murders",
+    "duration": 88,
+    "pageRef": "p.34"
+  },
+  {
+    "screeningCode": "07IS01",
+    "date": "2026-04-07",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "En Route To",
+      "zh": "在抹去的路上"
+    },
+    "filmId": "en-route-to",
+    "duration": 105,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "07IS02",
+    "date": "2026-04-07",
+    "time": "15:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Days and Nights in the Forest",
+      "zh": "林中日夜"
+    },
+    "filmId": "days-and-nights-in-the-forest",
+    "duration": 116,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "07IS03",
+    "date": "2026-04-07",
+    "time": "17:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "To the Victory!",
+      "zh": "勝利前別讓電影終結"
+    },
+    "filmId": "to-the-victory",
+    "duration": 105,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "07IS04",
+    "date": "2026-04-07",
+    "time": "19:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Milk Teeth",
+      "zh": "乳齒脫落時"
+    },
+    "filmId": "milk-teeth",
+    "duration": 104,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "07IS05",
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Wet Season",
+      "zh": "熱帶雨"
+    },
+    "filmId": "wet-season",
+    "duration": 103,
+    "pageRef": "p.77"
+  },
+  {
+    "screeningCode": "07GL01",
+    "date": "2026-04-07",
+    "time": "14:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Sound of Falling",
+      "zh": "墜落之聲"
+    },
+    "filmId": "sound-of-falling",
+    "duration": 155,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "07GL02",
+    "date": "2026-04-07",
+    "time": "17:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "The Chronology of Water",
+      "zh": "水的編年史"
+    },
+    "filmId": "the-chronology-of-water",
+    "duration": 128,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "07GL03",
+    "date": "2026-04-07",
+    "time": "20:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Truly Naked",
+      "zh": "我的初戀赤裸裸"
+    },
+    "filmId": "truly-naked",
+    "duration": 102,
+    "pageRef": "p.99"
+  },
+  {
+    "screeningCode": "07GL04",
+    "date": "2026-04-07",
+    "time": "22:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Joe Hsieh Animation Collection",
+      "zh": "謝文明動畫短片集"
+    },
+    "filmId": "joe-hsieh-animation-collection",
+    "duration": 69,
+    "pageRef": "p.102"
+  },
+  {
+    "screeningCode": "07PE01",
+    "date": "2026-04-07",
+    "time": "12:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Path of Soul",
+      "zh": "能樂師的女兒"
+    },
+    "filmId": "the-path-of-soul",
+    "duration": 83,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "07PE02",
+    "date": "2026-04-07",
+    "time": "17:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Sirât",
+      "zh": "末世狂沙"
+    },
+    "filmId": "sirat",
+    "duration": 115,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "07PE03",
+    "date": "2026-04-07",
+    "time": "19:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Morte Cucina",
+      "zh": "地慾廚房"
+    },
+    "filmId": "morte-cucina",
+    "duration": 96,
+    "pageRef": "p.72,99"
+  },
+  {
+    "screeningCode": "07PE04",
+    "date": "2026-04-07",
+    "time": "22:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Funky Freaky Freaks",
+      "zh": "衝衝衝世代"
+    },
+    "filmId": "funky-freaky-freaks",
+    "duration": 87,
+    "pageRef": "p.98"
+  },
+  {
+    "screeningCode": "07TS01",
+    "date": "2026-04-07",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Levers",
+      "zh": "無太陽下的新事"
+    },
+    "filmId": "levers",
+    "duration": 95,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "07TS02",
+    "date": "2026-04-07",
+    "time": "14:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Amílcar",
+      "zh": "革命詩人手札"
+    },
+    "filmId": "amilcar",
+    "duration": 87,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "07TS03",
+    "date": "2026-04-07",
+    "time": "17:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Divine Comedy",
+      "zh": "犯禁神作"
+    },
+    "filmId": "divine-comedy",
+    "duration": 98,
+    "pageRef": "p.82"
+  },
+  {
+    "screeningCode": "07TS04",
+    "date": "2026-04-07",
+    "time": "19:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "The Love That Remains",
+      "zh": "總有愛在"
+    },
+    "filmId": "the-love-that-remains",
+    "duration": 109,
+    "pageRef": "p.72"
+  },
+  {
+    "screeningCode": "07TS05",
+    "date": "2026-04-07",
+    "time": "21:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "The Rocky Horror Picture Show",
+      "zh": "洛奇恐怖晚會"
+    },
+    "filmId": "the-rocky-horror-picture-show",
+    "duration": 100,
+    "pageRef": "p.107"
+  },
+  {
+    "screeningCode": "07AC01",
+    "date": "2026-04-07",
+    "time": "12:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Still Life",
+      "zh": "三峽好人"
+    },
+    "filmId": "still-life",
+    "duration": 108,
+    "pageRef": "p.62"
+  },
+  {
+    "screeningCode": "07AC02",
+    "date": "2026-04-07",
+    "time": "14:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Hair, Paper, Water...",
+      "zh": "失傳的字裏人間"
+    },
+    "filmId": "hair-paper-water",
+    "duration": 71,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "07AC03",
+    "date": "2026-04-07",
+    "time": "16:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Megadoc",
+      "zh": "超級大都會背後：直激哥普拉"
+    },
+    "filmId": "megadoc",
+    "duration": 107,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "07AC04",
+    "date": "2026-04-07",
+    "time": "18:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "The Ozu Diaries",
+      "zh": "小津日記"
+    },
+    "filmId": "the-ozu-diaries",
+    "duration": 140,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "07AC05",
+    "date": "2026-04-07",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Queen Kelly",
+      "zh": "多情艷后"
+    },
+    "filmId": "queen-kelly",
+    "duration": 105,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "07CT01",
+    "date": "2026-04-07",
+    "time": "14:30",
+    "venueId": "CT",
+    "filmTitle": {
+      "en": "I Only Rest in the Storm",
+      "zh": "西非孽影"
+    },
+    "filmId": "i-only-rest-in-the-storm",
+    "duration": 211,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "08KG01",
+    "date": "2026-04-08",
+    "time": "21:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "The Dating Menu",
+      "zh": "廚師發辦"
+    },
+    "filmId": "the-dating-menu",
+    "duration": 100,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "08EK01",
+    "date": "2026-04-08",
+    "time": "20:45",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Deep Quiet Room",
+      "zh": "深度安靜"
+    },
+    "filmId": "deep-quiet-room",
+    "duration": 107,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "08IS01",
+    "date": "2026-04-08",
+    "time": "19:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "On Your Lap",
+      "zh": "黑咖啡之味"
+    },
+    "filmId": "on-your-lap",
+    "duration": 100,
+    "pageRef": "p.82"
+  },
+  {
+    "screeningCode": "08IS02",
+    "date": "2026-04-08",
+    "time": "21:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Yes",
+      "zh": "狂舔夫妻檔"
+    },
+    "filmId": "yes",
+    "duration": 150,
+    "pageRef": "p.74"
+  },
+  {
+    "screeningCode": "08GL01",
+    "date": "2026-04-08",
+    "time": "14:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Redoubt",
+      "zh": "愚夫之堡"
+    },
+    "filmId": "redoubt",
+    "duration": 81,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "08GL02",
+    "date": "2026-04-08",
+    "time": "16:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "17",
+      "zh": "無聲的成人禮"
+    },
+    "filmId": "17",
+    "duration": 105,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "08GL03",
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "On the Road",
+      "zh": "路直路攣（暫譯）"
+    },
+    "filmId": "on-the-road",
+    "duration": 93,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "08GL04",
+    "date": "2026-04-08",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "I Understand Your Displeasure",
+      "zh": "如果你知我苦衷"
+    },
+    "filmId": "i-understand-your-displeasure",
+    "duration": 93,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "08PE01",
+    "date": "2026-04-08",
+    "time": "14:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Number 23",
+      "zh": "地下美人"
+    },
+    "filmId": "number-23",
+    "duration": 91,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "08PE02",
+    "date": "2026-04-08",
+    "time": "17:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Linka Linka",
+      "zh": "一個夜晚與三個夏天"
+    },
+    "filmId": "linka-linka",
+    "duration": 100,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "08PE03",
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Currents",
+      "zh": "心湖的漩渦"
+    },
+    "filmId": "the-currents",
+    "duration": 104,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "08PE04",
+    "date": "2026-04-08",
+    "time": "21:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Shanghai Daughter",
+      "zh": "上海女兒"
+    },
+    "filmId": "shanghai-daughter",
+    "duration": 94,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "08MC01",
+    "date": "2026-04-08",
+    "time": "14:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Battleship Potemkin",
+      "zh": "波特金號戰艦"
+    },
+    "filmId": "battleship-potemkin",
+    "duration": 73,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "08MC02",
+    "date": "2026-04-08",
+    "time": "17:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
+      "zh": "昔文今讀安妮艾諾"
+    },
+    "filmId": "writing-life-annie-ernaux-through-the-eyes-of-high-school-students",
+    "duration": 90,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "08MC03",
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Last Night I Conquered the City of Thebes",
+      "zh": "羅馬浴場私語時"
+    },
+    "filmId": "last-night-i-conquered-the-city-of-thebes",
+    "duration": 111,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "08TS01",
+    "date": "2026-04-08",
+    "time": "15:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "The Ground Beneath Our Feet",
+      "zh": "生命的美麗終章"
+    },
+    "filmId": "the-ground-beneath-our-feet",
+    "duration": 82,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "08TS02",
+    "date": "2026-04-08",
+    "time": "17:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Whispers in the Woods",
+      "zh": "林中天籟"
+    },
+    "filmId": "whispers-in-the-woods",
+    "duration": 93,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "08TS03",
+    "date": "2026-04-08",
+    "time": "19:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Almost Home",
+      "zh": "快要到達家了"
+    },
+    "filmId": "almost-home",
+    "duration": 90,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "08TS04",
+    "date": "2026-04-08",
+    "time": "21:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Memory",
+      "zh": "紅塵百劫話童年"
+    },
+    "filmId": "memory",
+    "duration": 98,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "08AC01",
+    "date": "2026-04-08",
+    "time": "12:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Dong / The Hedonists",
+      "zh": "東／營生"
+    },
+    "filmId": "dong-the-hedonists",
+    "duration": 92,
+    "pageRef": "p.61"
+  },
+  {
+    "screeningCode": "08AC02",
+    "date": "2026-04-08",
+    "time": "14:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Rose of Nevada",
+      "zh": "英倫轉生號"
+    },
+    "filmId": "rose-of-nevada",
+    "duration": 114,
+    "pageRef": "p.85"
+  },
+  {
+    "screeningCode": "08AC03",
+    "date": "2026-04-08",
+    "time": "17:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Avant Garde Shorts Programme",
+      "zh": "前衛短片專輯"
+    },
+    "filmId": "avant-garde-shorts-programme",
+    "duration": 82,
+    "pageRef": "p.113"
+  },
+  {
+    "screeningCode": "08AC04",
+    "date": "2026-04-08",
+    "time": "19:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "PanelStory, or How a Housing Development Is Born",
+      "zh": "模範公屋"
+    },
+    "filmId": "panelstory-or-how-a-housing-development-is-born",
+    "duration": 101,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "08AC05",
+    "date": "2026-04-08",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Mare's Nest",
+      "zh": "願這世界如童話"
+    },
+    "filmId": "mares-nest",
+    "duration": 98,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "09KG01",
+    "date": "2026-04-09",
+    "time": "21:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Spare Queens",
+      "zh": "大分瓶"
+    },
+    "filmId": "spare-queens",
+    "duration": 92,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "09EK01",
+    "date": "2026-04-09",
+    "time": "20:45",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Palimpsest: The Story of a Name",
+      "zh": "隱蹟之書：重寫自我"
+    },
+    "filmId": "palimpsest-the-story-of-a-name",
+    "duration": 109,
+    "pageRef": "p.79"
+  },
+  {
+    "screeningCode": "09IS01",
+    "date": "2026-04-09",
+    "time": "16:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Salvation",
+      "zh": "假救贖之名"
+    },
+    "filmId": "salvation",
+    "duration": 120,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "09IS02",
+    "date": "2026-04-09",
+    "time": "19:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Romería",
+      "zh": "這年夏天，愛之尋謎"
+    },
+    "filmId": "romeria",
+    "duration": 115,
+    "pageRef": "p.73"
+  },
+  {
+    "screeningCode": "09IS03",
+    "date": "2026-04-09",
+    "time": "21:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Captive",
+      "zh": "文豪獄成記"
+    },
+    "filmId": "the-captive",
+    "duration": 134,
+    "pageRef": "p.72"
+  },
+  {
+    "screeningCode": "09GL01",
+    "date": "2026-04-09",
+    "time": "14:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "How to Divorce During the War",
+      "zh": "分居總要在戰時"
+    },
+    "filmId": "how-to-divorce-during-the-war",
+    "duration": 108,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "09GL02",
+    "date": "2026-04-09",
+    "time": "17:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Variations on a Theme",
+      "zh": "沒有人寄錢給外婆"
+    },
+    "filmId": "variations-on-a-theme",
+    "duration": 65,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "09GL03",
+    "date": "2026-04-09",
+    "time": "19:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "We are the Fruits of the Forest",
+      "zh": "我們是森林之果"
+    },
+    "filmId": "we-are-the-fruits-of-the-forest",
+    "duration": 87,
+    "pageRef": "p.74"
+  },
+  {
+    "screeningCode": "09GL04",
+    "date": "2026-04-09",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Rose",
+      "zh": "撲朔迷離的露絲"
+    },
+    "filmId": "rose",
+    "duration": 93,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "09PE01",
+    "date": "2026-04-09",
+    "time": "14:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Ah Girl",
+      "zh": "泡泡糖女孩"
+    },
+    "filmId": "ah-girl",
+    "duration": 94,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "09PE02",
+    "date": "2026-04-09",
+    "time": "17:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "A Dance with Rainbows",
+      "zh": "恨女的逆襲"
+    },
+    "filmId": "a-dance-with-rainbows",
+    "duration": 122,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "09PE03",
+    "date": "2026-04-09",
+    "time": "20:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Day She Returns",
+      "zh": "她和她談她復出的那天"
+    },
+    "filmId": "the-day-she-returns",
+    "duration": 85,
+    "pageRef": "p.68"
+  },
+  {
+    "screeningCode": "09PE04",
+    "date": "2026-04-09",
+    "time": "22:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Nighttime Sounds",
+      "zh": "你的眼睛比太陽明亮"
+    },
+    "filmId": "nighttime-sounds",
+    "duration": 89,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "09MC01",
+    "date": "2026-04-09",
+    "time": "14:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "EIGHT BRIDGES",
+      "zh": "穿州過省八座橋"
+    },
+    "filmId": "eight-bridges",
+    "duration": 82,
+    "pageRef": "p.111"
+  },
+  {
+    "screeningCode": "09MC02",
+    "date": "2026-04-09",
+    "time": "16:45",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Mary Stephen: Shades of Silk & Shorts",
+      "zh": "雪美蓮：《絲之影》短片集錦"
+    },
+    "filmId": "mary-stephen-shades-of-silk-shorts",
+    "duration": 98,
+    "pageRef": "p.79"
+  },
+  {
+    "screeningCode": "09TS01",
+    "date": "2026-04-09",
+    "time": "14:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Goodbye Sisters",
+      "zh": "蟲草姊妹花"
+    },
+    "filmId": "goodbye-sisters",
+    "duration": 90,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "09TS02",
+    "date": "2026-04-09",
+    "time": "17:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Good Valley Stories",
+      "zh": "從前有個快活谷"
+    },
+    "filmId": "good-valley-stories",
+    "duration": 122,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "09TS03",
+    "date": "2026-04-09",
+    "time": "20:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Final Victory",
+      "zh": "最後勝利"
+    },
+    "filmId": "final-victory",
+    "duration": 98,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "09TS04",
+    "date": "2026-04-09",
+    "time": "22:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Past Future Continuous",
+      "zh": "過去未來進行式"
+    },
+    "filmId": "past-future-continuous",
+    "duration": 76,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "09AC01",
+    "date": "2026-04-09",
+    "time": "14:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "24 City",
+      "zh": "二十四城記"
+    },
+    "filmId": "24-city",
+    "duration": 107,
+    "pageRef": "p.62"
+  },
+  {
+    "screeningCode": "09AC02",
+    "date": "2026-04-09",
+    "time": "17:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Days and Nights in the Forest",
+      "zh": "林中日夜"
+    },
+    "filmId": "days-and-nights-in-the-forest",
+    "duration": 116,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "09AC03",
+    "date": "2026-04-09",
+    "time": "19:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "World Animation",
+      "zh": "世界動畫精選"
+    },
+    "filmId": "world-animation",
+    "duration": 67,
+    "pageRef": "p.103"
+  },
+  {
+    "screeningCode": "09AC04",
+    "date": "2026-04-09",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Pin de Fartie",
+      "zh": "無何有變奏"
+    },
+    "filmId": "pin-de-fartie",
+    "duration": 106,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "10KG01",
+    "date": "2026-04-10",
+    "time": "21:15",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "La Grazia",
+      "zh": "總統的恩典"
+    },
+    "filmId": "la-grazia",
+    "duration": 133,
+    "pageRef": "p.69"
+  },
+  {
+    "screeningCode": "10EK01",
+    "date": "2026-04-10",
+    "time": "17:30",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Queen at Sea",
+      "zh": "欲愛流離"
+    },
+    "filmId": "queen-at-sea",
+    "duration": 121,
+    "pageRef": "p.27"
+  },
+  {
+    "screeningCode": "10EK02",
+    "date": "2026-04-10",
+    "time": "20:30",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "In-I in Motion",
+      "zh": "尋你我，覓自己"
+    },
+    "filmId": "in-i-in-motion",
+    "duration": 124,
+    "pageRef": "p.31"
+  },
+  {
+    "screeningCode": "10IS01",
+    "date": "2026-04-10",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Mountains May Depart",
+      "zh": "山河故人"
+    },
+    "filmId": "mountains-may-depart",
+    "duration": 126,
+    "pageRef": "p.62"
+  },
+  {
+    "screeningCode": "10IS02",
+    "date": "2026-04-10",
+    "time": "15:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "My Father's Shadow",
+      "zh": "爸爸的背影"
+    },
+    "filmId": "my-fathers-shadow",
+    "duration": 93,
+    "pageRef": "p.88"
+  },
+  {
+    "screeningCode": "10IS03",
+    "date": "2026-04-10",
+    "time": "17:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "A Poet",
+      "zh": "詩佬正傳之誤人子弟"
+    },
+    "filmId": "a-poet",
+    "duration": 122,
+    "pageRef": "p.88"
+  },
+  {
+    "screeningCode": "10IS04",
+    "date": "2026-04-10",
+    "time": "20:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Hen",
+      "zh": "走佬雞"
+    },
+    "filmId": "hen",
+    "duration": 96,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "10IS05",
+    "date": "2026-04-10",
+    "time": "22:00",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Blue Moon",
+      "zh": "詞聖的醉後一夜"
+    },
+    "filmId": "blue-moon",
+    "duration": 100,
+    "pageRef": "p.40"
+  },
+  {
+    "screeningCode": "10GL01",
+    "date": "2026-04-10",
+    "time": "14:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "I Understand Your Displeasure",
+      "zh": "如果你知我苦衷"
+    },
+    "filmId": "i-understand-your-displeasure",
+    "duration": 93,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "10GL02",
+    "date": "2026-04-10",
+    "time": "17:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Blue Heron",
+      "zh": "青鷺與少年"
+    },
+    "filmId": "blue-heron",
+    "duration": 90,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "10GL03",
+    "date": "2026-04-10",
+    "time": "19:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Sleep No More",
+      "zh": "斷手爛腳鬼工廠"
+    },
+    "filmId": "sleep-no-more",
+    "duration": 96,
+    "pageRef": "p.108"
+  },
+  {
+    "screeningCode": "10GL04",
+    "date": "2026-04-10",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "The Ivy",
+      "zh": "藤愛"
+    },
+    "filmId": "the-ivy",
+    "duration": 99,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "10PE01",
+    "date": "2026-04-10",
+    "time": "14:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Shanghai Daughter",
+      "zh": "上海女兒"
+    },
+    "filmId": "shanghai-daughter",
+    "duration": 94,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "10PE02",
+    "date": "2026-04-10",
+    "time": "17:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Amoeba",
+      "zh": "核"
+    },
+    "filmId": "amoeba",
+    "duration": 98,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "10PE03",
+    "date": "2026-04-10",
+    "time": "19:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Deep Quiet Room",
+      "zh": "深度安靜"
+    },
+    "filmId": "deep-quiet-room",
+    "duration": 107,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "10PE04",
+    "date": "2026-04-10",
+    "time": "22:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "On the Road",
+      "zh": "路直路攣（暫譯）"
+    },
+    "filmId": "on-the-road",
+    "duration": 93,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "10MC01",
+    "date": "2026-04-10",
+    "time": "14:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Saint Joan",
+      "zh": "聖貞德傳"
+    },
+    "filmId": "saint-joan",
+    "duration": 110,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "10MC02",
+    "date": "2026-04-10",
+    "time": "17:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "New Voices of Asia: Asian Short Film Fund Winning Projects",
+      "zh": "亞洲新聲浪：亞洲短片基金入選項目"
+    },
+    "filmId": "new-voices-of-asia-asian-short-film-fund-winning-projects",
+    "duration": 77,
+    "pageRef": "p.58"
+  },
+  {
+    "screeningCode": "09MCE1",
+    "date": "2026-04-09",
+    "time": "18:20",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Seminar on New Voices of Asia",
+      "zh": "亞洲新聲浪座談會"
+    },
+    "filmId": "seminar-on-new-voices-of-asia",
+    "pageRef": "p.58",
+    "event": {
+      "type": "seminar"
+    }
+  },
+  {
+    "screeningCode": "10MC03",
+    "date": "2026-04-10",
+    "time": "20:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Private Revolutions, Public Spaces",
+      "zh": "私人革命 公共空間"
+    },
+    "filmId": "private-revolutions-public-spaces-works-from-the-m-asian-avant-garde-film-collection",
+    "duration": 65,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "10TS01",
+    "date": "2026-04-10",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Memory",
+      "zh": "紅塵百劫話童年"
+    },
+    "filmId": "memory",
+    "duration": 98,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "10TS02",
+    "date": "2026-04-10",
+    "time": "15:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Elephants & Squirrels",
+      "zh": "大象與松鼠"
+    },
+    "filmId": "elephants-squirrels",
+    "duration": 115,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "10TS03",
+    "date": "2026-04-10",
+    "time": "17:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "All My Sisters",
+      "zh": "伊朗女孩十八變"
+    },
+    "filmId": "all-my-sisters",
+    "duration": 78,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "10TS04",
+    "date": "2026-04-10",
+    "time": "20:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Ice Grave",
+      "zh": "探險夢埋冰原下"
+    },
+    "filmId": "ice-grave",
+    "duration": 79,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "10TS05",
+    "date": "2026-04-10",
+    "time": "21:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "The Ground Beneath Our Feet",
+      "zh": "生命的美麗終章"
+    },
+    "filmId": "the-ground-beneath-our-feet",
+    "duration": 82,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "10AC01",
+    "date": "2026-04-10",
+    "time": "14:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Barbara Forever",
+      "zh": "平生覺：芭芭拉漢瑪的酷兒路"
+    },
+    "filmId": "barbara-forever",
+    "duration": 102,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "10AC02",
+    "date": "2026-04-10",
+    "time": "17:00",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Sorrows and Joys of a Middle-Aged Man",
+      "zh": "哀樂中年"
+    },
+    "filmId": "sorrows-and-joys-of-a-middle-aged-man",
+    "duration": 110,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "10AC03",
+    "date": "2026-04-10",
+    "time": "19:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "World Animation for Adults",
+      "zh": "成人動畫精選"
+    },
+    "filmId": "world-animation-for-adults",
+    "duration": 65,
+    "pageRef": "p.104"
+  },
+  {
+    "screeningCode": "10AC04",
+    "date": "2026-04-10",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Short Film Competition Programme I",
+      "zh": "國際短片競賽節目（一）"
+    },
+    "filmId": "short-film-competition-programme-i",
+    "duration": 101,
+    "pageRef": "p.55"
+  },
+  {
+    "screeningCode": "11KG01",
+    "date": "2026-04-11",
+    "time": "14:00",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Three Colours: Blue",
+      "zh": "藍白紅三部曲之藍"
+    },
+    "filmId": "three-colours-blue",
+    "duration": 94,
+    "pageRef": "p.31"
+  },
+  {
+    "screeningCode": "11KGE1",
+    "date": "2026-04-11",
+    "time": "15:40",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Master Class: Juliette Binoche",
+      "zh": "茱麗葉庇洛仙大師班"
+    },
+    "filmId": "master-class-juliette-binoche",
+    "pageRef": "p.66",
+    "event": {
+      "type": "master-class",
+      "speaker": "茱麗葉庇洛仙"
+    }
+  },
+  {
+    "screeningCode": "11KG02",
+    "date": "2026-04-11",
+    "time": "17:45",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Nouvelle Vague",
+      "zh": "斷了氣中戲"
+    },
+    "filmId": "nouvelle-vague",
+    "duration": 106,
+    "pageRef": "p.27,40"
+  },
+  {
+    "screeningCode": "11KG03",
+    "date": "2026-04-11",
+    "time": "20:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Silent Friend",
+      "zh": "寂靜的朋友"
+    },
+    "filmId": "silent-friend",
+    "duration": 145,
+    "pageRef": "p.27"
+  },
+  {
+    "screeningCode": "11EK01",
+    "date": "2026-04-11",
+    "time": "18:15",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Yellow Earth",
+      "zh": "黃土地"
+    },
+    "filmId": "yellow-earth",
+    "duration": 89,
+    "pageRef": "p.35"
+  },
+  {
+    "screeningCode": "11EK02",
+    "date": "2026-04-11",
+    "time": "20:45",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Certified Copy",
+      "zh": "似是有緣人"
+    },
+    "filmId": "certified-copy",
+    "duration": 106,
+    "pageRef": "p.31"
+  },
+  {
+    "screeningCode": "11IS01",
+    "date": "2026-04-11",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Ash is Purest White",
+      "zh": "江湖兒女"
+    },
+    "filmId": "ash-is-purest-white",
+    "duration": 137,
+    "pageRef": "p.62"
+  },
+  {
+    "screeningCode": "11IS02",
+    "date": "2026-04-11",
+    "time": "15:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Sword",
+      "zh": "名劍"
+    },
+    "filmId": "the-sword",
+    "duration": 89,
+    "pageRef": "p.34"
+  },
+  {
+    "screeningCode": "11IS03",
+    "date": "2026-04-11",
+    "time": "17:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "PanelStory, or How a Housing Development Is Born",
+      "zh": "模範公屋"
+    },
+    "filmId": "panelstory-or-how-a-housing-development-is-born",
+    "duration": 101,
+    "pageRef": "p.117"
+  },
+  {
+    "screeningCode": "11IS04",
+    "date": "2026-04-11",
+    "time": "19:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "After the Hunt",
+      "zh": "誣網之後"
+    },
+    "filmId": "after-the-hunt",
+    "duration": 139,
+    "pageRef": "p.40"
+  },
+  {
+    "screeningCode": "11IS05",
+    "date": "2026-04-11",
+    "time": "22:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Sangre Del Toro",
+      "zh": "戴拖路的血色美學"
+    },
+    "filmId": "sangre-del-toro",
+    "duration": 85,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "11GL01",
+    "date": "2026-04-11",
+    "time": "12:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Sundays",
+      "zh": "十七歲的聖召"
+    },
+    "filmId": "sundays",
+    "duration": 117,
+    "pageRef": "p.86"
+  },
+  {
+    "screeningCode": "11GL02",
+    "date": "2026-04-11",
+    "time": "15:00",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Rose",
+      "zh": "撲朔迷離的露絲"
+    },
+    "filmId": "rose",
+    "duration": 93,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "11GL03",
+    "date": "2026-04-11",
+    "time": "17:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "17",
+      "zh": "無聲的成人禮"
+    },
+    "filmId": "17",
+    "duration": 105,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "11GL04",
+    "date": "2026-04-11",
+    "time": "20:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Redoubt",
+      "zh": "愚夫之堡"
+    },
+    "filmId": "redoubt",
+    "duration": 81,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "11GL05",
+    "date": "2026-04-11",
+    "time": "22:15",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Variations on a Theme",
+      "zh": "沒有人寄錢給外婆"
+    },
+    "filmId": "variations-on-a-theme",
+    "duration": 65,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "11PE01",
+    "date": "2026-04-11",
+    "time": "12:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Dating Menu",
+      "zh": "廚師發辦"
+    },
+    "filmId": "the-dating-menu",
+    "duration": 100,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "11PE02",
+    "date": "2026-04-11",
+    "time": "15:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Linka Linka",
+      "zh": "一個夜晚與三個夏天"
+    },
+    "filmId": "linka-linka",
+    "duration": 100,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "11PE03",
+    "date": "2026-04-11",
+    "time": "17:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Number 23",
+      "zh": "地下美人"
+    },
+    "filmId": "number-23",
+    "duration": 91,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "11PE04",
+    "date": "2026-04-11",
+    "time": "20:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Ah Girl",
+      "zh": "泡泡糖女孩"
+    },
+    "filmId": "ah-girl",
+    "duration": 94,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "11PE05",
+    "date": "2026-04-11",
+    "time": "22:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "The Tale of Silyan",
+      "zh": "鸛鳥桑田"
+    },
+    "filmId": "the-tale-of-silyan",
+    "duration": 81,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "11MC01",
+    "date": "2026-04-11",
+    "time": "14:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Mary Stephen: Shades of Silk & Shorts",
+      "zh": "雪美蓮：《絲之影》短片集錦"
+    },
+    "filmId": "mary-stephen-shades-of-silk-shorts",
+    "duration": 98,
+    "pageRef": "p.79"
+  },
+  {
+    "screeningCode": "11MCE1",
+    "date": "2026-04-11",
+    "time": "17:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Seminar on Film Editing",
+      "zh": "電影剪接座談會"
+    },
+    "filmId": "seminar-on-film-editing",
+    "pageRef": "p.70",
+    "event": {
+      "type": "seminar"
+    }
+  },
+  {
+    "screeningCode": "11MC02",
+    "date": "2026-04-11",
+    "time": "19:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Palimpsest: The Story of a Name",
+      "zh": "隱蹟之書：重寫自我"
+    },
+    "filmId": "palimpsest-the-story-of-a-name",
+    "duration": 109,
+    "pageRef": "p.79"
+  },
+  {
+    "screeningCode": "11TS01",
+    "date": "2026-04-11",
+    "time": "14:45",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Past Future Continuous",
+      "zh": "過去未來進行式"
+    },
+    "filmId": "past-future-continuous",
+    "duration": 76,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "11TS02",
+    "date": "2026-04-11",
+    "time": "17:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "The English Patient",
+      "zh": "別問我是誰"
+    },
+    "filmId": "the-english-patient",
+    "duration": 162,
+    "pageRef": "p.31"
+  },
+  {
+    "screeningCode": "11TS03",
+    "date": "2026-04-11",
+    "time": "20:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Do You Love Me",
+      "zh": "貝魯特，你還愛我嗎？"
+    },
+    "filmId": "do-you-love-me",
+    "duration": 75,
+    "pageRef": "p.92"
+  },
+  {
+    "screeningCode": "11TS04",
+    "date": "2026-04-11",
+    "time": "22:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Goodbye Sisters",
+      "zh": "蟲草姊妹花"
+    },
+    "filmId": "goodbye-sisters",
+    "duration": 90,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "11AC01",
+    "date": "2026-04-11",
+    "time": "12:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
+      "zh": "昔文今讀安妮艾諾"
+    },
+    "filmId": "writing-life-annie-ernaux-through-the-eyes-of-high-school-students",
+    "duration": 90,
+    "pageRef": "p.93"
+  },
+  {
+    "screeningCode": "11AC02",
+    "date": "2026-04-11",
+    "time": "14:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Mare's Nest",
+      "zh": "願這世界如童話"
+    },
+    "filmId": "mares-nest",
+    "duration": 98,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "11AC03",
+    "date": "2026-04-11",
+    "time": "17:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Pin de Fartie",
+      "zh": "無何有變奏"
+    },
+    "filmId": "pin-de-fartie",
+    "duration": 106,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "11AC04",
+    "date": "2026-04-11",
+    "time": "19:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Avant Garde Shorts Programme",
+      "zh": "前衛短片專輯"
+    },
+    "filmId": "avant-garde-shorts-programme",
+    "duration": 82,
+    "pageRef": "p.113"
+  },
+  {
+    "screeningCode": "11AC05",
+    "date": "2026-04-11",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Short Film Competition Programme II",
+      "zh": "國際短片競賽節目（二）"
+    },
+    "filmId": "short-film-competition-programme-ii",
+    "duration": 100,
+    "pageRef": "p.56"
+  },
+  {
+    "screeningCode": "12KG01",
+    "date": "2026-04-12",
+    "time": "14:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Queen at Sea",
+      "zh": "欲愛流離"
+    },
+    "filmId": "queen-at-sea",
+    "duration": 121,
+    "pageRef": "p.27"
+  },
+  {
+    "screeningCode": "12KG02",
+    "date": "2026-04-12",
+    "time": "19:30",
+    "venueId": "KG",
+    "filmTitle": {
+      "en": "Cyclone",
+      "zh": "超風"
+    },
+    "filmId": "cyclone",
+    "duration": 119,
+    "pageRef": "p.26"
+  },
+  {
+    "screeningCode": "12EK01",
+    "date": "2026-04-12",
+    "time": "17:30",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Dust in the Wind",
+      "zh": "戀戀風塵"
+    },
+    "filmId": "dust-in-the-wind",
+    "duration": 113,
+    "pageRef": "p.36"
+  },
+  {
+    "screeningCode": "12EK02",
+    "date": "2026-04-12",
+    "time": "20:30",
+    "venueId": "EK",
+    "filmTitle": {
+      "en": "Cyclone",
+      "zh": "超風"
+    },
+    "filmId": "cyclone",
+    "duration": 119,
+    "pageRef": "p.26"
+  },
+  {
+    "screeningCode": "12IS01",
+    "date": "2026-04-12",
+    "time": "12:30",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Nighttime Sounds",
+      "zh": "你的眼睛比太陽明亮"
+    },
+    "filmId": "nighttime-sounds",
+    "duration": 89,
+    "pageRef": "p.47"
+  },
+  {
+    "screeningCode": "12IS02",
+    "date": "2026-04-12",
+    "time": "14:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Christophers",
+      "zh": "The Christophers"
+    },
+    "filmId": "the-christophers",
+    "duration": 100,
+    "pageRef": "p.40"
+  },
+  {
+    "screeningCode": "12IS03",
+    "date": "2026-04-12",
+    "time": "16:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "The Stranger",
+      "zh": "異鄉人"
+    },
+    "filmId": "the-stranger",
+    "duration": 122,
+    "pageRef": "p.43"
+  },
+  {
+    "screeningCode": "12IS04",
+    "date": "2026-04-12",
+    "time": "19:15",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "A Poet",
+      "zh": "詩佬正傳之誤人子弟"
+    },
+    "filmId": "a-poet",
+    "duration": 122,
+    "pageRef": "p.88"
+  },
+  {
+    "screeningCode": "12IS05",
+    "date": "2026-04-12",
+    "time": "21:45",
+    "venueId": "IS",
+    "filmTitle": {
+      "en": "Sleep No More",
+      "zh": "斷手爛腳鬼工廠"
+    },
+    "filmId": "sleep-no-more",
+    "duration": 96,
+    "pageRef": "p.108"
+  },
+  {
+    "screeningCode": "12GL01",
+    "date": "2026-04-12",
+    "time": "12:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "The Ivy",
+      "zh": "藤愛"
+    },
+    "filmId": "the-ivy",
+    "duration": 99,
+    "pageRef": "p.50"
+  },
+  {
+    "screeningCode": "12GL02",
+    "date": "2026-04-12",
+    "time": "15:30",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "Blue Heron",
+      "zh": "青鷺與少年"
+    },
+    "filmId": "blue-heron",
+    "duration": 90,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "12GL03",
+    "date": "2026-04-12",
+    "time": "17:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "World Animation",
+      "zh": "世界動畫精選"
+    },
+    "filmId": "world-animation",
+    "duration": 67,
+    "pageRef": "p.103"
+  },
+  {
+    "screeningCode": "12GL04",
+    "date": "2026-04-12",
+    "time": "19:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "World Animation for Adults",
+      "zh": "成人動畫精選"
+    },
+    "filmId": "world-animation-for-adults",
+    "duration": 65,
+    "pageRef": "p.104"
+  },
+  {
+    "screeningCode": "12GL05",
+    "date": "2026-04-12",
+    "time": "21:45",
+    "venueId": "GL",
+    "filmTitle": {
+      "en": "How to Divorce During the War",
+      "zh": "分居總要在戰時"
+    },
+    "filmId": "how-to-divorce-during-the-war",
+    "duration": 108,
+    "pageRef": "p.49"
+  },
+  {
+    "screeningCode": "12PE01",
+    "date": "2026-04-12",
+    "time": "12:30",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Spare Queens",
+      "zh": "大分瓶"
+    },
+    "filmId": "spare-queens",
+    "duration": 92,
+    "pageRef": "p.28"
+  },
+  {
+    "screeningCode": "12PE02",
+    "date": "2026-04-12",
+    "time": "15:15",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Aniki-Bóbó",
+      "zh": "點指兵兵小靈精"
+    },
+    "filmId": "aniki-bobo",
+    "duration": 72,
+    "pageRef": "p.116"
+  },
+  {
+    "screeningCode": "12PE03",
+    "date": "2026-04-12",
+    "time": "17:00",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Adam's Sake",
+      "zh": "母愛難治"
+    },
+    "filmId": "adams-sake",
+    "duration": 75,
+    "pageRef": "p.84"
+  },
+  {
+    "screeningCode": "12PE04",
+    "date": "2026-04-12",
+    "time": "18:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "A Dance with Rainbows",
+      "zh": "恨女的逆襲"
+    },
+    "filmId": "a-dance-with-rainbows",
+    "duration": 122,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "12PE05",
+    "date": "2026-04-12",
+    "time": "21:45",
+    "venueId": "PE",
+    "filmTitle": {
+      "en": "Amoeba",
+      "zh": "核"
+    },
+    "filmId": "amoeba",
+    "duration": 98,
+    "pageRef": "p.46"
+  },
+  {
+    "screeningCode": "12MC01",
+    "date": "2026-04-12",
+    "time": "14:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "The Ozu Diaries",
+      "zh": "小津日記"
+    },
+    "filmId": "the-ozu-diaries",
+    "duration": 140,
+    "pageRef": "p.95"
+  },
+  {
+    "screeningCode": "12MC02",
+    "date": "2026-04-12",
+    "time": "17:00",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "Private Revolutions, Public Spaces",
+      "zh": "私人革命 公共空間"
+    },
+    "filmId": "private-revolutions-public-spaces-works-from-the-m-asian-avant-garde-film-collection",
+    "duration": 65,
+    "pageRef": "p.112"
+  },
+  {
+    "screeningCode": "12MC03",
+    "date": "2026-04-12",
+    "time": "19:30",
+    "venueId": "MC",
+    "filmTitle": {
+      "en": "In-I in Motion",
+      "zh": "尋你我，覓自己"
+    },
+    "filmId": "in-i-in-motion",
+    "duration": 124,
+    "pageRef": "p.31"
+  },
+  {
+    "screeningCode": "12TS01",
+    "date": "2026-04-12",
+    "time": "12:30",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Elephants & Squirrels",
+      "zh": "大象與松鼠"
+    },
+    "filmId": "elephants-squirrels",
+    "duration": 115,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "12TS02",
+    "date": "2026-04-12",
+    "time": "15:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Whispers in the Woods",
+      "zh": "林中天籟"
+    },
+    "filmId": "whispers-in-the-woods",
+    "duration": 93,
+    "pageRef": "p.53"
+  },
+  {
+    "screeningCode": "12TS03",
+    "date": "2026-04-12",
+    "time": "17:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "My Wife Cries",
+      "zh": "妻之淚"
+    },
+    "filmId": "my-wife-cries",
+    "duration": 93,
+    "pageRef": "p.42"
+  },
+  {
+    "screeningCode": "12TS04",
+    "date": "2026-04-12",
+    "time": "19:15",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "Good Valley Stories",
+      "zh": "從前有個快活谷"
+    },
+    "filmId": "good-valley-stories",
+    "duration": 122,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "12TS05",
+    "date": "2026-04-12",
+    "time": "22:00",
+    "venueId": "TS",
+    "filmTitle": {
+      "en": "All My Sisters",
+      "zh": "伊朗女孩十八變"
+    },
+    "filmId": "all-my-sisters",
+    "duration": 78,
+    "pageRef": "p.52"
+  },
+  {
+    "screeningCode": "12AC01",
+    "date": "2026-04-12",
+    "time": "12:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Caught by the Tides",
+      "zh": "風流一代"
+    },
+    "filmId": "caught-by-the-tides",
+    "duration": 111,
+    "pageRef": "p.63"
+  },
+  {
+    "screeningCode": "12AC02",
+    "date": "2026-04-12",
+    "time": "15:15",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Jia Zhangke, a Guy from Fenyang",
+      "zh": "汾陽小子賈樟柯"
+    },
+    "filmId": "jia-zhangke-a-guy-from-fenyang",
+    "duration": 105,
+    "pageRef": "p.63"
+  },
+  {
+    "screeningCode": "12AC03",
+    "date": "2026-04-12",
+    "time": "17:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Final Victory",
+      "zh": "最後勝利"
+    },
+    "filmId": "final-victory",
+    "duration": 98,
+    "pageRef": "p.65"
+  },
+  {
+    "screeningCode": "12AC04",
+    "date": "2026-04-12",
+    "time": "19:45",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Everything Else is Noise",
+      "zh": "噪音滋滋處處聞"
+    },
+    "filmId": "everything-else-is-noise",
+    "duration": 70,
+    "pageRef": "p.87"
+  },
+  {
+    "screeningCode": "12AC05",
+    "date": "2026-04-12",
+    "time": "21:30",
+    "venueId": "AC",
+    "filmTitle": {
+      "en": "Short Film Competition Programme III",
+      "zh": "國際短片競賽節目（三）"
+    },
+    "filmId": "short-film-competition-programme-iii",
+    "duration": 100,
+    "pageRef": "p.57"
+  }
+]

@@ -19,6 +19,19 @@ export type Film = {
   letterboxdSlug?: string;
 };
 
+export type ScreeningEventType =
+  | "master-class"
+  | "face-to-face"
+  | "seminar"
+  | "post-talk"
+  | "pre-talk";
+
+export type ScreeningEvent = {
+  type: ScreeningEventType;
+  speaker?: string;
+  language?: string;
+};
+
 export type Screening = {
   id: string;
   filmId: string;
@@ -29,6 +42,7 @@ export type Screening = {
   screeningCode: string;
   ticketUrl: string;
   guestAttend?: boolean;
+  event?: ScreeningEvent;
 };
 
 export type Venue = {
