@@ -39,8 +39,11 @@ export default async function HomePage({ params }: Props) {
               <>香港國際電影節</>
             )}
           </h1>
-          <p className="animate-fade-up delay-2 text-lg text-[#DC2626] font-medium tracking-wide mb-10">
+          <p className="animate-fade-up delay-2 text-lg text-[#DC2626] font-medium tracking-wide mb-2">
             {t("dates")}
+          </p>
+          <p className="animate-fade-up delay-2 text-sm text-neutral-400 mb-10">
+            {t("subtitle-2")}
           </p>
           <div className="animate-fade-up delay-3 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
