@@ -17,11 +17,18 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-export const metadata: Metadata = {
-  title: "HKIFF 50 — Hong Kong International Film Festival",
-  description:
-    "The 50th Hong Kong International Film Festival. Browse films, screenings, and the full schedule.",
-};
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  return locale === "zh"
+    ? {
+        title: "香港國際電影節 選片及排片小幫手",
+        description: "第五十屆香港國際電影節。瀏覽電影、放映場次及完整節目表。",
+      }
+    : {
+        title: "HKIFF 50 — Film Selection and Scheduler",
+        description: "The 50th Hong Kong International Film Festival. Browse films, screenings, and the full schedule.",
+      };
+}
 
 type Props = {
   children: React.ReactNode;
