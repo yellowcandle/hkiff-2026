@@ -32,7 +32,7 @@
     "runtime": 119,
     "language": "CHI",
     "subtitles": null,
-    "synopsis": "Following Ilo Ilo and Wet Season, Chen closes the loop on his ‘Growing Up’ Trilogy with another poignant family drama, setting the landmark as the first Singaporean film to compete for Berlinale’s Golden Bear Award. Two weddings highlight a romantic crisis in the lives of father and son in parallel, quietly reshaping the fragile balance between the two, as both confront love, loss, and responsibility. While redefining what family means, its sprawling, tumultuous narrative is simultaneously a portrayal of a modern Singapore, reflecting on the city-state’s conformism in thrall to westernised, patriarchal capitalist principles.",
+    "synopsis": null,
     "cast": "Liu Yuqiao, Edwynn Li, Jenny Suen",
     "section": "gala-presentation",
     "sections": [
@@ -49,7 +49,7 @@
   {
     "fid": "2783",
     "title": "17",
-    "titleZh": "Samba Infinito",
+    "titleZh": "無聲的成人禮",
     "director": "Kosara Mitic",
     "country": null,
     "year": null,
@@ -432,7 +432,7 @@
   {
     "fid": "2799",
     "title": "Aniki-Bóbó",
-    "titleZh": "Samba Infinito",
+    "titleZh": "點指兵兵小靈精",
     "director": "Manoel de Oliveira",
     "country": null,
     "year": null,
@@ -455,7 +455,7 @@
   {
     "fid": "2800",
     "title": "Ash is Purest White",
-    "titleZh": "Samba Infinito",
+    "titleZh": "江湖兒女",
     "director": "Jia Zhangke",
     "country": null,
     "year": null,
@@ -478,7 +478,7 @@
   {
     "fid": "2801",
     "title": "Avant Garde Shorts Programme",
-    "titleZh": "Samba Infinito",
+    "titleZh": "前衛短片專輯",
     "director": "Heidi Piiroinen, Viera Čákanyová, Chiara Caterina, Petna Ndaliko Katondolo",
     "country": null,
     "year": null,
@@ -573,7 +573,7 @@
   {
     "fid": "2805",
     "title": "Bashu, the Little Stranger",
-    "titleZh": null,
+    "titleZh": "小芭舒",
     "director": "Bahram Beyzaie",
     "country": "Iran",
     "year": 1989,
@@ -837,7 +837,7 @@
   {
     "fid": "2817",
     "title": "Divine Comedy",
-    "titleZh": "PER AZE",
+    "titleZh": "犯禁神作",
     "director": "Ali Asgari",
     "country": "Iran, Italy, France, Germany, Turkey",
     "year": 2025,
@@ -1029,7 +1029,7 @@
   {
     "fid": "2825",
     "title": "EPiC: Elvis Presley in Concert",
-    "titleZh": "Samba Infinito",
+    "titleZh": null,
     "director": "Baz Luhrmann",
     "country": null,
     "year": null,
@@ -1100,7 +1100,7 @@
   {
     "fid": "2828",
     "title": "Franz",
-    "titleZh": "Samba Infinito",
+    "titleZh": "拼貼卡夫卡",
     "director": "Agnieszka Holland",
     "country": null,
     "year": null,
@@ -1411,7 +1411,7 @@
   {
     "fid": "2841",
     "title": "Ice Grave",
-    "titleZh": "Samba Infinito",
+    "titleZh": "探險夢埋冰原下",
     "director": "Robin Hunzinger",
     "country": null,
     "year": null,
@@ -1434,7 +1434,7 @@
   {
     "fid": "2842",
     "title": "Ilo Ilo",
-    "titleZh": "Samba Infinito",
+    "titleZh": "爸媽不在家",
     "director": "Anthony Chen",
     "country": null,
     "year": null,
@@ -1529,7 +1529,7 @@
   {
     "fid": "2846",
     "title": "Joe Hsieh Animation Collection",
-    "titleZh": "Samba Infinito",
+    "titleZh": "謝文明動畫短片集",
     "director": "Joe Hsieh",
     "country": null,
     "year": null,
@@ -1744,7 +1744,7 @@
   {
     "fid": "2855",
     "title": "Mary Stephen: Shades of Silk & Shorts",
-    "titleZh": "Samba Infinito",
+    "titleZh": "雪美蓮：《絲之影》短片集錦",
     "director": "Mary Stephen",
     "country": null,
     "year": null,
@@ -1791,7 +1791,7 @@
   {
     "fid": "2857",
     "title": "Megadoc",
-    "titleZh": "ENG 超級大都會背後：直激哥普拉",
+    "titleZh": "超級大都會背後：直激哥普拉",
     "director": "Mike Figgis",
     "country": "USA",
     "year": 2025,
@@ -1815,7 +1815,7 @@
   {
     "fid": "2858",
     "title": "Memory",
-    "titleZh": "ICE 紅塵百劫話童年",
+    "titleZh": "紅塵百劫話童年",
     "director": "Vladlena Sandu",
     "country": "France, The Netherlands",
     "year": 2025,
@@ -1959,7 +1959,7 @@
   {
     "fid": "2864",
     "title": "My Father’s Shadow",
-    "titleZh": "PCM YOR ENG",
+    "titleZh": "爸爸的背影",
     "director": "Akinola Davies Jr.",
     "country": "UK, Nigeria",
     "year": 2025,
@@ -2007,7 +2007,7 @@
   {
     "fid": "2866",
     "title": "New Voices of Asia: Asian Short Film Fund Winning Projects",
-    "titleZh": "Samba Infinito",
+    "titleZh": "亞洲新聲浪：亞洲短片基金入選項目",
     "director": "Lin Htet Aung, Rachita Gorowala, Wei Dean",
     "country": null,
     "year": null,
@@ -2174,7 +2174,7 @@
   {
     "fid": "2873",
     "title": "Palimpsest: The Story of a Name",
-    "titleZh": "Samba Infinito",
+    "titleZh": "隱蹟之書：重寫自我",
     "director": "Mary Stephen",
     "country": null,
     "year": null,
@@ -2197,7 +2197,7 @@
   {
     "fid": "2874",
     "title": "PanelStory, or How a Housing Development Is Born",
-    "titleZh": "CZE",
+    "titleZh": "模範公屋",
     "director": "Věra Chytilová",
     "country": "Czechoslovakia",
     "year": 1979,
@@ -2245,7 +2245,7 @@
   {
     "fid": "2876",
     "title": "Phantoms of July",
-    "titleZh": "GER IRA",
+    "titleZh": "七月尋幽記",
     "director": "Julian Radlmaier",
     "country": "Germany",
     "year": 2025,
@@ -2341,7 +2341,7 @@
   {
     "fid": "2880",
     "title": "Private Revolutions, Public Spaces: Works from the M+ Asian Avant-Garde Film Collection",
-    "titleZh": "Samba Infinito",
+    "titleZh": "私人革命 公共空間：M+「亞洲前衛電影典藏」作品",
     "director": "Han Ok-hi, Chen Chieh-Jen, Nick Deocampo",
     "country": null,
     "year": null,
@@ -2484,7 +2484,7 @@
   {
     "fid": "2886",
     "title": "Romería",
-    "titleZh": "HUN 這年夏天，愛之尋謎",
+    "titleZh": "這年夏天，愛之尋謎",
     "director": "Carla Simón",
     "country": "Spain, Germany",
     "year": 2025,
@@ -2556,7 +2556,7 @@
   {
     "fid": "2889",
     "title": "Saccharine",
-    "titleZh": "Samba Infinito",
+    "titleZh": "瘦怨",
     "director": "Natalie Erika James",
     "country": null,
     "year": null,
@@ -2603,7 +2603,7 @@
   {
     "fid": "2891",
     "title": "Salvation",
-    "titleZh": "TUR KUR",
+    "titleZh": "假救贖之名",
     "director": "Emin Alper",
     "country": "Turkey, France, The Netherlands, Greece",
     "year": 2026,
@@ -2651,7 +2651,7 @@
   {
     "fid": "2893",
     "title": "Shanghai Daughter",
-    "titleZh": "CHI 上海女兒",
+    "titleZh": "上海女兒",
     "director": "Agnis Shen",
     "country": "Putonghua",
     "year": 2026,
@@ -2699,7 +2699,7 @@
   {
     "fid": "2895",
     "title": "Short Film Competition Programme I",
-    "titleZh": "Samba Infinito",
+    "titleZh": "國際短片競賽節目（一）",
     "director": "Yang Yuxin, Bálint Kenyeres, Ross McClean, Leonardo Martinelli, Basma al-Sharif, Jem Cohen",
     "country": null,
     "year": null,
@@ -2722,7 +2722,7 @@
   {
     "fid": "2896",
     "title": "Short Film Competition Programme II",
-    "titleZh": "Samba Infinito",
+    "titleZh": "國際短片競賽節目（二）",
     "director": "Ananth Subramaniam, Jocelyn Charles, Lucila Mariani, Christian Avilés, Maryam Tafakory, Fanny Texier",
     "country": null,
     "year": null,
@@ -2745,7 +2745,7 @@
   {
     "fid": "2897",
     "title": "Short Film Competition Programme III",
-    "titleZh": "Samba Infinito",
+    "titleZh": "國際短片競賽節目（三）",
     "director": "Kyrylo Zemlyanyi, Igor Smola, Radheya Jang, Irene Baqué, EXYL, Niles Atallah",
     "country": null,
     "year": null,
@@ -2840,7 +2840,7 @@
   {
     "fid": "2901",
     "title": "Sorrows and Joys of a Middle-Aged Man",
-    "titleZh": null,
+    "titleZh": "哀樂中年",
     "director": "Sang Hu",
     "country": "Putonghua",
     "year": 1949,
@@ -3080,7 +3080,7 @@
   {
     "fid": "2911",
     "title": "The Christophers",
-    "titleZh": "Supported by",
+    "titleZh": null,
     "director": "Steven Soderbergh",
     "country": "UK, USA",
     "year": 2025,
@@ -3128,7 +3128,7 @@
   {
     "fid": "2913",
     "title": "The Currents",
-    "titleZh": "ENG 心湖的漩渦",
+    "titleZh": "心湖的漩渦",
     "director": "Milagros Mumenthaler",
     "country": "Switzerland, Argentina",
     "year": 2025,
@@ -3272,7 +3272,7 @@
   {
     "fid": "2919",
     "title": "The Horse Thief",
-    "titleZh": "CHI 盜馬賊",
+    "titleZh": "盜馬賊",
     "director": "Tian Zhuangzhuang",
     "country": "Tibetan",
     "year": 1986,
@@ -3320,7 +3320,7 @@
   {
     "fid": "2921",
     "title": "The Last Blossom",
-    "titleZh": "SRD 再見鳳仙花",
+    "titleZh": "再見鳳仙花",
     "director": "Kinoshita Baku",
     "country": "Japan",
     "year": 2025,
@@ -3344,7 +3344,7 @@
   {
     "fid": "2922",
     "title": "The Last Viking",
-    "titleZh": "夾 Band 尋寶維京佬",
+    "titleZh": "夾Band 尋寶維京佬",
     "director": "Anders Thomas Jensen",
     "country": "Denmark",
     "year": 2025,
@@ -3488,7 +3488,7 @@
   {
     "fid": "2928",
     "title": "The Stars and Moon are Holes in the Sky",
-    "titleZh": "IND 星與月是天上的洞",
+    "titleZh": "星與月是天上的洞",
     "director": "Arai Haruhiko",
     "country": "Japan",
     "year": 2025,
@@ -3728,7 +3728,7 @@
   {
     "fid": "2938",
     "title": "Truly Naked",
-    "titleZh": "ENG THA 我的初戀赤裸裸",
+    "titleZh": "我的初戀赤裸裸",
     "director": "Muriel d’Ansembourg",
     "country": "The Netherlands, Belgium, France",
     "year": 2026,
@@ -3752,7 +3752,7 @@
   {
     "fid": "2939",
     "title": "Two Prosecutors",
-    "titleZh": "POR SPA FIL FRE 檢察官的密函（暫譯）",
+    "titleZh": "檢察官的密函（暫譯）",
     "director": "Sergei Loznitsa",
     "country": "France, Germany, The Netherlands",
     "year": 2025,
@@ -3872,7 +3872,7 @@
   {
     "fid": "2945",
     "title": "We are the Fruits of the Forest",
-    "titleZh": "Samba Infinito",
+    "titleZh": "我們是森林之果",
     "director": "Rithy Panh",
     "country": null,
     "year": null,
@@ -3919,7 +3919,7 @@
   {
     "fid": "2947",
     "title": "Wet Season",
-    "titleZh": "Samba Infinito",
+    "titleZh": "熱帶雨",
     "director": "Anthony Chen",
     "country": null,
     "year": null,
@@ -3990,7 +3990,7 @@
   {
     "fid": "2950",
     "title": "World Animation",
-    "titleZh": "Samba Infinito",
+    "titleZh": "世界動畫精選",
     "director": "Luca Schenato, Sinem Vardarli, Zhou Shengwei, Natalia Mirzoyan, Martín André, Josefina Montino, Malek Eghbali",
     "country": null,
     "year": null,
@@ -4013,7 +4013,7 @@
   {
     "fid": "2951",
     "title": "World Animation for Adults",
-    "titleZh": "Samba Infinito",
+    "titleZh": "成人動畫精選",
     "director": "Maida Srabović, Leo Černic, Levi Stoops, Niko Radas, Joung Yumi",
     "country": null,
     "year": null,
@@ -4036,7 +4036,7 @@
   {
     "fid": "2952",
     "title": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
-    "titleZh": "Samba Infinito",
+    "titleZh": "昔文今讀安妮艾諾",
     "director": "Claire Simon",
     "country": null,
     "year": null,
@@ -4059,7 +4059,7 @@
   {
     "fid": "2953",
     "title": "Xiao Shan Going Home / In Public",
-    "titleZh": "Samba Infinito",
+    "titleZh": "小山回家／公共場所",
     "director": "Jia Zhangke",
     "country": null,
     "year": null,
@@ -4154,7 +4154,7 @@
   {
     "fid": "2957",
     "title": "Yes",
-    "titleZh": "We are the Fruits of the Forest (Nous Sommes les Fruits de la Forêt)",
+    "titleZh": "狂舔夫妻檔",
     "director": "Nadav Lapid",
     "country": null,
     "year": null,

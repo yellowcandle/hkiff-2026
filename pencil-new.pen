@@ -150,7 +150,8 @@
               "fill": "#666666",
               "content": "49th Edition",
               "fontFamily": "Inter",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             },
             {
               "type": "text",
@@ -885,8 +886,8 @@
           "id": "vjZzL",
           "name": "footer",
           "width": "fill_container",
-          "height": 64,
-          "fill": "#0D0D0D",
+          "height": 80,
+          "fill": "#0A0A0A",
           "padding": [
             0,
             80
@@ -895,28 +896,89 @@
           "alignItems": "center",
           "children": [
             {
-              "type": "text",
-              "id": "0U5GY",
-              "fill": "#555555",
-              "content": "© 2026 Hong Kong International Film Festival Society",
-              "fontFamily": "Inter",
-              "fontSize": 12,
-              "fontWeight": "normal"
+              "type": "frame",
+              "id": "70RFu",
+              "name": "ftLeft",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V9eZk",
+                  "name": "ftCopy",
+                  "fill": "#6B6B6B",
+                  "content": "© 2026 Hong Kong International Film Festival Society.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Ekgcc",
+                  "name": "ftDiscl",
+                  "fill": "#525252",
+                  "content": "Unofficial fan project. Not affiliated with HKIFFS.",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
             },
             {
               "type": "frame",
-              "id": "P82TB",
-              "name": "footLinks",
-              "gap": 24,
+              "id": "DFAXi",
+              "name": "ftRight",
+              "gap": 16,
               "alignItems": "center",
               "children": [
                 {
                   "type": "text",
-                  "id": "LbcAX",
-                  "fill": "#555555",
-                  "content": "Privacy · Terms · Contact",
+                  "id": "5rxfh",
+                  "name": "ftL1",
+                  "fill": "#A3A3A3",
+                  "content": "hkiff.org.hk ↗",
                   "fontFamily": "Inter",
-                  "fontSize": 12,
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "se8Xd",
+                  "name": "ftDot1",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "qUDWF",
+                  "name": "ftL2",
+                  "fill": "#A3A3A3",
+                  "content": "Threads ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fSDEi",
+                  "name": "ftDot2",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SXVfw",
+                  "name": "ftL3",
+                  "fill": "#A3A3A3",
+                  "content": "GitHub ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
                   "fontWeight": "normal"
                 }
               ]
@@ -6144,6 +6206,110 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "f224v",
+          "name": "footer",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tr448",
+              "name": "f2L",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QY4Rg",
+                  "name": "f2c",
+                  "fill": "#6B6B6B",
+                  "content": "© 2026 Hong Kong International Film Festival Society.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JPE5N",
+                  "name": "f2d",
+                  "fill": "#525252",
+                  "content": "Unofficial fan project. Not affiliated with HKIFFS.",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IXvoS",
+              "name": "f2R",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "RK79d",
+                  "name": "f2a",
+                  "fill": "#A3A3A3",
+                  "content": "hkiff.org.hk ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RXPla",
+                  "name": "f2b",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "c6hD3",
+                  "name": "f2e",
+                  "fill": "#A3A3A3",
+                  "content": "Threads ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "h2V9c",
+                  "name": "f2f",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "0YctO",
+                  "name": "f2g",
+                  "fill": "#A3A3A3",
+                  "content": "GitHub ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6270,7 +6436,8 @@
               "name": "backArrow",
               "fill": "#666",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -6767,6 +6934,30 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gUkKY",
+                          "name": "guestBadge",
+                          "width": "fill_container",
+                          "fill": "#F3E8FF",
+                          "cornerRadius": 4,
+                          "gap": 4,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "gz4Xj",
+                              "fill": "#7C3AED",
+                              "fontFamily": "Inter",
+                              "fontSize": 11,
+                              "fontWeight": "500"
+                            }
+                          ]
                         }
                       ]
                     },
@@ -6862,6 +7053,110 @@
                       ]
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v2zbP",
+          "name": "footer",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "MqziW",
+              "name": "f3L",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kXQF0",
+                  "name": "f3c",
+                  "fill": "#6B6B6B",
+                  "content": "© 2026 Hong Kong International Film Festival Society.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ubgiy",
+                  "name": "f3d",
+                  "fill": "#525252",
+                  "content": "Unofficial fan project. Not affiliated with HKIFFS.",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ySyHU",
+              "name": "f3R",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "A1MBj",
+                  "name": "f3a",
+                  "fill": "#A3A3A3",
+                  "content": "hkiff.org.hk ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "hW3Eh",
+                  "name": "f3b",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "91jXC",
+                  "name": "f3e",
+                  "fill": "#A3A3A3",
+                  "content": "Threads ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "mnpRN",
+                  "name": "f3f",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "NuCK7",
+                  "name": "f3g",
+                  "fill": "#A3A3A3",
+                  "content": "GitHub ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -7018,7 +7313,8 @@
                   "id": "68IV6",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7036,7 +7332,8 @@
                   "id": "xK3C5",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7054,7 +7351,8 @@
                   "id": "tYo7E",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7072,7 +7370,8 @@
                   "id": "IZse6",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7090,7 +7389,8 @@
                   "id": "93ilN",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7108,7 +7408,8 @@
                   "id": "gTtM8",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7126,7 +7427,8 @@
                   "id": "BH5Gn",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7144,7 +7446,8 @@
                   "id": "ZNBko",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7162,7 +7465,8 @@
                   "id": "LxOaZ",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7180,7 +7484,8 @@
                   "id": "Pptud",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -7198,7 +7503,8 @@
                   "id": "YmGR8",
                   "fill": "#666",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -7654,6 +7960,110 @@
                       "fontWeight": "normal"
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JTkyx",
+          "name": "footer",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "dL5js",
+              "name": "f4L",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YG5JQ",
+                  "name": "f4c",
+                  "fill": "#6B6B6B",
+                  "content": "© 2026 Hong Kong International Film Festival Society.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "0QAaM",
+                  "name": "f4d",
+                  "fill": "#525252",
+                  "content": "Unofficial fan project. Not affiliated with HKIFFS.",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vQUGr",
+              "name": "f4R",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Kiifv",
+                  "name": "f4a",
+                  "fill": "#A3A3A3",
+                  "content": "hkiff.org.hk ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oxM1C",
+                  "name": "f4b",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SBOSt",
+                  "name": "f4e",
+                  "fill": "#A3A3A3",
+                  "content": "Threads ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wm6ga",
+                  "name": "f4f",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "iSlwv",
+                  "name": "f4g",
+                  "fill": "#A3A3A3",
+                  "content": "GitHub ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
                 }
               ]
             }
@@ -8123,6 +8533,110 @@
                       "fontWeight": "normal"
                     }
                   ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4xVzU",
+          "name": "footer",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "#0A0A0A",
+          "padding": [
+            0,
+            80
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "9Qq9d",
+              "name": "f5L",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YI739",
+                  "name": "f5c",
+                  "fill": "#6B6B6B",
+                  "content": "© 2026 Hong Kong International Film Festival Society.",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Qhm6y",
+                  "name": "f5d",
+                  "fill": "#525252",
+                  "content": "Unofficial fan project. Not affiliated with HKIFFS.",
+                  "fontFamily": "Inter",
+                  "fontSize": 10,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5gPqZ",
+              "name": "f5R",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "fCImW",
+                  "name": "f5a",
+                  "fill": "#A3A3A3",
+                  "content": "hkiff.org.hk ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "u0hCF",
+                  "name": "f5b",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bWfXe",
+                  "name": "f5e",
+                  "fill": "#A3A3A3",
+                  "content": "Threads ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "SoEFq",
+                  "name": "f5f",
+                  "fill": "#404040",
+                  "content": "·",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "37RU5",
+                  "name": "f5g",
+                  "fill": "#A3A3A3",
+                  "content": "GitHub ↗",
+                  "fontFamily": "Inter",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
                 }
               ]
             }
