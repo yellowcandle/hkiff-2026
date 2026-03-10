@@ -1162,7 +1162,7 @@
   },
   {
     "id": "s-monte-cucina-01",
-    "filmId": "monte-cucina",
+    "filmId": "morte-cucina",
     "filmTitle": {
       "en": "Monte Cucina",
       "zh": "地慾廚房"
@@ -1362,7 +1362,7 @@
   },
   {
     "id": "s-the-day-diaries-01",
-    "filmId": "the-day-diaries",
+    "filmId": "the-ozu-diaries",
     "filmTitle": {
       "en": "The Day Diaries",
       "zh": "小津日記"
@@ -1375,7 +1375,7 @@
   },
   {
     "id": "s-in-public-01",
-    "filmId": "in-public",
+    "filmId": "xiao-shan-going-home-in-public",
     "filmTitle": {
       "en": "In Public",
       "zh": "公共場所"
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "s-romenia-01",
-    "filmId": "romenia",
+    "filmId": "romeria",
     "filmTitle": {
       "en": "Romenia",
       "zh": "這年夏天，愛之尋蹤"
@@ -1637,7 +1637,7 @@
   },
   {
     "id": "s-writing-life-annie-ernaux-01",
-    "filmId": "writing-life-annie-ernaux",
+    "filmId": "writing-life-annie-ernaux-through-the-eyes-of-high-school-students",
     "filmTitle": {
       "en": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
       "zh": "普文令書安妮艾諾"
@@ -1770,7 +1770,7 @@
   },
   {
     "id": "s-in-motion-01",
-    "filmId": "in-in-motion",
+    "filmId": "in-i-in-motion",
     "filmTitle": {
       "en": "In-I in Motion",
       "zh": "尋你，覓自己"
@@ -1836,7 +1836,7 @@
   },
   {
     "id": "s-in-public-02",
-    "filmId": "in-public",
+    "filmId": "xiao-shan-going-home-in-public",
     "filmTitle": {
       "en": "In Public",
       "zh": "公共場所"

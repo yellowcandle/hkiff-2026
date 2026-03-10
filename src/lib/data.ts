@@ -9,8 +9,10 @@ import sectionsData from "../../data/sections.json";
 
 function toSlug(title: string): string {
   return title
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // strip diacritics
     .toLowerCase()
-    .replace(/['']/g, "")
+    .replace(/['\u2018\u2019\u0060\u00B4]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 }
