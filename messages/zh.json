@@ -47,7 +47,7 @@
     "conflictWith": "與「{title}」時段衝突",
     "duplicateFilm": "你已在計劃中加入了此電影的另一場次",
     "inPlan": "已加入",
-    "addToPlan": "加入計劃",
+    "addToPlan": "加入排片計劃",
     "selected": "✓ 已選",
     "bookingCodes": "訂票編號"
   },

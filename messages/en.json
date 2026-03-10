@@ -37,7 +37,7 @@
     "noScreenings": "No screenings on this date."
   },
   "plan": {
-    "title": "My Plan",
+    "title": "My Watch Plan",
     "empty": "Your plan is empty. Start adding screenings from the film catalogue.",
     "browseFilms": "Browse Films",
     "share": "Share / Export",
@@ -47,7 +47,7 @@
     "conflictWith": "Conflicts with {title}",
     "duplicateFilm": "You already have another screening of this film in your plan",
     "inPlan": "In Plan",
-    "addToPlan": "Add to Plan",
+    "addToPlan": "Add to Watch Plan",
     "selected": "✓ Selected",
     "bookingCodes": "Booking codes"
   },
