@@ -26,9 +26,9 @@ export default async function HomePage({ params }: Props) {
       <section className="hero-gradient grain-overlay relative overflow-hidden">
         <div className="relative z-10 max-w-5xl mx-auto text-center px-4 py-28 sm:py-36">
           <p className="animate-fade-up text-[13px] uppercase tracking-[0.3em] text-neutral-400 font-medium mb-6">
-            {locale === "en" ? "The 50th Edition" : "第五十屆"}
+            {t("subtitle")}
           </p>
-          <h1 className="animate-fade-up delay-1 font-display text-5xl sm:text-7xl lg:text-8xl text-white leading-[0.95] tracking-tight mb-6 text-balance">
+          <h1 className="animate-fade-up delay-1 font-display text-5xl sm:text-7xl lg:text-8xl text-white leading-[0.95] tracking-tight mb-4 text-balance">
             {locale === "en" ? (
               <>
                 Hong Kong<br />
@@ -39,11 +39,11 @@ export default async function HomePage({ params }: Props) {
               <>香港國際電影節</>
             )}
           </h1>
-          <p className="animate-fade-up delay-2 text-lg text-[#DC2626] font-medium tracking-wide mb-2">
-            {t("dates")}
-          </p>
-          <p className="animate-fade-up delay-2 text-sm text-neutral-400 mb-10">
+          <p className="animate-fade-up delay-2 text-2xl sm:text-3xl text-neutral-300 font-medium tracking-wide mb-4">
             {t("subtitle-2")}
+          </p>
+          <p className="animate-fade-up delay-2 text-lg text-[#DC2626] font-medium tracking-wide mb-10">
+            {t("dates")}
           </p>
           <div className="animate-fade-up delay-3 flex flex-col sm:flex-row gap-4 justify-center">
             <Link
