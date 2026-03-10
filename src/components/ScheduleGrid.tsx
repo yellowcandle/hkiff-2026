@@ -86,6 +86,9 @@ export default function ScheduleGrid({ screenings, venues, films, date }: Props)
                           <p className="text-xs text-neutral-700 mt-0.5 max-w-[160px] line-clamp-2">
                             {film?.title[locale] ?? s.filmId}
                           </p>
+                          {s.guestAttend && (
+                            <p className="text-[10px] text-purple-600 mt-0.5">🎬 {locale === "en" ? "Guest" : "出席"}</p>
+                          )}
                         </Link>
                       );
                     })}

@@ -62,6 +62,11 @@ export default function ScreeningsList({ screenings, locale, filmId }: Props) {
                 <p className="text-neutral-500 text-xs">
                   {venue?.name[locale] ?? s.venueId} · [{s.screeningCode}]
                 </p>
+                {s.guestAttend && (
+                  <p className="text-xs text-purple-700 font-medium mt-0.5">
+                    🎬 {locale === "en" ? "Filmmaker/critic will attend" : "製作人／影評人將出席放映"}
+                  </p>
+                )}
               </div>
               <div className="flex items-center gap-2">
                 {s.ticketUrl && (

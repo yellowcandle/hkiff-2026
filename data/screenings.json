@@ -10,7 +10,8 @@
     "time": "19:30",
     "venueId": "kg",
     "screeningCode": "01KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2944"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2944",
+    "guestAttend": true
   },
   {
     "id": "s-woman-and-child-01",
@@ -88,7 +89,8 @@
     "time": "14:15",
     "venueId": "kg",
     "screeningCode": "02KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2956"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2956",
+    "guestAttend": true
   },
   {
     "id": "s-ghost-elephants-01",
@@ -114,7 +116,8 @@
     "time": "20:30",
     "venueId": "kg",
     "screeningCode": "02KG03",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2946"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2946",
+    "guestAttend": true
   },
   {
     "id": "s-calle-malaga-01",
@@ -192,7 +195,8 @@
     "time": "14:30",
     "venueId": "pe",
     "screeningCode": "02PE01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2802"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2802",
+    "guestAttend": true
   },
   {
     "id": "s-hair-paper-water-01",
@@ -218,7 +222,8 @@
     "time": "20:00",
     "venueId": "mc",
     "screeningCode": "02MC03",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2804"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2804",
+    "guestAttend": true
   },
   {
     "id": "s-orphan-01",
@@ -387,7 +392,8 @@
     "time": "14:30",
     "venueId": "kg",
     "screeningCode": "04KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2944"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2944",
+    "guestAttend": true
   },
   {
     "id": "s-the-drama-01",
@@ -517,7 +523,8 @@
     "time": "16:30",
     "venueId": "mc",
     "screeningCode": "04MC01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2894"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2894",
+    "guestAttend": true
   },
   {
     "id": "s-share-of-momo-01",
@@ -569,7 +576,8 @@
     "time": "14:00",
     "venueId": "kg",
     "screeningCode": "03KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2954"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2954",
+    "guestAttend": true
   },
   {
     "id": "s-sound-of-falling-01",
@@ -582,7 +590,8 @@
     "time": "15:30",
     "venueId": "mc",
     "screeningCode": "03MC01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2902"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2902",
+    "guestAttend": true
   },
   {
     "id": "s-cageman-01",
@@ -660,7 +669,8 @@
     "time": "17:45",
     "venueId": "kg",
     "screeningCode": "04KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2868"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2868",
+    "guestAttend": true
   },
   {
     "id": "s-truly-naked-01",
@@ -842,7 +852,8 @@
     "time": "12:30",
     "venueId": "ts",
     "screeningCode": "10TS01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2858"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2858",
+    "guestAttend": true
   },
   {
     "id": "s-the-love-that-remains-01",
@@ -907,7 +918,8 @@
     "time": "14:30",
     "venueId": "kg",
     "screeningCode": "07KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2898"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2898",
+    "guestAttend": true
   },
   {
     "id": "s-three-goodbyes-01",
@@ -985,7 +997,8 @@
     "time": "22:00",
     "venueId": "pe",
     "screeningCode": "07PE04",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2829"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2829",
+    "guestAttend": true
   },
   {
     "id": "s-the-drama-02",
@@ -998,7 +1011,8 @@
     "time": "22:00",
     "venueId": "pe",
     "screeningCode": "07PE04",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2916"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2916",
+    "guestAttend": true
   },
   {
     "id": "s-the-rocky-horror-picture-show-01",
@@ -1037,7 +1051,8 @@
     "time": "21:30",
     "venueId": "ek",
     "screeningCode": "08EK01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2914"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2914",
+    "guestAttend": true
   },
   {
     "id": "s-on-the-road-01",
@@ -1089,7 +1104,8 @@
     "time": "21:30",
     "venueId": "ac",
     "screeningCode": "08AC05",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2854"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2854",
+    "guestAttend": true
   },
   {
     "id": "s-spare-queens-01",
@@ -1102,7 +1118,8 @@
     "time": "21:30",
     "venueId": "kg",
     "screeningCode": "09KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2903"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2903",
+    "guestAttend": true
   },
   {
     "id": "s-after-the-hunt-02",
@@ -1167,7 +1184,8 @@
     "time": "22:00",
     "venueId": "pe",
     "screeningCode": "09PE04",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2867"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2867",
+    "guestAttend": true
   },
   {
     "id": "s-pin-de-fartie-01",
@@ -1193,7 +1211,8 @@
     "time": "19:30",
     "venueId": "kg",
     "screeningCode": "12KG02",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2814"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2814",
+    "guestAttend": true
   },
   {
     "id": "s-sleep-no-more-02",
@@ -1206,7 +1225,8 @@
     "time": "21:45",
     "venueId": "is",
     "screeningCode": "12IS05",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2900"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2900",
+    "guestAttend": true
   },
   {
     "id": "s-how-to-divorce-01",
@@ -1219,7 +1239,8 @@
     "time": "21:45",
     "venueId": "gl",
     "screeningCode": "12GL05",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2838"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2838",
+    "guestAttend": true
   },
   {
     "id": "s-amoeba-01",
@@ -1336,7 +1357,8 @@
     "time": "21:30",
     "venueId": "ac",
     "screeningCode": "12AC05",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2897"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2897",
+    "guestAttend": true
   },
   {
     "id": "s-the-day-diaries-01",
@@ -1492,7 +1514,8 @@
     "time": "14:00",
     "venueId": "kg",
     "screeningCode": "11KG01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2934"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2934",
+    "guestAttend": true
   },
   {
     "id": "s-nouvelle-vague-02",
@@ -1518,7 +1541,8 @@
     "time": "21:00",
     "venueId": "kg",
     "screeningCode": "11KG03",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2898"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2898",
+    "guestAttend": true
   },
   {
     "id": "s-ash-is-purest-white-01",
@@ -1635,7 +1659,8 @@
     "time": "10:15",
     "venueId": "ts",
     "screeningCode": "11TS04",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2834"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2834",
+    "guestAttend": true
   },
   {
     "id": "s-par-de-fartie-01",
@@ -1648,7 +1673,8 @@
     "time": "17:15",
     "venueId": "ac",
     "screeningCode": "11AC02",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2878"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2878",
+    "guestAttend": true
   },
   {
     "id": "s-in-our-time-01",
@@ -1739,7 +1765,8 @@
     "time": "12:30",
     "venueId": "pe",
     "screeningCode": "05PE01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2787"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2787",
+    "guestAttend": true
   },
   {
     "id": "s-in-motion-01",
@@ -1752,7 +1779,8 @@
     "time": "12:30",
     "venueId": "pe",
     "screeningCode": "05PE01",
-    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2844"
+    "ticketUrl": "https://www.hkiff.org.hk/film/getdetail?fid=2844",
+    "guestAttend": true
   },
   {
     "id": "s-unknown-pleasures-01",

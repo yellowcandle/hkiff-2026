@@ -28,6 +28,7 @@ export type Screening = {
   venueId: string;
   screeningCode: string;
   ticketUrl: string;
+  guestAttend?: boolean;
 };
 
 export type Venue = {
