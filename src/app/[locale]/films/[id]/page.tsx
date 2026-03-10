@@ -29,7 +29,7 @@ export default async function FilmDetailPage({ params }: Props) {
   const l = locale as "en" | "zh";
 
   const metaItems = [
-    { label: l === "en" ? "Director" : "導演", value: film.director },
+    { label: l === "en" ? "Director" : "導演", value: film.director[l] },
     film.country ? { label: l === "en" ? "Country" : "國家／地區", value: film.country } : null,
     film.year ? { label: l === "en" ? "Year" : "年份", value: String(film.year) } : null,
     film.runtime ? { label: l === "en" ? "Runtime" : "片長", value: `${film.runtime} ${l === "en" ? "min" : "分鐘"}` } : null,

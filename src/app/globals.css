@@ -195,20 +195,6 @@ body {
   transform: scale(1.06);
 }
 
-.film-card .film-overlay {
-  opacity: 0;
-  transition: opacity 0.4s var(--ease-out-expo);
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.85) 0%,
-    rgba(0, 0, 0, 0.4) 40%,
-    transparent 100%
-  );
-}
-
-.film-card:hover .film-overlay {
-  opacity: 1;
-}
 
 /* ============================================
    Section Chip Filter

@@ -23,6 +23,8 @@ export default function FilmCard({ film }: Props) {
     .map((s) => s.id);
   const inPlan = filmScreeningIds.some((id) => plan.includes(id));
   const favourited = isFavourite(film.id);
+  const altLocale = locale === "en" ? "zh" : "en";
+  const altTitle = film.title[altLocale];
 
   function handleFavouriteClick(e: React.MouseEvent) {
     e.preventDefault();
@@ -72,25 +74,20 @@ export default function FilmCard({ film }: Props) {
             </span>
           </div>
         )}
-        {/* Cinematic hover overlay */}
-        <div className="film-overlay absolute inset-0 z-10 flex flex-col justify-end p-4">
-          <p className="text-white/70 text-xs font-medium">
-            {film.director}
-          </p>
-          {(film.country || film.year) && (
-            <p className="text-white/50 text-[11px]">
-              {[film.country, film.year].filter(Boolean).join(" \u00b7 ")}
+        {/* Title overlay with high-contrast gradient */}
+        <div className="absolute inset-x-0 bottom-0 z-10 bg-gradient-to-t from-black via-black/80 to-transparent pt-12 px-3.5 pb-3.5">
+          <h3 className="font-bold text-sm leading-snug text-white line-clamp-2 drop-shadow-lg">
+            {film.title[locale]}
+          </h3>
+          {altTitle && altTitle !== film.title[locale] && (
+            <p className="text-[11px] text-neutral-400 mt-0.5 line-clamp-1">
+              {altTitle}
             </p>
           )}
+          <p className="text-[11px] text-neutral-500 mt-1">
+            {[film.director[locale], film.country].filter(Boolean).join(" · ")}
+          </p>
         </div>
-      </div>
-      <div className="p-3.5">
-        <h3 className="font-semibold text-[13px] leading-snug mb-0.5 line-clamp-2 group-hover:text-[var(--accent)] transition-colors duration-300">
-          {film.title[locale]}
-        </h3>
-        <p className="text-[var(--fg-muted)] text-[11px]">
-          {film.director}
-        </p>
       </div>
     </Link>
   );

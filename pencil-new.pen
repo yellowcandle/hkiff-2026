@@ -145,6 +145,16 @@
             },
             {
               "type": "text",
+              "id": "TSrUh",
+              "name": "heroSub-2",
+              "fill": "#666666",
+              "content": "Film Selection and Scheduler",
+              "fontFamily": "Inter",
+              "fontSize": 42,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
               "id": "HKcI7",
               "name": "heroSub",
               "fill": "#666666",

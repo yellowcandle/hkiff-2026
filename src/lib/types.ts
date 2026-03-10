@@ -6,7 +6,7 @@ export type LocaleString = {
 export type Film = {
   id: string;
   title: LocaleString;
-  director: string;
+  director: LocaleString;
   section: string;
   posterUrl: string;
   country?: string;

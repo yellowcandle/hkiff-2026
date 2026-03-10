@@ -42,6 +42,7 @@ type EnrichedFilm = {
   title: string;
   titleZh?: string | null;
   director: string;
+  directorZh?: string | null;
   country?: string | null;
   year?: number | null;
   runtime?: number | null;
@@ -71,7 +72,7 @@ function transformFilm(raw: EnrichedFilm): Film {
   return {
     id: slug,
     title: { en: titleEn, zh: titleZh },
-    director: raw.director,
+    director: { en: raw.director, zh: raw.directorZh || raw.director },
     section: raw.section || "world-cinema",
     posterUrl: raw.localImg || raw.imgSrc,
     country: raw.country || undefined,
