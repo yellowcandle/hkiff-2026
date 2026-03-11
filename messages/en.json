@@ -49,7 +49,10 @@
     "inPlan": "In Plan",
     "addToPlan": "Add to Watch Plan",
     "selected": "✓ Selected",
-    "bookingCodes": "Booking codes"
+    "bookingCodes": "Booking codes",
+    "decreaseTickets": "Decrease tickets",
+    "increaseTickets": "Increase tickets",
+    "tickets": "tickets"
   },
   "favourites": {
     "addFavourite": "Add to favourites",

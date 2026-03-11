@@ -49,7 +49,10 @@
     "inPlan": "已加入",
     "addToPlan": "加入排片計劃",
     "selected": "✓ 已選",
-    "bookingCodes": "訂票編號"
+    "bookingCodes": "訂票編號",
+    "decreaseTickets": "減少票數",
+    "increaseTickets": "增加票數",
+    "tickets": "張票"
   },
   "favourites": {
     "addFavourite": "加入收藏",

@@ -43,7 +43,8 @@ export function buildExportText(
   allScreenings: Screening[],
   allFilms: Film[],
   allVenues: Venue[],
-  locale: "en" | "zh"
+  locale: "en" | "zh",
+  ticketQuantities?: Record<string, number>
 ): string {
   const screeningMap = new Map(allScreenings.map((s) => [s.id, s]));
   const filmMap = new Map(allFilms.map((f) => [f.id, f]));
@@ -116,7 +117,9 @@ export function buildExportText(
       const venueCode = venue?.code ?? screening.venueId.toUpperCase();
       const isConflict = conflictIds.has(screening.id);
 
-      let row = `  ${screening.time}–${endTime}  ${title.padEnd(28)}${venueCode.padEnd(4)}[${screening.screeningCode}]`;
+      const qty = ticketQuantities?.[screening.id] ?? 1;
+      const qtyStr = qty > 1 ? ` ×${qty}` : "";
+      let row = `  ${screening.time}–${endTime}  ${title.padEnd(28)}${venueCode.padEnd(4)}[${screening.screeningCode}]${qtyStr}`;
 
       if (isConflict) {
         // Find the other conflicting item(s) to annotate

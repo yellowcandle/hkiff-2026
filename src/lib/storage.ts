@@ -1,14 +1,15 @@
 const STORAGE_KEY = "hkiff50-data";
 const LEGACY_KEY = "hkiff50-plan";
-const CURRENT_VERSION = 1;
+const CURRENT_VERSION = 2;
 
 export interface StorageData {
   version: number;
   plan: string[];
   favourites: string[];
+  ticketQuantities: Record<string, number>;
 }
 
-const DEFAULTS: StorageData = { version: CURRENT_VERSION, plan: [], favourites: [] };
+const DEFAULTS: StorageData = { version: CURRENT_VERSION, plan: [], favourites: [], ticketQuantities: {} };
 
 function isStorageData(val: unknown): val is StorageData {
   if (typeof val !== "object" || val === null) return false;
@@ -20,6 +21,14 @@ function isStorageData(val: unknown): val is StorageData {
     Array.isArray(obj.favourites) &&
     obj.favourites.every((x) => typeof x === "string")
   );
+}
+
+function migrateV1toV2(data: StorageData): StorageData {
+  if (!data.ticketQuantities) {
+    data.ticketQuantities = {};
+  }
+  data.version = 2;
+  return data;
 }
 
 function migrateLegacy(): StorageData | null {
@@ -47,6 +56,12 @@ export function loadStorage(): StorageData {
       if (isStorageData(parsed)) {
         // Clean up legacy key if it still exists
         localStorage.removeItem(LEGACY_KEY);
+        // Migrate v1 → v2
+        if (parsed.version < 2) {
+          const migrated = migrateV1toV2(parsed);
+          saveStorage(migrated);
+          return migrated;
+        }
         return parsed;
       }
     }

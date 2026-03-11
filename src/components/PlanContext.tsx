@@ -18,6 +18,8 @@ interface PlanContextValue {
   isSelected: (id: string) => boolean;
   getConflictsFor: (id: string) => string[];
   hasDuplicateFilm: (id: string) => boolean;
+  getQuantity: (id: string) => number;
+  setQuantity: (id: string, qty: number) => void;
   storageError: boolean;
 }
 
@@ -49,24 +51,26 @@ function screeningsOverlap(idA: string, idB: string): boolean {
 
 export function PlanProvider({ children }: { children: React.ReactNode }) {
   const [plan, setPlan] = useState<string[]>([]);
+  const [ticketQuantities, setTicketQuantities] = useState<Record<string, number>>({});
   const [storageError, setStorageError] = useState(false);
   const initialized = useRef(false);
 
   useEffect(() => {
     const data = loadStorage();
     setPlan(data.plan);
+    setTicketQuantities(data.ticketQuantities || {});
     initialized.current = true;
   }, []);
 
   useEffect(() => {
     if (!initialized.current) return;
     const data = loadStorage();
-    const ok = saveStorage({ ...data, plan });
+    const ok = saveStorage({ ...data, plan, ticketQuantities });
     if (!ok) {
       setStorageError(true);
       setTimeout(() => setStorageError(false), 3000);
     }
-  }, [plan]);
+  }, [plan, ticketQuantities]);
 
   const addScreening = useCallback((id: string) => {
     setPlan((prev) => (prev.includes(id) ? prev : [...prev, id]));
@@ -74,6 +78,11 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
 
   const removeScreening = useCallback((id: string) => {
     setPlan((prev) => prev.filter((s) => s !== id));
+    setTicketQuantities((prev) => {
+      const next = { ...prev };
+      delete next[id];
+      return next;
+    });
   }, []);
 
   const isSelected = useCallback(
@@ -87,6 +96,16 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
     },
     [plan]
   );
+
+  const getQuantity = useCallback(
+    (id: string): number => ticketQuantities[id] ?? 1,
+    [ticketQuantities]
+  );
+
+  const setQuantity = useCallback((id: string, qty: number) => {
+    const clamped = Math.max(1, Math.min(10, qty));
+    setTicketQuantities((prev) => ({ ...prev, [id]: clamped }));
+  }, []);
 
   const hasDuplicateFilm = useCallback(
     (id: string): boolean => {
@@ -110,6 +129,8 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
         isSelected,
         getConflictsFor,
         hasDuplicateFilm,
+        getQuantity,
+        setQuantity,
         storageError,
       }}
     >

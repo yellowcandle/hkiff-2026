@@ -40,7 +40,7 @@ function formatDateHeading(dateStr: string, locale: "en" | "zh"): string {
 
 export default function PlanPageClient({ screenings, films, venues, locale }: Props) {
   const t = useTranslations("plan");
-  const { plan, removeScreening, getConflictsFor } = usePlan();
+  const { plan, removeScreening, getConflictsFor, getQuantity, setQuantity } = usePlan();
   const [copied, setCopied] = useState(false);
   const [shareError, setShareError] = useState(false);
 
@@ -81,7 +81,11 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
   async function handleShare() {
     setShareError(false);
     try {
-      const text = buildExportText(plan, screenings, films, venues, locale);
+      const quantities: Record<string, number> = {};
+      for (const id of plan) {
+        quantities[id] = getQuantity(id);
+      }
+      const text = buildExportText(plan, screenings, films, venues, locale, quantities);
       if (navigator.share) {
         await navigator.share({ text });
       } else {
@@ -199,13 +203,38 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
                         })}
                       </div>
 
-                      <button
-                        onClick={() => removeScreening(id)}
-                        aria-label={t("removeScreening")}
-                        className="ml-3 text-neutral-400 hover:text-red-600 transition-colors text-lg leading-none mt-0.5"
-                      >
-                        ×
-                      </button>
+                      <div className="flex items-center gap-2 ml-3">
+                        {/* Ticket quantity */}
+                        <div className="flex items-center gap-1">
+                          <button
+                            onClick={() => setQuantity(id, getQuantity(id) - 1)}
+                            disabled={getQuantity(id) <= 1}
+                            className="w-6 h-6 rounded text-xs font-bold border border-neutral-300 text-neutral-600 hover:bg-neutral-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
+                            aria-label={t("decreaseTickets")}
+                          >
+                            −
+                          </button>
+                          <span className="text-sm font-medium tabular-nums w-5 text-center">
+                            {getQuantity(id)}
+                          </span>
+                          <button
+                            onClick={() => setQuantity(id, getQuantity(id) + 1)}
+                            disabled={getQuantity(id) >= 10}
+                            className="w-6 h-6 rounded text-xs font-bold border border-neutral-300 text-neutral-600 hover:bg-neutral-200 disabled:opacity-30 disabled:cursor-not-allowed transition-colors flex items-center justify-center"
+                            aria-label={t("increaseTickets")}
+                          >
+                            +
+                          </button>
+                        </div>
+
+                        <button
+                          onClick={() => removeScreening(id)}
+                          aria-label={t("removeScreening")}
+                          className="text-neutral-400 hover:text-red-600 transition-colors text-lg leading-none"
+                        >
+                          ×
+                        </button>
+                      </div>
                     </div>
                   );
                 })}
