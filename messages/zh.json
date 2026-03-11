@@ -52,7 +52,9 @@
     "bookingCodes": "訂票編號",
     "decreaseTickets": "減少票數",
     "increaseTickets": "增加票數",
-    "tickets": "張票"
+    "tickets": "張票",
+    "shareImage": "分享圖片",
+    "generating": "生成中…"
   },
   "favourites": {
     "addFavourite": "加入收藏",

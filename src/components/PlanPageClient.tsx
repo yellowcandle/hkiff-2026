@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { usePlan } from "@/components/PlanContext";
 import { buildExportText } from "@/components/PlanExport";
+import ShareCardRenderer from "@/components/ShareCardRenderer";
+import { useShareImage } from "@/lib/useShareImage";
 import type { Film, Screening, Venue } from "@/lib/types";
 
 interface Props {
@@ -43,6 +45,7 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
   const { plan, removeScreening, getConflictsFor, getQuantity, setQuantity } = usePlan();
   const [copied, setCopied] = useState(false);
   const [shareError, setShareError] = useState(false);
+  const { generateImage, isGenerating } = useShareImage();
 
   const screeningMap = new Map(screenings.map((s) => [s.id, s]));
   const filmMap = new Map(films.map((f) => [f.id, f]));
@@ -76,6 +79,15 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
     );
   }
   const sortedDates = [...byDate.keys()].sort();
+
+  // Detect duplicate films (same film added more than once)
+  const filmCountInPlan = new Map<string, number>();
+  for (const item of planItems) {
+    filmCountInPlan.set(item.film.id, (filmCountInPlan.get(item.film.id) ?? 0) + 1);
+  }
+  const duplicateFilmIds = new Set(
+    [...filmCountInPlan.entries()].filter(([, count]) => count > 1).map(([id]) => id)
+  );
 
   // Share/export handler
   async function handleShare() {
@@ -118,8 +130,15 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
 
   return (
     <div>
-      {/* Share/Export button */}
-      <div className="flex justify-end mb-6">
+      {/* Share/Export buttons */}
+      <div className="flex justify-end gap-2 mb-6">
+        <button
+          onClick={generateImage}
+          disabled={isGenerating || planItems.length === 0}
+          className="bg-red-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-red-700 transition-colors disabled:opacity-40"
+        >
+          {isGenerating ? t("generating") : t("shareImage")}
+        </button>
         <button
           onClick={handleShare}
           disabled={planItems.length === 0}
@@ -186,6 +205,13 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
                           {venue?.name[locale] ?? screening.venueId}
                         </p>
 
+                        {/* Duplicate film warning */}
+                        {duplicateFilmIds.has(film.id) && (
+                          <p className="text-xs text-orange-600 mt-1">
+                            ⚠ {t("duplicateFilm")}
+                          </p>
+                        )}
+
                         {/* Conflict details */}
                         {conflictIds.map((cId) => {
                           const cScreening = screeningMap.get(cId);
@@ -243,6 +269,18 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
           );
         })}
       </div>
+
+      {/* Hidden share card for image generation */}
+      <ShareCardRenderer
+        screenings={screenings}
+        films={films}
+        venues={venues}
+        planIds={plan}
+        ticketQuantities={Object.fromEntries(
+          plan.map((id) => [id, getQuantity(id)])
+        )}
+        locale={locale}
+      />
     </div>
   );
 }

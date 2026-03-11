@@ -11,6 +11,7 @@
     "preview": "next build && npx wrangler pages dev out"
   },
   "dependencies": {
+    "modern-screenshot": "^4.6.8",
     "next": "^15.5.12",
     "next-intl": "^4.8.3",
     "react": "19.1.0",

@@ -52,7 +52,9 @@
     "bookingCodes": "Booking codes",
     "decreaseTickets": "Decrease tickets",
     "increaseTickets": "Increase tickets",
-    "tickets": "tickets"
+    "tickets": "tickets",
+    "shareImage": "Share as Image",
+    "generating": "Generating…"
   },
   "favourites": {
     "addFavourite": "Add to favourites",
