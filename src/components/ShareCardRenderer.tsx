@@ -114,75 +114,103 @@ export default function ShareCardRenderer({
         {locale === "zh" ? "精選 5 部" : "MY TOP 5"}
       </div>
 
-      {/* Poster grid */}
+      {/* Poster grid with overlaid titles */}
       <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "center" }}>
-        {/* Row 1: up to 3 posters */}
-        <div style={{ display: "flex", gap: 16 }}>
-          {row1.map(({ film }) => (
-            <div key={film.id} style={{ width: 290, height: 410, borderRadius: 12, overflow: "hidden", background: "#1A1A1A" }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={film.posterUrl}
-                alt=""
-                style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                crossOrigin="anonymous"
-              />
+        {[row1, row2].map((row, rowIdx) =>
+          row.length > 0 ? (
+            <div key={rowIdx} style={{ display: "flex", gap: 16 }}>
+              {row.map(({ film, screening }, colIdx) => {
+                const idx = rowIdx === 0 ? colIdx : 3 + colIdx;
+                return (
+                  <div
+                    key={screening.id}
+                    style={{
+                      width: 290,
+                      height: 410,
+                      borderRadius: 12,
+                      overflow: "hidden",
+                      background: "#1A1A1A",
+                      position: "relative",
+                    }}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={film.posterUrl}
+                      alt=""
+                      style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                      crossOrigin="anonymous"
+                    />
+                    {/* Gradient scrim */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        bottom: 0,
+                        left: 0,
+                        right: 0,
+                        height: "60%",
+                        background: "linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 50%, transparent 100%)",
+                      }}
+                    />
+                    {/* Number badge */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: 12,
+                        left: 12,
+                        background: "#DC2626",
+                        color: "#FFFFFF",
+                        fontSize: 20,
+                        fontWeight: 700,
+                        fontFamily: "'JetBrains Mono', 'Courier New', monospace",
+                        width: 36,
+                        height: 36,
+                        borderRadius: 8,
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      {String(idx + 1).padStart(2, "0")}
+                    </div>
+                    {/* Title + date overlay */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        bottom: 0,
+                        left: 0,
+                        right: 0,
+                        padding: "16px 14px",
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: 4,
+                      }}
+                    >
+                      <span
+                        style={{
+                          color: "#FFFFFF",
+                          fontSize: 26,
+                          fontWeight: 700,
+                          lineHeight: 1.2,
+                        }}
+                      >
+                        {film.title[locale]}
+                      </span>
+                      <span
+                        style={{
+                          color: "rgba(255,255,255,0.7)",
+                          fontSize: 18,
+                          fontFamily: "'JetBrains Mono', 'Courier New', monospace",
+                        }}
+                      >
+                        {formatDateShort(screening.date, locale)} {screening.time}
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
-          ))}
-        </div>
-        {/* Row 2: up to 2 posters */}
-        {row2.length > 0 && (
-          <div style={{ display: "flex", gap: 16 }}>
-            {row2.map(({ film }) => (
-              <div key={film.id} style={{ width: 290, height: 410, borderRadius: 12, overflow: "hidden", background: "#1A1A1A" }}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={film.posterUrl}
-                  alt=""
-                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
-                  crossOrigin="anonymous"
-                />
-              </div>
-            ))}
-          </div>
+          ) : null
         )}
-      </div>
-
-      {/* Numbered film list */}
-      <div style={{ display: "flex", flexDirection: "column", gap: 12, marginTop: 36 }}>
-        {items.map(({ screening, film }, i) => (
-          <div
-            key={screening.id}
-            style={{ display: "flex", gap: 16, alignItems: "baseline", width: "100%" }}
-          >
-            <span
-              style={{
-                color: "#DC2626",
-                fontSize: 32,
-                fontWeight: 700,
-                fontFamily: "'JetBrains Mono', 'Courier New', monospace",
-                width: 56,
-                flexShrink: 0,
-              }}
-            >
-              {String(i + 1).padStart(2, "0")}
-            </span>
-            <span style={{ color: "#FFFFFF", fontSize: 32, fontWeight: 700 }}>
-              {film.title[locale]}
-            </span>
-            <div style={{ flex: 1 }} />
-            <span
-              style={{
-                color: "#777777",
-                fontSize: 22,
-                fontFamily: "'JetBrains Mono', 'Courier New', monospace",
-                flexShrink: 0,
-              }}
-            >
-              {formatDateShort(screening.date, locale)} {screening.time}
-            </span>
-          </div>
-        ))}
       </div>
 
       {/* Spacer */}
