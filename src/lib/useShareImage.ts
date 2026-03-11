@@ -2,6 +2,20 @@
 
 import { useState, useCallback } from "react";
 
+function preloadImages(el: HTMLElement): Promise<void[]> {
+  const imgs = el.querySelectorAll("img");
+  return Promise.all(
+    Array.from(imgs).map(
+      (img) =>
+        new Promise<void>((resolve) => {
+          if (img.complete) return resolve();
+          img.onload = () => resolve();
+          img.onerror = () => resolve();
+        })
+    )
+  );
+}
+
 export function useShareImage() {
   const [isGenerating, setIsGenerating] = useState(false);
 
@@ -12,13 +26,15 @@ export function useShareImage() {
     setIsGenerating(true);
     try {
       // Temporarily bring element into viewport for capture
-      // (modern-screenshot needs the element to be renderable)
       const origLeft = el.style.left;
       const origZIndex = el.style.zIndex;
       const origPointerEvents = el.style.pointerEvents;
       el.style.left = "0px";
       el.style.zIndex = "-1";
       el.style.pointerEvents = "none";
+
+      // Wait for poster images to load
+      await preloadImages(el);
 
       const { domToPng } = await import("modern-screenshot");
       const dataUrl = await domToPng(el, {

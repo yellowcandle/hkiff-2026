@@ -54,7 +54,11 @@
     "increaseTickets": "增加票數",
     "tickets": "張票",
     "shareImage": "分享圖片",
-    "generating": "生成中…"
+    "generating": "生成中…",
+    "pickTop5Title": "選擇你的 Top 5",
+    "pickTop5Desc": "已選 {count}/5 — 將顯示在分享圖片中",
+    "generateImage": "生成圖片",
+    "cancel": "取消"
   },
   "favourites": {
     "addFavourite": "加入收藏",

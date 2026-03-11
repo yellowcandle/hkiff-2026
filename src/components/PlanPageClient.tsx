@@ -46,6 +46,8 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
   const [copied, setCopied] = useState(false);
   const [shareError, setShareError] = useState(false);
   const { generateImage, isGenerating } = useShareImage();
+  const [showPicker, setShowPicker] = useState(false);
+  const [pickedIds, setPickedIds] = useState<string[]>([]);
 
   const screeningMap = new Map(screenings.map((s) => [s.id, s]));
   const filmMap = new Map(films.map((f) => [f.id, f]));
@@ -133,7 +135,13 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
       {/* Share/Export buttons */}
       <div className="flex justify-end gap-2 mb-6">
         <button
-          onClick={generateImage}
+          onClick={() => {
+            // Auto-select first 5 if nothing picked yet
+            if (pickedIds.length === 0) {
+              setPickedIds(planItems.slice(0, 5).map((i) => i.id));
+            }
+            setShowPicker(true);
+          }}
           disabled={isGenerating || planItems.length === 0}
           className="bg-red-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-red-700 transition-colors disabled:opacity-40"
         >
@@ -147,6 +155,92 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
           {shareError ? "Failed to copy" : copied ? t("copied") : t("share")}
         </button>
       </div>
+
+      {/* Top 5 Picker Modal */}
+      {showPicker && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+          <div className="bg-white rounded-xl max-w-md w-full max-h-[80vh] flex flex-col">
+            <div className="p-4 border-b">
+              <h3 className="font-semibold text-lg">{t("pickTop5Title")}</h3>
+              <p className="text-sm text-neutral-500 mt-1">
+                {t("pickTop5Desc", { count: pickedIds.length })}
+              </p>
+            </div>
+            <div className="overflow-y-auto flex-1 p-2">
+              {planItems.map((item) => {
+                const isSelected = pickedIds.includes(item.id);
+                const canSelect = pickedIds.length < 5 || isSelected;
+                return (
+                  <button
+                    key={item.id}
+                    onClick={() => {
+                      if (isSelected) {
+                        setPickedIds((prev) => prev.filter((id) => id !== item.id));
+                      } else if (canSelect) {
+                        setPickedIds((prev) => [...prev, item.id]);
+                      }
+                    }}
+                    disabled={!canSelect && !isSelected}
+                    className={`w-full flex items-center gap-3 p-3 rounded-lg text-left transition-colors ${
+                      isSelected
+                        ? "bg-red-50 border border-red-200"
+                        : canSelect
+                        ? "hover:bg-neutral-50 border border-transparent"
+                        : "opacity-40 border border-transparent"
+                    }`}
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={item.film.posterUrl}
+                      alt=""
+                      className="w-10 h-14 rounded object-cover bg-neutral-200 flex-shrink-0"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <p className="font-semibold text-sm truncate">
+                        {item.film.title[locale]}
+                      </p>
+                      <p className="text-xs text-neutral-500">
+                        {item.screening.date} · {item.screening.time}
+                      </p>
+                    </div>
+                    <div
+                      className={`w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 ${
+                        isSelected
+                          ? "bg-red-600 border-red-600 text-white"
+                          : "border-neutral-300"
+                      }`}
+                    >
+                      {isSelected && (
+                        <span className="text-xs font-bold">
+                          {pickedIds.indexOf(item.id) + 1}
+                        </span>
+                      )}
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+            <div className="p-4 border-t flex gap-2">
+              <button
+                onClick={() => setShowPicker(false)}
+                className="flex-1 py-2.5 rounded-lg border border-neutral-300 text-sm font-medium hover:bg-neutral-50 transition-colors"
+              >
+                {t("cancel")}
+              </button>
+              <button
+                onClick={() => {
+                  setShowPicker(false);
+                  generateImage();
+                }}
+                disabled={pickedIds.length === 0 || isGenerating}
+                className="flex-1 py-2.5 rounded-lg bg-red-600 text-white text-sm font-medium hover:bg-red-700 transition-colors disabled:opacity-40"
+              >
+                {isGenerating ? t("generating") : t("generateImage")}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Date sections */}
       <div className="space-y-8">
@@ -275,11 +369,17 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
         screenings={screenings}
         films={films}
         venues={venues}
-        planIds={plan}
+        selectedIds={pickedIds}
         ticketQuantities={Object.fromEntries(
           plan.map((id) => [id, getQuantity(id)])
         )}
         locale={locale}
+        totalScreenings={planItems.length}
+        totalDays={sortedDates.length}
+        totalTickets={planItems.reduce(
+          (sum, item) => sum + getQuantity(item.id),
+          0
+        )}
       />
     </div>
   );

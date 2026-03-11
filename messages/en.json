@@ -54,7 +54,11 @@
     "increaseTickets": "Increase tickets",
     "tickets": "tickets",
     "shareImage": "Share as Image",
-    "generating": "Generating…"
+    "generating": "Generating…",
+    "pickTop5Title": "Pick your Top 5",
+    "pickTop5Desc": "{count}/5 selected — these will appear on your share card",
+    "generateImage": "Generate Image",
+    "cancel": "Cancel"
   },
   "favourites": {
     "addFavourite": "Add to favourites",
