@@ -86,8 +86,8 @@ export function buildExportText(
   lines.push(`${bookingLabel}: ${allCodes}`);
   lines.push("");
   const cta = locale === "zh"
-    ? "在 hkiff.herballemon.dev 建立你的排片計劃"
-    : "Build your plan at hkiff.herballemon.dev";
+    ? "在 https://hkiff.herballemon.dev 建立你的排片計劃"
+    : "Build your plan at https://hkiff.herballemon.dev";
   lines.push(cta);
 
   return lines.join("\n");
