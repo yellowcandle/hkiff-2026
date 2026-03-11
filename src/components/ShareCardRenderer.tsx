@@ -25,9 +25,6 @@ interface Props {
   selectedIds: string[]; // top 5 screening IDs
   ticketQuantities: Record<string, number>;
   locale: "en" | "zh";
-  totalScreenings: number;
-  totalDays: number;
-  totalTickets: number;
 }
 
 export default function ShareCardRenderer({
@@ -37,9 +34,6 @@ export default function ShareCardRenderer({
   selectedIds,
   ticketQuantities,
   locale,
-  totalScreenings,
-  totalDays,
-  totalTickets,
 }: Props) {
   const screeningMap = new Map(screenings.map((s) => [s.id, s]));
   const filmMap = new Map(films.map((f) => [f.id, f]));
@@ -62,13 +56,42 @@ export default function ShareCardRenderer({
     return a.screening.time.localeCompare(b.screening.time);
   });
 
-  const row1 = items.slice(0, 3);
-  const row2 = items.slice(3, 5);
+  // Adaptive poster layout based on count
+  const count = items.length;
+  let posterRows: ScreeningItem[][];
+  let posterWidth: number;
+  let posterHeight: number;
 
-  const statsText =
+  if (count === 1) {
+    posterRows = [items];
+    posterWidth = 600;
+    posterHeight = 850;
+  } else if (count === 2) {
+    posterRows = [items];
+    posterWidth = 452;
+    posterHeight = 640;
+  } else if (count === 3) {
+    posterRows = [items];
+    posterWidth = 290;
+    posterHeight = 520;
+  } else if (count === 4) {
+    posterRows = [items.slice(0, 2), items.slice(2, 4)];
+    posterWidth = 452;
+    posterHeight = 640;
+  } else {
+    // 5 picks — 3+2 grid with taller posters
+    posterRows = [items.slice(0, 3), items.slice(3, 5)];
+    posterWidth = 290;
+    posterHeight = 520;
+  }
+
+  // Dynamic subtitle
+  const subtitleText =
     locale === "zh"
-      ? `${totalScreenings} 場放映 · ${totalDays} 天 · ${totalTickets} 張票`
-      : `${totalScreenings} screenings · ${totalDays} days · ${totalTickets} tickets`;
+      ? `HKIFF 50 精選${count === 1 ? "" : ` ${count} 部`}`
+      : count === 1
+      ? "HKIFF 50 TOP PICK"
+      : `HKIFF 50 TOP ${count} PICKS`;
 
   return (
     <div
@@ -109,24 +132,25 @@ export default function ShareCardRenderer({
       {/* Red divider */}
       <div style={{ width: "100%", height: 2, background: "#DC2626", marginTop: 20, marginBottom: 28 }} />
 
-      {/* "MY TOP 5" label */}
+      {/* Dynamic subtitle label */}
       <div style={{ color: "#555555", fontSize: 24, fontWeight: 700, letterSpacing: 4, marginBottom: 20 }}>
-        {locale === "zh" ? "精選 5 部" : "MY TOP 5"}
+        {subtitleText}
       </div>
 
       {/* Poster grid with overlaid titles */}
       <div style={{ display: "flex", flexDirection: "column", gap: 16, alignItems: "center" }}>
-        {[row1, row2].map((row, rowIdx) =>
-          row.length > 0 ? (
-            <div key={rowIdx} style={{ display: "flex", gap: 16 }}>
+        {posterRows.map((row, rowIdx) => {
+          const prevRowsCount = posterRows.slice(0, rowIdx).reduce((s, r) => s + r.length, 0);
+          return row.length > 0 ? (
+            <div key={rowIdx} style={{ display: "flex", gap: 16, justifyContent: "center" }}>
               {row.map(({ film, screening }, colIdx) => {
-                const idx = rowIdx === 0 ? colIdx : 3 + colIdx;
+                const idx = prevRowsCount + colIdx;
                 return (
                   <div
                     key={screening.id}
                     style={{
-                      width: 290,
-                      height: 410,
+                      width: posterWidth,
+                      height: posterHeight,
                       borderRadius: 12,
                       overflow: "hidden",
                       background: "#1A1A1A",
@@ -188,7 +212,7 @@ export default function ShareCardRenderer({
                       <span
                         style={{
                           color: "#FFFFFF",
-                          fontSize: 26,
+                          fontSize: count <= 2 ? 30 : 26,
                           fontWeight: 700,
                           lineHeight: 1.2,
                         }}
@@ -209,8 +233,40 @@ export default function ShareCardRenderer({
                 );
               })}
             </div>
-          ) : null
-        )}
+          ) : null;
+        })}
+      </div>
+
+      {/* Schedule strip */}
+      <div
+        style={{
+          background: "#111111",
+          borderRadius: 12,
+          padding: "24px 28px",
+          marginTop: 24,
+          display: "flex",
+          flexDirection: "column",
+          gap: 12,
+          width: "100%",
+        }}
+      >
+        {items.map(({ film, screening }, idx) => (
+          <div key={screening.id} style={{ display: "flex", gap: 16, alignItems: "baseline" }}>
+            <span
+              style={{
+                color: "#666666",
+                fontSize: 20,
+                fontFamily: "'JetBrains Mono', 'Courier New', monospace",
+                minWidth: 280,
+              }}
+            >
+              {formatDateShort(screening.date, locale)} {screening.time}
+            </span>
+            <span style={{ color: "#CCCCCC", fontSize: 20, fontWeight: 600 }}>
+              {film.title[locale]}
+            </span>
+          </div>
+        ))}
       </div>
 
       {/* Spacer */}
@@ -219,7 +275,6 @@ export default function ShareCardRenderer({
       {/* Footer */}
       <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16 }}>
         <div style={{ width: 200, height: 2, background: "#333333" }} />
-        <span style={{ color: "#666666", fontSize: 24, textAlign: "center" }}>{statsText}</span>
         <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 8, marginTop: 8 }}>
           <span style={{ color: "#999999", fontSize: 28 }}>
             {locale === "zh" ? "建立你的排片計劃" : "Build your plan at"}

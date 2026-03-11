@@ -169,7 +169,8 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
             <div className="overflow-y-auto flex-1 p-2">
               {planItems.map((item) => {
                 const isSelected = pickedIds.includes(item.id);
-                const canSelect = pickedIds.length < 5 || isSelected;
+                const maxPicks = Math.min(5, planItems.length);
+                const canSelect = pickedIds.length < maxPicks || isSelected;
                 return (
                   <button
                     key={item.id}
@@ -374,12 +375,6 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
           plan.map((id) => [id, getQuantity(id)])
         )}
         locale={locale}
-        totalScreenings={planItems.length}
-        totalDays={sortedDates.length}
-        totalTickets={planItems.reduce(
-          (sum, item) => sum + getQuantity(item.id),
-          0
-        )}
       />
     </div>
   );
