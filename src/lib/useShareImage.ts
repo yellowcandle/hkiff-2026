@@ -11,8 +11,14 @@ export function useShareImage() {
 
     setIsGenerating(true);
     try {
-      // Make visible for capture (but still off-screen)
-      el.style.display = "flex";
+      // Temporarily bring element into viewport for capture
+      // (modern-screenshot needs the element to be renderable)
+      const origLeft = el.style.left;
+      const origZIndex = el.style.zIndex;
+      const origPointerEvents = el.style.pointerEvents;
+      el.style.left = "0px";
+      el.style.zIndex = "-1";
+      el.style.pointerEvents = "none";
 
       const { domToPng } = await import("modern-screenshot");
       const dataUrl = await domToPng(el, {
@@ -20,6 +26,11 @@ export function useShareImage() {
         height: 1920,
         scale: 1,
       });
+
+      // Restore off-screen position
+      el.style.left = origLeft;
+      el.style.zIndex = origZIndex;
+      el.style.pointerEvents = origPointerEvents;
 
       // Trigger download
       const link = document.createElement("a");
