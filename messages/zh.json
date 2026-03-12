@@ -58,7 +58,9 @@
     "pickTop5Title": "選擇你的精選電影",
     "pickTop5Desc": "已選 {count} 部 — 將顯示在分享圖片中",
     "generateImage": "生成圖片",
-    "cancel": "取消"
+    "cancel": "取消",
+    "addToCalendar": "加入日曆",
+    "addToCalendarSingle": "加入日曆"
   },
   "favourites": {
     "addFavourite": "加入收藏",
