@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { usePlan } from "@/components/PlanContext";
 import { buildExportText } from "@/components/PlanExport";
+import { generateIcsForPlan, generateIcsForScreening, downloadIcsFile } from "@/lib/icsCalendar";
 import ShareCardRenderer from "@/components/ShareCardRenderer";
 import { useShareImage } from "@/lib/useShareImage";
 import type { Film, Screening, Venue } from "@/lib/types";
@@ -146,6 +147,19 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
           className="bg-red-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-red-700 transition-colors disabled:opacity-40"
         >
           {isGenerating ? t("generating") : t("shareImage")}
+        </button>
+        <button
+          onClick={() => {
+            const items = planItems.map(({ screening, film, venue }) => ({
+              screening, film, venue,
+            }));
+            const ics = generateIcsForPlan(items, locale);
+            downloadIcsFile(ics, "hkiff50-plan.ics");
+          }}
+          disabled={planItems.length === 0}
+          className="bg-neutral-900 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-neutral-700 transition-colors disabled:opacity-40"
+        >
+          {t("addToCalendar")}
         </button>
         <button
           onClick={handleShare}
@@ -347,6 +361,20 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
                             +
                           </button>
                         </div>
+
+                        <button
+                          onClick={() => {
+                            const ics = generateIcsForScreening(screening, film, venue, locale);
+                            downloadIcsFile(ics, `hkiff50-${screening.screeningCode}.ics`);
+                          }}
+                          aria-label={t("addToCalendarSingle")}
+                          title={t("addToCalendarSingle")}
+                          className="text-neutral-400 hover:text-blue-600 transition-colors leading-none"
+                        >
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+                            <path fillRule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4H17a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h2.25V2.75A.75.75 0 0 1 5.75 2zM4 7.5v8.5h12V7.5H4z" clipRule="evenodd" />
+                          </svg>
+                        </button>
 
                         <button
                           onClick={() => removeScreening(id)}
