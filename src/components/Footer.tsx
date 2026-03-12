@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
             <span className="text-neutral-700">·</span>
             <a
-              href="https://www.threads.net/@yellowcandle"
+              href="https://www.threads.com/@lemon.talks.ai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs hover:text-white transition-colors"
