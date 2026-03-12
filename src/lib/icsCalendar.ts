@@ -152,13 +152,22 @@ export function generateIcsForScreening(
   return buildVCalendar([event], locale);
 }
 
-/** Trigger a .ics file download in the browser */
+/** Trigger a .ics file download / calendar import in the browser */
 export function downloadIcsFile(content: string, filename: string): void {
-  const blob = new Blob([content], { type: "text/calendar;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = filename;
-  link.click();
-  URL.revokeObjectURL(url);
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    // On mobile, navigate to data URI so the OS opens its calendar app
+    window.location.href =
+      "data:text/calendar;charset=utf-8," + encodeURIComponent(content);
+  } else {
+    // On desktop, download the .ics file
+    const blob = new Blob([content], { type: "text/calendar;charset=utf-8" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    link.click();
+    URL.revokeObjectURL(url);
+  }
 }

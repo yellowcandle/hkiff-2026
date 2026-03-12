@@ -134,7 +134,7 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
   return (
     <div>
       {/* Share/Export buttons */}
-      <div className="flex justify-end gap-2 mb-6">
+      <div className="flex flex-col sm:flex-row justify-end gap-2 mb-6">
         <button
           onClick={() => {
             // Auto-select first 5 if nothing picked yet
