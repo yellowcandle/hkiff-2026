@@ -6,6 +6,10 @@
         "id": "tt13848364"
       },
       {
+        "title": "Cyclone",
+        "id": "tt37020774"
+      },
+      {
         "title": "24 City",
         "id": "tt1103963"
       },
@@ -34,6 +38,10 @@
         "id": "tt32159989"
       },
       {
+        "title": "Ah Fei",
+        "id": "tt0337507"
+      },
+      {
         "title": "Ah Girl",
         "id": "tt35683770"
       },
@@ -60,6 +68,10 @@
       {
         "title": "Ash is Purest White",
         "id": "tt7298400"
+      },
+      {
+        "title": "Back Home",
+        "id": "tt37660891"
       },
       {
         "title": "Balentes",
@@ -122,6 +134,10 @@
         "id": "tt12484760"
       },
       {
+        "title": "Dong / The Hedonists",
+        "id": "tt5732566"
+      },
+      {
         "title": "Duse",
         "id": "tt31415482"
       },
@@ -136,6 +152,10 @@
       {
         "title": "Elephants & Squirrels",
         "id": "tt38648558"
+      },
+      {
+        "title": "En Route To",
+        "id": "tt38518448"
       },
       {
         "title": "EPiC: Elvis Presley in Concert",
@@ -182,6 +202,10 @@
         "id": "tt37538646"
       },
       {
+        "title": "Halo",
+        "id": "tt38589204"
+      },
+      {
         "title": "Hen",
         "id": "tt29283995"
       },
@@ -212,6 +236,14 @@
       {
         "title": "Jia Zhangke, a Guy from Fenyang",
         "id": "tt4092686"
+      },
+      {
+        "title": "La Grazia",
+        "id": "tt34886821"
+      },
+      {
+        "title": "Landmarks",
+        "id": "tt9859510"
       },
       {
         "title": "Last Night I Conquered the City of Thebes",
@@ -246,6 +278,10 @@
         "id": "tt34621966"
       },
       {
+        "title": "Memory",
+        "id": "tt37814864"
+      },
+      {
         "title": "Milk Teeth",
         "id": "tt28084384"
       },
@@ -256,6 +292,10 @@
       {
         "title": "Morte Cucina",
         "id": "tt15840272"
+      },
+      {
+        "title": "Mothertongue",
+        "id": "tt38838876"
       },
       {
         "title": "Mountains May Depart",
@@ -274,8 +314,20 @@
         "id": "tt31688586"
       },
       {
+        "title": "Number 23",
+        "id": "tt35405436"
+      },
+      {
+        "title": "On the Road",
+        "id": "tt37660509"
+      },
+      {
         "title": "On Your Lap",
         "id": "tt34375730"
+      },
+      {
+        "title": "Orphan",
+        "id": "tt31065630"
       },
       {
         "title": "Palimpsest: The Story of a Name",
@@ -318,8 +370,16 @@
         "id": "tt0093206"
       },
       {
+        "title": "Redoubt",
+        "id": "tt35456230"
+      },
+      {
         "title": "Romería",
         "id": "tt32538648"
+      },
+      {
+        "title": "Rose",
+        "id": "tt25399154"
       },
       {
         "title": "Rose of Nevada",
@@ -354,6 +414,14 @@
         "id": "tt27811632"
       },
       {
+        "title": "Sirât",
+        "id": "tt37578065"
+      },
+      {
+        "title": "Sleep No More",
+        "id": "tt34663597"
+      },
+      {
         "title": "Sorrows and Joys of a Middle-Aged Man",
         "id": "tt1580409"
       },
@@ -370,6 +438,14 @@
         "id": "tt37971109"
       },
       {
+        "title": "Stars",
+        "id": "tt0053306"
+      },
+      {
+        "title": "Still Life",
+        "id": "tt0859765"
+      },
+      {
         "title": "Sundays",
         "id": "tt35513027"
       },
@@ -380,6 +456,10 @@
       {
         "title": "The Butterfly Murders",
         "id": "tt0079051"
+      },
+      {
+        "title": "The Captive",
+        "id": "tt31101921"
       },
       {
         "title": "The Christophers",
@@ -404,6 +484,10 @@
       {
         "title": "The English Patient",
         "id": "tt0116209"
+      },
+      {
+        "title": "The Ground Beneath Our Feet",
+        "id": "tt35933132"
       },
       {
         "title": "The Horse Thief",
@@ -434,8 +518,16 @@
         "id": "tt0073629"
       },
       {
+        "title": "The Secret",
+        "id": "tt0079146"
+      },
+      {
         "title": "The Stranger",
         "id": "tt36243564"
+      },
+      {
+        "title": "The Sword",
+        "id": "tt0079148"
       },
       {
         "title": "The Tale of Silyan",
@@ -444,6 +536,10 @@
       {
         "title": "The Voice of Hind Rajab",
         "id": "tt36943034"
+      },
+      {
+        "title": "The World",
+        "id": "tt0423176"
       },
       {
         "title": "Three Colours: Blue",
@@ -502,6 +598,10 @@
         "id": "tt36631507"
       },
       {
+        "title": "Year One",
+        "id": "tt0071148"
+      },
+      {
         "title": "Yellow Earth",
         "id": "tt0087433"
       },
@@ -512,242 +612,18 @@
     ],
     "fixed": [
       {
-        "title": "Cyclone",
-        "oldId": "tt0092812",
-        "newId": "tt37020774",
-        "matchTitle": "Cyclone",
-        "matchYear": 2026
-      },
-      {
         "title": "17",
         "oldId": "tt12299608",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "Ah Fei",
-        "oldId": "tt0101258",
-        "newId": "tt0337507",
-        "matchTitle": "You ma cai zi",
-        "matchYear": 1984
-      },
-      {
-        "title": "Aniki-Bóbó",
-        "oldId": "tt0034461",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "Back Home",
-        "oldId": "tt6597246",
-        "newId": "tt37660891",
-        "matchTitle": "Back Home",
-        "matchYear": 2025
-      },
-      {
-        "title": "Dong / The Hedonists",
-        "oldId": "tt33398476",
-        "newId": "tt5732566",
-        "matchTitle": "The Hedonists",
-        "matchYear": 2016
-      },
-      {
-        "title": "En Route To",
-        "oldId": "tt0455943",
-        "newId": "tt38518448",
-        "matchTitle": "Jiuri ganeun gil",
-        "matchYear": 2025
-      },
-      {
-        "title": "Halo",
-        "oldId": "tt0464037",
-        "newId": "tt38589204",
-        "matchTitle": "Halo",
-        "matchYear": 2025
-      },
-      {
-        "title": "Ice Grave",
-        "oldId": "tt36643815",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "Joe Hsieh Animation Collection",
-        "oldId": "tt6959614",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "La Grazia",
-        "oldId": "tt0795935",
-        "newId": "tt34886821",
-        "matchTitle": "Grace",
-        "matchYear": 2025
-      },
-      {
-        "title": "Landmarks",
-        "oldId": "tt3447338",
-        "newId": "tt9859510",
-        "matchTitle": "Our Land",
-        "matchYear": 2025
-      },
-      {
-        "title": "Memory",
-        "oldId": "tt11827628",
-        "newId": "tt37814864",
-        "matchTitle": "Memory",
-        "matchYear": 2025
-      },
-      {
-        "title": "Mothertongue",
-        "oldId": "tt5261736",
-        "newId": "tt38838876",
-        "matchTitle": "Mother Tongue",
-        "matchYear": 2025
-      },
-      {
-        "title": "Number 23",
-        "oldId": "tt11048316",
-        "newId": "tt35405436",
-        "matchTitle": "Number 2",
-        "matchYear": 2025
-      },
-      {
-        "title": "On the Road",
-        "oldId": "tt0337692",
-        "newId": "tt37660509",
-        "matchTitle": "On the Road",
-        "matchYear": 2025
-      },
-      {
-        "title": "Orphan",
-        "oldId": "tt1148204",
-        "newId": "tt31065630",
-        "matchTitle": "Orphan",
-        "matchYear": 2025
-      },
-      {
-        "title": "Redoubt",
-        "oldId": "tt11197874",
-        "newId": "tt35456230",
-        "matchTitle": "Värn",
-        "matchYear": 2025
-      },
-      {
-        "title": "Rose",
-        "oldId": "/oscars/",
-        "newId": "tt25399154",
-        "matchTitle": "Rose",
+        "newId": "tt37775862",
+        "matchTitle": "17",
         "matchYear": 2026
       },
       {
-        "title": "Short Film Competition Programme I",
-        "oldId": "tt3849968",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "Sirât",
-        "oldId": "tt32298285",
-        "newId": "tt37578065",
-        "matchTitle": "Sirà",
-        "matchYear": 2025
-      },
-      {
-        "title": "Sleep No More",
-        "oldId": "tt22850112",
-        "newId": "tt34663597",
-        "matchTitle": "Sleep No More",
+        "title": "The Dating Menu",
+        "oldId": "tt0064688",
+        "newId": "tt38039353",
+        "matchTitle": "The Dating Menu",
         "matchYear": 2026
-      },
-      {
-        "title": "Stars",
-        "oldId": "tt21285562",
-        "newId": "tt0053306",
-        "matchTitle": "Stars",
-        "matchYear": 1959
-      },
-      {
-        "title": "Still Life",
-        "oldId": "tt2395417",
-        "newId": "tt0859765",
-        "matchTitle": "Still Life",
-        "matchYear": 2006
-      },
-      {
-        "title": "The Captive",
-        "oldId": "tt2326612",
-        "newId": "tt31101921",
-        "matchTitle": "The Captive",
-        "matchYear": 2025
-      },
-      {
-        "title": "The Ground Beneath Our Feet",
-        "oldId": "tt20425286",
-        "newId": "tt35933132",
-        "matchTitle": "The Ground Beneath Our Feet",
-        "matchYear": 2025
-      },
-      {
-        "title": "The Secret",
-        "oldId": "tt27847051",
-        "newId": "tt0079146",
-        "matchTitle": "The Secret",
-        "matchYear": 1979
-      },
-      {
-        "title": "The Sword",
-        "oldId": "tt0057546",
-        "newId": "tt0079148",
-        "matchTitle": "The Deadly Breaking Sword",
-        "matchYear": 1979
-      },
-      {
-        "title": "The World",
-        "oldId": "tt10370710",
-        "newId": "tt0423176",
-        "matchTitle": "The World",
-        "matchYear": 2004
-      },
-      {
-        "title": "We are the Fruits of the Forest",
-        "oldId": "tt38588387",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "World Animation",
-        "oldId": "tt9826530",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "World Animation for Adults",
-        "oldId": "tt17897388",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
-        "oldId": "tt37677927",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
-      },
-      {
-        "title": "Xiao Shan Going Home / In Public",
-        "oldId": "tt5794328",
-        "newId": "tt36844384",
-        "matchTitle": "Samba Infinito",
-        "matchYear": 2025
       },
       {
         "title": "Xiao Wu",
@@ -755,13 +631,6 @@
         "newId": "tt0162874",
         "matchTitle": "Ballistic Kiss",
         "matchYear": 1998
-      },
-      {
-        "title": "Year One",
-        "oldId": "tt1045778",
-        "newId": "tt0071148",
-        "matchTitle": "Year One",
-        "matchYear": 1974
       }
     ],
     "unresolved": [
@@ -771,14 +640,64 @@
         "currentId": "tt3597380"
       },
       {
+        "title": "Aniki-Bóbó",
+        "year": null,
+        "currentId": "tt0034461"
+      },
+      {
+        "title": "Avant Garde Shorts Programme",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Ice Grave",
+        "year": null,
+        "currentId": "tt36643815"
+      },
+      {
+        "title": "Joe Hsieh Animation Collection",
+        "year": null,
+        "currentId": "tt6959614"
+      },
+      {
+        "title": "Mary Stephen: Shades of Silk & Shorts",
+        "year": null,
+        "currentId": null
+      },
+      {
         "title": "My Wife Cries",
         "year": 2026,
         "currentId": "tt1545979"
       },
       {
-        "title": "The Dating Menu",
-        "year": 2026,
-        "currentId": "tt0064688"
+        "title": "New Voices of Asia: Asian Short Film Fund Winning Projects",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "PanelStory, or How a Housing Development Is Born",
+        "year": 1979,
+        "currentId": "tt0224235"
+      },
+      {
+        "title": "Private Revolutions, Public Spaces: Works from the M+ Asian Avant-Garde Film Collection",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Short Film Competition Programme I",
+        "year": null,
+        "currentId": "tt3849968"
+      },
+      {
+        "title": "Short Film Competition Programme II",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Short Film Competition Programme III",
+        "year": null,
+        "currentId": null
       },
       {
         "title": "The Path of Soul",
@@ -789,38 +708,93 @@
         "title": "The Stars and Moon are Holes in the Sky",
         "year": 2025,
         "currentId": "tt1422651"
+      },
+      {
+        "title": "We are the Fruits of the Forest",
+        "year": null,
+        "currentId": "tt38588387"
+      },
+      {
+        "title": "World Animation",
+        "year": null,
+        "currentId": "tt9826530"
+      },
+      {
+        "title": "World Animation for Adults",
+        "year": null,
+        "currentId": "tt17897388"
+      },
+      {
+        "title": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
+        "year": null,
+        "currentId": "tt37677927"
+      },
+      {
+        "title": "Xiao Shan Going Home / In Public",
+        "year": null,
+        "currentId": "tt5794328"
+      },
+      {
+        "title": "Million"
+      },
+      {
+        "title": "Lectura"
+      },
+      {
+        "title": "No It's Not"
+      },
+      {
+        "title": "Master Class: Chen Kaige",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Face to Face: Jia Zhangke",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Master Class: Tian Zhuangzhuang",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Seminar on Chinese Cinema",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Face to Face: Anthony Chen",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Master Class: Huang Jianxin",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Master Class: Emir Kusturica",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Seminar on New Voices of Asia",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Master Class: Juliette Binoche",
+        "year": null,
+        "currentId": null
+      },
+      {
+        "title": "Seminar on Film Editing",
+        "year": null,
+        "currentId": null
       }
     ],
-    "added": [
-      {
-        "title": "Avant Garde Shorts Programme",
-        "id": "tt36844384"
-      },
-      {
-        "title": "Mary Stephen: Shades of Silk & Shorts",
-        "id": "tt36844384"
-      },
-      {
-        "title": "New Voices of Asia: Asian Short Film Fund Winning Projects",
-        "id": "tt36844384"
-      },
-      {
-        "title": "PanelStory, or How a Housing Development Is Born",
-        "id": "tt0224235"
-      },
-      {
-        "title": "Private Revolutions, Public Spaces: Works from the M+ Asian Avant-Garde Film Collection",
-        "id": "tt36844384"
-      },
-      {
-        "title": "Short Film Competition Programme II",
-        "id": "tt36844384"
-      },
-      {
-        "title": "Short Film Competition Programme III",
-        "id": "tt36844384"
-      }
-    ]
+    "added": []
   },
   "letterboxd": {
     "confirmed": [
@@ -829,20 +803,8 @@
         "url": "https://letterboxd.com/film/we-are-all-strangers/"
       },
       {
-        "title": "Cyclone",
-        "url": "https://letterboxd.com/film/cyclone/"
-      },
-      {
-        "title": "17",
-        "url": "https://letterboxd.com/film/17/"
-      },
-      {
         "title": "24 City",
         "url": "https://letterboxd.com/film/24-city/"
-      },
-      {
-        "title": "A Dance with Rainbows",
-        "url": "https://letterboxd.com/film/a-dance-with-rainbows/"
       },
       {
         "title": "A Foggy Tale",
@@ -857,72 +819,48 @@
         "url": "https://letterboxd.com/film/a-poet/"
       },
       {
-        "title": "After the Hunt",
-        "url": "https://letterboxd.com/film/after-the-hunt/"
-      },
-      {
         "title": "Ah Fei",
         "url": "https://letterboxd.com/film/ah-fei/"
-      },
-      {
-        "title": "Ah Girl",
-        "url": "https://letterboxd.com/film/ah-girl/"
       },
       {
         "title": "Ah Ying",
         "url": "https://letterboxd.com/film/ah-ying/"
       },
       {
-        "title": "All Greens",
-        "url": "https://letterboxd.com/film/all-greens/"
-      },
-      {
         "title": "All My Sisters",
         "url": "https://letterboxd.com/film/all-my-sisters/"
       },
       {
-        "title": "Almost Home",
-        "url": "https://letterboxd.com/film/almost-home/"
+        "title": "Amílcar",
+        "url": "https://letterboxd.com/film/amilcar/"
       },
       {
-        "title": "Amoeba",
-        "url": "https://letterboxd.com/film/amoeba/"
+        "title": "Aniki-Bóbó",
+        "url": "https://letterboxd.com/film/aniki-bobo/"
       },
       {
         "title": "Ash is Purest White",
         "url": "https://letterboxd.com/film/ash-is-purest-white/"
       },
       {
-        "title": "Back Home",
-        "url": "https://letterboxd.com/film/back-home/"
-      },
-      {
-        "title": "Balentes",
-        "url": "https://letterboxd.com/film/balentes/"
-      },
-      {
-        "title": "Barbara Forever",
-        "url": "https://letterboxd.com/film/barbara-forever/"
-      },
-      {
-        "title": "Bashu, the Little Stranger",
-        "url": "https://letterboxd.com/film/bashu-the-little-stranger/"
-      },
-      {
         "title": "Battleship Potemkin",
         "url": "https://letterboxd.com/film/battleship-potemkin/"
+      },
+      {
+        "title": "Below the Clouds",
+        "url": "https://letterboxd.com/film/below-the-clouds/"
       },
       {
         "title": "Blue Heron",
         "url": "https://letterboxd.com/film/blue-heron/"
       },
       {
-        "title": "Blue Moon",
-        "url": "https://letterboxd.com/film/blue-moon/"
-      },
-      {
         "title": "Cageman",
         "url": "https://letterboxd.com/film/cageman/"
+      },
+      {
+        "title": "Calle Málaga",
+        "url": "https://letterboxd.com/film/calle-malaga/"
       },
       {
         "title": "Caught by the Tides",
@@ -939,14 +877,6 @@
       {
         "title": "Deep Quiet Room",
         "url": "https://letterboxd.com/film/deep-quiet-room/"
-      },
-      {
-        "title": "Divine Comedy",
-        "url": "https://letterboxd.com/film/divine-comedy/"
-      },
-      {
-        "title": "Do You Love Me",
-        "url": "https://letterboxd.com/film/do-you-love-me/"
       },
       {
         "title": "Duse",
@@ -981,10 +911,6 @@
         "url": "https://letterboxd.com/film/final-victory/"
       },
       {
-        "title": "Franz",
-        "url": "https://letterboxd.com/film/franz/"
-      },
-      {
         "title": "Funky Freaky Freaks",
         "url": "https://letterboxd.com/film/funky-freaky-freaks/"
       },
@@ -997,28 +923,12 @@
         "url": "https://letterboxd.com/film/gloaming-in-luomu/"
       },
       {
-        "title": "Good Boy",
-        "url": "https://letterboxd.com/film/good-boy/"
-      },
-      {
-        "title": "Good Valley Stories",
-        "url": "https://letterboxd.com/film/good-valley-stories/"
-      },
-      {
         "title": "Goodbye Sisters",
         "url": "https://letterboxd.com/film/goodbye-sisters/"
       },
       {
         "title": "Hair, Paper, Water...",
         "url": "https://letterboxd.com/film/hair-paper-water/"
-      },
-      {
-        "title": "Halo",
-        "url": "https://letterboxd.com/film/halo/"
-      },
-      {
-        "title": "Hen",
-        "url": "https://letterboxd.com/film/hen/"
       },
       {
         "title": "How to Divorce During the War",
@@ -1039,10 +949,6 @@
       {
         "title": "Ilo Ilo",
         "url": "https://letterboxd.com/film/ilo-ilo/"
-      },
-      {
-        "title": "In Our Time",
-        "url": "https://letterboxd.com/film/in-our-time/"
       },
       {
         "title": "In-I In Motion",
@@ -1077,32 +983,16 @@
         "url": "https://letterboxd.com/film/mag-mag/"
       },
       {
-        "title": "Magellan",
-        "url": "https://letterboxd.com/film/magellan/"
-      },
-      {
-        "title": "Meets the World",
-        "url": "https://letterboxd.com/film/meets-the-world/"
-      },
-      {
         "title": "Megadoc",
         "url": "https://letterboxd.com/film/megadoc/"
       },
       {
-        "title": "Memory",
-        "url": "https://letterboxd.com/film/memory/"
-      },
-      {
-        "title": "Milk Teeth",
-        "url": "https://letterboxd.com/film/milk-teeth/"
+        "title": "Mirrors No. 3",
+        "url": "https://letterboxd.com/film/mirrors-no-3/"
       },
       {
         "title": "Morte Cucina",
         "url": "https://letterboxd.com/film/morte-cucina/"
-      },
-      {
-        "title": "Mothertongue",
-        "url": "https://letterboxd.com/film/mothertongue/"
       },
       {
         "title": "Mountains May Depart",
@@ -1117,24 +1007,12 @@
         "url": "https://letterboxd.com/film/nighttime-sounds/"
       },
       {
-        "title": "Nouvelle Vague",
-        "url": "https://letterboxd.com/film/nouvelle-vague/"
-      },
-      {
         "title": "Number 23",
         "url": "https://letterboxd.com/film/number-23/"
       },
       {
-        "title": "On the Road",
-        "url": "https://letterboxd.com/film/on-the-road/"
-      },
-      {
         "title": "On Your Lap",
         "url": "https://letterboxd.com/film/on-your-lap/"
-      },
-      {
-        "title": "Orphan",
-        "url": "https://letterboxd.com/film/orphan/"
       },
       {
         "title": "Palimpsest: The Story of a Name",
@@ -1149,8 +1027,8 @@
         "url": "https://letterboxd.com/film/phantoms-of-july/"
       },
       {
-        "title": "Pillion",
-        "url": "https://letterboxd.com/film/pillion/"
+        "title": "Pin de Fartie",
+        "url": "https://letterboxd.com/film/pin-de-fartie/"
       },
       {
         "title": "Platform",
@@ -1173,28 +1051,16 @@
         "url": "https://letterboxd.com/film/red-sorghum/"
       },
       {
-        "title": "Redoubt",
-        "url": "https://letterboxd.com/film/redoubt/"
-      },
-      {
-        "title": "Rose",
-        "url": "https://letterboxd.com/film/rose/"
+        "title": "Romería",
+        "url": "https://letterboxd.com/film/romeria/"
       },
       {
         "title": "Rose of Nevada",
         "url": "https://letterboxd.com/film/rose-of-nevada/"
       },
       {
-        "title": "Saccharine",
-        "url": "https://letterboxd.com/film/saccharine/"
-      },
-      {
         "title": "Saint Joan",
         "url": "https://letterboxd.com/film/saint-joan/"
-      },
-      {
-        "title": "Salvation",
-        "url": "https://letterboxd.com/film/salvation/"
       },
       {
         "title": "Sangre Del Toro",
@@ -1213,10 +1079,6 @@
         "url": "https://letterboxd.com/film/silent-friend/"
       },
       {
-        "title": "Sleep No More",
-        "url": "https://letterboxd.com/film/sleep-no-more/"
-      },
-      {
         "title": "Sorrows and Joys of a Middle-Aged Man",
         "url": "https://letterboxd.com/film/sorrows-and-joys-of-a-middle-aged-man/"
       },
@@ -1225,24 +1087,12 @@
         "url": "https://letterboxd.com/film/sound-of-falling/"
       },
       {
-        "title": "Spare Queens",
-        "url": "https://letterboxd.com/film/spare-queens/"
-      },
-      {
         "title": "Spying Stars",
         "url": "https://letterboxd.com/film/spying-stars/"
       },
       {
-        "title": "Stars",
-        "url": "https://letterboxd.com/film/stars/"
-      },
-      {
         "title": "Still Life",
         "url": "https://letterboxd.com/film/still-life/"
-      },
-      {
-        "title": "Sundays",
-        "url": "https://letterboxd.com/film/sundays/"
       },
       {
         "title": "The Black Cannon Incident",
@@ -1251,10 +1101,6 @@
       {
         "title": "The Butterfly Murders",
         "url": "https://letterboxd.com/film/the-butterfly-murders/"
-      },
-      {
-        "title": "The Captive",
-        "url": "https://letterboxd.com/film/the-captive/"
       },
       {
         "title": "The Christophers",
@@ -1289,18 +1135,6 @@
         "url": "https://letterboxd.com/film/the-horse-thief/"
       },
       {
-        "title": "The Ivy",
-        "url": "https://letterboxd.com/film/the-ivy/"
-      },
-      {
-        "title": "The Last Blossom",
-        "url": "https://letterboxd.com/film/the-last-blossom/"
-      },
-      {
-        "title": "The Last Viking",
-        "url": "https://letterboxd.com/film/the-last-viking/"
-      },
-      {
         "title": "The Love That Remains",
         "url": "https://letterboxd.com/film/the-love-that-remains/"
       },
@@ -1311,14 +1145,6 @@
       {
         "title": "The Rocky Horror Picture Show",
         "url": "https://letterboxd.com/film/the-rocky-horror-picture-show/"
-      },
-      {
-        "title": "The Secret",
-        "url": "https://letterboxd.com/film/the-secret/"
-      },
-      {
-        "title": "The Stranger",
-        "url": "https://letterboxd.com/film/the-stranger/"
       },
       {
         "title": "The Sword",
@@ -1349,28 +1175,12 @@
         "url": "https://letterboxd.com/film/to-the-victory/"
       },
       {
-        "title": "Trillion",
-        "url": "https://letterboxd.com/film/trillion/"
-      },
-      {
-        "title": "Truly Naked",
-        "url": "https://letterboxd.com/film/truly-naked/"
-      },
-      {
         "title": "Two Prosecutors",
         "url": "https://letterboxd.com/film/two-prosecutors/"
       },
       {
         "title": "Unknown Pleasures",
         "url": "https://letterboxd.com/film/unknown-pleasures/"
-      },
-      {
-        "title": "Urchin",
-        "url": "https://letterboxd.com/film/urchin/"
-      },
-      {
-        "title": "Variations on a Theme",
-        "url": "https://letterboxd.com/film/variations-on-a-theme/"
       },
       {
         "title": "We are the Fruits of the Forest",
@@ -1381,71 +1191,249 @@
         "url": "https://letterboxd.com/film/wet-season/"
       },
       {
-        "title": "Whispers in the Woods",
-        "url": "https://letterboxd.com/film/whispers-in-the-woods/"
-      },
-      {
         "title": "Woman and Child",
         "url": "https://letterboxd.com/film/woman-and-child/"
       },
       {
-        "title": "Year One",
-        "url": "https://letterboxd.com/film/year-one/"
-      },
-      {
         "title": "Yellow Earth",
         "url": "https://letterboxd.com/film/yellow-earth/"
-      },
-      {
-        "title": "Yes",
-        "url": "https://letterboxd.com/film/yes/"
       }
     ],
     "fixed": [
       {
-        "title": "Below the Clouds",
-        "oldUrl": "https://letterboxd.com/film/under-the-clouds/",
-        "newUrl": "https://letterboxd.com/film/below-the-clouds/"
+        "title": "Cyclone",
+        "oldUrl": "https://letterboxd.com/film/cyclone/",
+        "newUrl": "https://letterboxd.com/film/cyclone-2026/"
       },
       {
-        "title": "Mirrors No. 3",
-        "oldUrl": "https://letterboxd.com/film/mirrors-3/",
-        "newUrl": "https://letterboxd.com/film/mirrors-no-3/"
+        "title": "After the Hunt",
+        "oldUrl": "https://letterboxd.com/film/after-the-hunt/",
+        "newUrl": "https://letterboxd.com/film/after-the-hunt-2025/"
       },
       {
-        "title": "Pin de Fartie",
-        "oldUrl": "https://letterboxd.com/film/lucky-break/",
-        "newUrl": "https://letterboxd.com/film/pin-de-fartie/"
+        "title": "Almost Home",
+        "oldUrl": "https://letterboxd.com/film/almost-home/",
+        "newUrl": "https://letterboxd.com/film/almost-home-2026/"
+      },
+      {
+        "title": "Back Home",
+        "oldUrl": "https://letterboxd.com/film/back-home/",
+        "newUrl": "https://letterboxd.com/film/back-home-2025/"
+      },
+      {
+        "title": "Balentes",
+        "oldUrl": "https://letterboxd.com/film/balentes/",
+        "newUrl": "https://letterboxd.com/film/balentes-2024/"
+      },
+      {
+        "title": "Blue Moon",
+        "oldUrl": "https://letterboxd.com/film/blue-moon/",
+        "newUrl": "https://letterboxd.com/film/blue-moon-2025/"
+      },
+      {
+        "title": "Divine Comedy",
+        "oldUrl": "https://letterboxd.com/film/divine-comedy/",
+        "newUrl": "https://letterboxd.com/film/divine-comedy-2025/"
+      },
+      {
+        "title": "Do You Love Me",
+        "oldUrl": "https://letterboxd.com/film/do-you-love-me/",
+        "newUrl": "https://letterboxd.com/film/do-you-love-me-2025/"
+      },
+      {
+        "title": "Good Boy",
+        "oldUrl": "https://letterboxd.com/film/good-boy/",
+        "newUrl": "https://letterboxd.com/film/good-boy-2025-1/"
+      },
+      {
+        "title": "Halo",
+        "oldUrl": "https://letterboxd.com/film/halo/",
+        "newUrl": "https://letterboxd.com/film/halo-2025/"
+      },
+      {
+        "title": "Hen",
+        "oldUrl": "https://letterboxd.com/film/hen/",
+        "newUrl": "https://letterboxd.com/film/hen-2025/"
+      },
+      {
+        "title": "Magellan",
+        "oldUrl": "https://letterboxd.com/film/magellan/",
+        "newUrl": "https://letterboxd.com/film/magellan-2025/"
+      },
+      {
+        "title": "Memory",
+        "oldUrl": "https://letterboxd.com/film/memory/",
+        "newUrl": "https://letterboxd.com/film/memory-2025/"
+      },
+      {
+        "title": "Milk Teeth",
+        "oldUrl": "https://letterboxd.com/film/milk-teeth/",
+        "newUrl": "https://letterboxd.com/film/milk-teeth-2025/"
+      },
+      {
+        "title": "Mothertongue",
+        "oldUrl": "https://letterboxd.com/film/mothertongue/",
+        "newUrl": "https://letterboxd.com/film/mothertongue-2025/"
+      },
+      {
+        "title": "Nouvelle Vague",
+        "oldUrl": "https://letterboxd.com/film/nouvelle-vague/",
+        "newUrl": "https://letterboxd.com/film/nouvelle-vague-2025/"
+      },
+      {
+        "title": "Orphan",
+        "oldUrl": "https://letterboxd.com/film/orphan/",
+        "newUrl": "https://letterboxd.com/film/orphan-2025/"
+      },
+      {
+        "title": "Pillion",
+        "oldUrl": "https://letterboxd.com/film/pillion/",
+        "newUrl": "https://letterboxd.com/film/pillion-2025/"
+      },
+      {
+        "title": "Redoubt",
+        "oldUrl": "https://letterboxd.com/film/redoubt/",
+        "newUrl": "https://letterboxd.com/film/redoubt-2025/"
+      },
+      {
+        "title": "Rose",
+        "oldUrl": "https://letterboxd.com/film/rose/",
+        "newUrl": "https://letterboxd.com/film/rose-2026/"
+      },
+      {
+        "title": "Salvation",
+        "oldUrl": "https://letterboxd.com/film/salvation/",
+        "newUrl": "https://letterboxd.com/film/salvation-2026/"
+      },
+      {
+        "title": "Sirât",
+        "oldUrl": "https://letterboxd.com/film/sirat/",
+        "newUrl": "https://letterboxd.com/film/sirat-2025/"
+      },
+      {
+        "title": "Sleep No More",
+        "oldUrl": "https://letterboxd.com/film/sleep-no-more/",
+        "newUrl": "https://letterboxd.com/film/sleep-no-more-2026/"
+      },
+      {
+        "title": "Stars",
+        "oldUrl": "https://letterboxd.com/film/stars/",
+        "newUrl": "https://letterboxd.com/film/stars-1959/"
+      },
+      {
+        "title": "Sundays",
+        "oldUrl": "https://letterboxd.com/film/sundays/",
+        "newUrl": "https://letterboxd.com/film/sundays-2025/"
+      },
+      {
+        "title": "The Captive",
+        "oldUrl": "https://letterboxd.com/film/the-captive/",
+        "newUrl": "https://letterboxd.com/film/the-captive-2025/"
+      },
+      {
+        "title": "The Ivy",
+        "oldUrl": "https://letterboxd.com/film/the-ivy/",
+        "newUrl": "https://letterboxd.com/film/the-ivy-2025/"
+      },
+      {
+        "title": "The Last Viking",
+        "oldUrl": "https://letterboxd.com/film/the-last-viking/",
+        "newUrl": "https://letterboxd.com/film/the-last-viking-2025/"
+      },
+      {
+        "title": "The Path of Soul",
+        "oldUrl": "https://letterboxd.com/film/road-to-heaven/",
+        "newUrl": "https://letterboxd.com/film/the-path-of-soul/"
+      },
+      {
+        "title": "The Secret",
+        "oldUrl": "https://letterboxd.com/film/the-secret/",
+        "newUrl": "https://letterboxd.com/film/the-secret-1979/"
+      },
+      {
+        "title": "The Stranger",
+        "oldUrl": "https://letterboxd.com/film/the-stranger/",
+        "newUrl": "https://letterboxd.com/film/the-stranger-2025-1/"
+      },
+      {
+        "title": "Urchin",
+        "oldUrl": "https://letterboxd.com/film/urchin/",
+        "newUrl": "https://letterboxd.com/film/urchin-2025/"
+      },
+      {
+        "title": "Variations on a Theme",
+        "oldUrl": "https://letterboxd.com/film/variations-on-a-theme/",
+        "newUrl": "https://letterboxd.com/film/variations-on-a-theme-2026/"
+      },
+      {
+        "title": "Whispers in the Woods",
+        "oldUrl": "https://letterboxd.com/film/whispers-in-the-woods/",
+        "newUrl": "https://letterboxd.com/film/whispers-in-the-woods-2025/"
+      },
+      {
+        "title": "Year One",
+        "oldUrl": "https://letterboxd.com/film/year-one/",
+        "newUrl": "https://letterboxd.com/film/year-one-1974/"
       }
     ],
     "unresolved": [
+      {
+        "title": "17",
+        "currentUrl": "https://letterboxd.com/film/17/"
+      },
+      {
+        "title": "A Dance with Rainbows",
+        "currentUrl": "https://letterboxd.com/film/a-dance-with-rainbows/"
+      },
       {
         "title": "Adam’s Sake",
         "currentUrl": "https://letterboxd.com/film/adams-sake/"
       },
       {
-        "title": "Amílcar",
-        "currentUrl": "https://letterboxd.com/film/amilcar/"
+        "title": "Ah Girl",
+        "currentUrl": "https://letterboxd.com/film/ah-girl/"
       },
       {
-        "title": "Aniki-Bóbó",
-        "currentUrl": "https://letterboxd.com/film/aniki-bobo/"
+        "title": "All Greens",
+        "currentUrl": "https://letterboxd.com/film/all-greens/"
+      },
+      {
+        "title": "Amoeba",
+        "currentUrl": "https://letterboxd.com/film/amoeba/"
       },
       {
         "title": "Avant Garde Shorts Programme",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
       },
       {
-        "title": "Calle Málaga",
-        "currentUrl": "https://letterboxd.com/film/calle-malaga/"
+        "title": "Barbara Forever",
+        "currentUrl": "https://letterboxd.com/film/barbara-forever/"
+      },
+      {
+        "title": "Bashu, the Little Stranger",
+        "currentUrl": "https://letterboxd.com/film/bashu-the-little-stranger/"
       },
       {
         "title": "Dong / The Hedonists",
         "currentUrl": "https://letterboxd.com/film/dong/"
       },
       {
+        "title": "Franz",
+        "currentUrl": "https://letterboxd.com/film/franz/"
+      },
+      {
+        "title": "Good Valley Stories",
+        "currentUrl": "https://letterboxd.com/film/good-valley-stories/"
+      },
+      {
+        "title": "In Our Time",
+        "currentUrl": "https://letterboxd.com/film/in-our-time/"
+      },
+      {
         "title": "Joe Hsieh Animation Collection",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
       },
       {
         "title": "Mare’s Nest",
@@ -1453,7 +1441,12 @@
       },
       {
         "title": "Mary Stephen: Shades of Silk & Shorts",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
+      },
+      {
+        "title": "Meets the World",
+        "currentUrl": "https://letterboxd.com/film/meets-the-world/"
       },
       {
         "title": "My Father’s Shadow",
@@ -1461,7 +1454,12 @@
       },
       {
         "title": "New Voices of Asia: Asian Short Film Fund Winning Projects",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
+      },
+      {
+        "title": "On the Road",
+        "currentUrl": "https://letterboxd.com/film/on-the-road/"
       },
       {
         "title": "PanelStory, or How a Housing Development Is Born",
@@ -1469,39 +1467,47 @@
       },
       {
         "title": "Private Revolutions, Public Spaces: Works from the M+ Asian Avant-Garde Film Collection",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
       },
       {
-        "title": "Romería",
-        "currentUrl": "https://letterboxd.com/film/romeria/"
+        "title": "Saccharine",
+        "currentUrl": "https://letterboxd.com/film/saccharine/"
       },
       {
         "title": "Short Film Competition Programme I",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
       },
       {
         "title": "Short Film Competition Programme II",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
       },
       {
         "title": "Short Film Competition Programme III",
-        "currentUrl": null
+        "currentUrl": null,
+        "reason": "compilation"
       },
       {
-        "title": "Sirât",
-        "currentUrl": "https://letterboxd.com/film/sirat/"
+        "title": "Spare Queens",
+        "currentUrl": "https://letterboxd.com/film/spare-queens/"
       },
       {
-        "title": "The Dating Menu",
-        "currentUrl": null
-      },
-      {
-        "title": "The Path of Soul",
-        "currentUrl": "https://letterboxd.com/film/road-to-heaven/"
+        "title": "The Last Blossom",
+        "currentUrl": "https://letterboxd.com/film/the-last-blossom/"
       },
       {
         "title": "The Stars and Moon are Holes in the Sky",
         "currentUrl": "https://letterboxd.com/film/the-stars-and-the-moon-are-holes-in-the-sky/"
+      },
+      {
+        "title": "Trillion",
+        "currentUrl": "https://letterboxd.com/film/trillion/"
+      },
+      {
+        "title": "Truly Naked",
+        "currentUrl": "https://letterboxd.com/film/truly-naked/"
       },
       {
         "title": "Vive L’Amour",
@@ -1530,8 +1536,69 @@
       {
         "title": "Xiao Wu",
         "currentUrl": "https://letterboxd.com/film/pickpocket-1997/"
+      },
+      {
+        "title": "Yes",
+        "currentUrl": "https://letterboxd.com/film/yes/"
+      },
+      {
+        "title": "Million"
+      },
+      {
+        "title": "Lectura"
+      },
+      {
+        "title": "No It's Not"
+      },
+      {
+        "title": "Master Class: Chen Kaige",
+        "currentUrl": null
+      },
+      {
+        "title": "Face to Face: Jia Zhangke",
+        "currentUrl": null
+      },
+      {
+        "title": "Master Class: Tian Zhuangzhuang",
+        "currentUrl": null
+      },
+      {
+        "title": "Seminar on Chinese Cinema",
+        "currentUrl": null,
+        "reason": "compilation"
+      },
+      {
+        "title": "Face to Face: Anthony Chen",
+        "currentUrl": null
+      },
+      {
+        "title": "Master Class: Huang Jianxin",
+        "currentUrl": null
+      },
+      {
+        "title": "Master Class: Emir Kusturica",
+        "currentUrl": null
+      },
+      {
+        "title": "Seminar on New Voices of Asia",
+        "currentUrl": null,
+        "reason": "compilation"
+      },
+      {
+        "title": "Master Class: Juliette Binoche",
+        "currentUrl": null
+      },
+      {
+        "title": "Seminar on Film Editing",
+        "currentUrl": null,
+        "reason": "compilation"
       }
     ],
-    "added": []
+    "added": [
+      {
+        "title": "The Dating Menu",
+        "url": "https://letterboxd.com/film/the-dating-menu/"
+      }
+    ]
   }
 }
