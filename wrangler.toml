@@ -1,3 +1,7 @@
 name = "hkiff-2026"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "out"
+
+[[kv_namespaces]]
+binding = "SYNC_KV"
+id = "f322aba236e04e8993a5b63cfb7f814b"

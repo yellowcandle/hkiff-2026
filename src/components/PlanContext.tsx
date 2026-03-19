@@ -9,7 +9,13 @@ import {
   useState,
 } from "react";
 import { getFilm, getScreening } from "@/lib/data";
-import { loadStorage, saveStorage } from "@/lib/storage";
+import {
+  loadStorage,
+  saveStorage,
+  planIds,
+  ticketQuantitiesMap,
+  TimestampedItem,
+} from "@/lib/storage";
 
 interface PlanContextValue {
   plan: string[];
@@ -21,6 +27,11 @@ interface PlanContextValue {
   getQuantity: (id: string) => number;
   setQuantity: (id: string, qty: number) => void;
   storageError: boolean;
+  applyMergedState: (
+    plan: Record<string, TimestampedItem>,
+    removed: Record<string, TimestampedItem>
+  ) => void;
+  onPlanChange: (callback: () => void) => () => void;
 }
 
 const PlanContext = createContext<PlanContextValue | null>(null);
@@ -51,32 +62,78 @@ function screeningsOverlap(idA: string, idB: string): boolean {
 
 export function PlanProvider({ children }: { children: React.ReactNode }) {
   const [plan, setPlan] = useState<string[]>([]);
-  const [ticketQuantities, setTicketQuantities] = useState<Record<string, number>>({});
+  const [ticketQuantities, setTicketQuantities] = useState<
+    Record<string, number>
+  >({});
   const [storageError, setStorageError] = useState(false);
   const initialized = useRef(false);
+  const skipSyncRef = useRef(false);
+  const changeListenersRef = useRef<Set<() => void>>(new Set());
 
   useEffect(() => {
     const data = loadStorage();
-    setPlan(data.plan);
-    setTicketQuantities(data.ticketQuantities || {});
+    setPlan(planIds(data));
+    setTicketQuantities(ticketQuantitiesMap(data));
     initialized.current = true;
   }, []);
 
   useEffect(() => {
     if (!initialized.current) return;
     const data = loadStorage();
-    const ok = saveStorage({ ...data, plan, ticketQuantities });
+
+    // Build v3 plan map from current state
+    const planMap: Record<string, TimestampedItem> = {};
+    for (const id of plan) {
+      // Preserve existing timestamps if present, otherwise create new
+      if (data.plan[id]) {
+        planMap[id] = {
+          ...data.plan[id],
+          qty: ticketQuantities[id] && ticketQuantities[id] > 1
+            ? ticketQuantities[id]
+            : undefined,
+        };
+      } else {
+        planMap[id] = {
+          at: Date.now(),
+          qty: ticketQuantities[id] && ticketQuantities[id] > 1
+            ? ticketQuantities[id]
+            : undefined,
+        };
+      }
+    }
+
+    const ok = saveStorage({ ...data, plan: planMap });
     if (!ok) {
       setStorageError(true);
       setTimeout(() => setStorageError(false), 3000);
     }
+
+    if (!skipSyncRef.current) {
+      changeListenersRef.current.forEach((cb) => cb());
+    }
+    skipSyncRef.current = false;
   }, [plan, ticketQuantities]);
 
   const addScreening = useCallback((id: string) => {
-    setPlan((prev) => (prev.includes(id) ? prev : [...prev, id]));
+    setPlan((prev) => {
+      if (prev.includes(id)) return prev;
+      // Write the timestamped entry immediately
+      const data = loadStorage();
+      data.plan[id] = { at: Date.now() };
+      delete data.removed[id];
+      saveStorage(data);
+      return [...prev, id];
+    });
   }, []);
 
   const removeScreening = useCallback((id: string) => {
+    // Move to removed in storage
+    const data = loadStorage();
+    if (data.plan[id]) {
+      data.removed[id] = { at: Date.now() };
+      delete data.plan[id];
+      saveStorage(data);
+    }
     setPlan((prev) => prev.filter((s) => s !== id));
     setTicketQuantities((prev) => {
       const next = { ...prev };
@@ -120,6 +177,33 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
     [plan]
   );
 
+  const applyMergedState = useCallback(
+    (
+      mergedPlan: Record<string, TimestampedItem>,
+      mergedRemoved: Record<string, TimestampedItem>
+    ) => {
+      skipSyncRef.current = true;
+      const data = loadStorage();
+      data.plan = mergedPlan;
+      data.removed = mergedRemoved;
+      saveStorage(data);
+      setPlan(Object.keys(mergedPlan));
+      const quantities: Record<string, number> = {};
+      for (const [id, item] of Object.entries(mergedPlan)) {
+        if (item.qty && item.qty > 1) quantities[id] = item.qty;
+      }
+      setTicketQuantities(quantities);
+    },
+    []
+  );
+
+  const onPlanChange = useCallback((callback: () => void) => {
+    changeListenersRef.current.add(callback);
+    return () => {
+      changeListenersRef.current.delete(callback);
+    };
+  }, []);
+
   return (
     <PlanContext.Provider
       value={{
@@ -132,6 +216,8 @@ export function PlanProvider({ children }: { children: React.ReactNode }) {
         getQuantity,
         setQuantity,
         storageError,
+        applyMergedState,
+        onPlanChange,
       }}
     >
       {children}

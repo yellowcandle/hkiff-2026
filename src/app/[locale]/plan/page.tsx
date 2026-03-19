@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { getFilms, getScreenings, getVenues } from "@/lib/data";
@@ -21,12 +22,14 @@ export default async function PlanPage({ params }: Props) {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold mb-8">{t("title")}</h1>
-      <PlanPageClient
-        screenings={screenings}
-        films={films}
-        venues={venues}
-        locale={locale as "en" | "zh"}
-      />
+      <Suspense>
+        <PlanPageClient
+          screenings={screenings}
+          films={films}
+          venues={venues}
+          locale={locale as "en" | "zh"}
+        />
+      </Suspense>
     </div>
   );
 }

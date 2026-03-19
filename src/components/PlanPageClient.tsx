@@ -1,13 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { useSearchParams } from "next/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 import { usePlan } from "@/components/PlanContext";
 import { buildExportText } from "@/components/PlanExport";
 import { generateIcsForPlan, generateIcsForScreening, downloadIcsFile } from "@/lib/icsCalendar";
 import ShareCardRenderer from "@/components/ShareCardRenderer";
 import { useShareImage } from "@/lib/useShareImage";
+import { useSyncPlan } from "@/hooks/useSyncPlan";
+import SyncBadge from "@/components/SyncBadge";
+import SyncModal from "@/components/SyncModal";
+import MergeSummaryToast from "@/components/MergeSummaryToast";
+import { loadStorage } from "@/lib/storage";
 import type { Film, Screening, Venue } from "@/lib/types";
 
 interface Props {
@@ -43,12 +49,37 @@ function formatDateHeading(dateStr: string, locale: "en" | "zh"): string {
 
 export default function PlanPageClient({ screenings, films, venues, locale }: Props) {
   const t = useTranslations("plan");
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const { plan, removeScreening, getConflictsFor, getQuantity, setQuantity } = usePlan();
   const [copied, setCopied] = useState(false);
   const [shareError, setShareError] = useState(false);
   const { generateImage, isGenerating } = useShareImage();
   const [showPicker, setShowPicker] = useState(false);
   const [pickedIds, setPickedIds] = useState<string[]>([]);
+
+  // Sync
+  const { syncCode, syncStatus, enableSync, joinSync, mergeSummary, dismissSummary } = useSyncPlan();
+  const [syncModalOpen, setSyncModalOpen] = useState(false);
+  const [showSyncConfirm, setShowSyncConfirm] = useState<string | null>(null);
+
+  // Handle ?sync= query parameter
+  useEffect(() => {
+    const syncParam = searchParams.get("sync");
+    if (!syncParam) return;
+
+    const existingToken = loadStorage().syncToken;
+    if (existingToken && existingToken !== syncParam) {
+      // Different token — ask for confirmation
+      setShowSyncConfirm(syncParam);
+    } else {
+      // No existing token or same token — join directly
+      joinSync(syncParam).then(() => {
+        router.replace("/plan");
+      });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
 
   const screeningMap = new Map(screenings.map((s) => [s.id, s]));
   const filmMap = new Map(films.map((f) => [f.id, f]));
@@ -127,12 +158,31 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
         >
           {t("browseFilms")}
         </Link>
+        <SyncModal
+          isOpen={syncModalOpen}
+          onClose={() => setSyncModalOpen(false)}
+          syncCode={syncCode}
+          syncStatus={syncStatus}
+          onEnableSync={enableSync}
+          onJoinSync={joinSync}
+        />
+        <MergeSummaryToast summary={mergeSummary} onDismiss={dismissSummary} />
       </div>
     );
   }
 
   return (
     <div>
+      {/* Sync badge */}
+      <div className="flex items-center justify-between mb-4">
+        <SyncBadge
+          syncCode={syncCode}
+          syncStatus={syncStatus}
+          onClick={() => setSyncModalOpen(true)}
+        />
+        <div /> {/* spacer */}
+      </div>
+
       {/* Share/Export buttons */}
       <div className="flex flex-col sm:flex-row justify-end gap-2 mb-6">
         <button
@@ -167,6 +217,12 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
           className="bg-neutral-900 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-neutral-700 transition-colors disabled:opacity-40"
         >
           {shareError ? "Failed to copy" : copied ? t("copied") : t("share")}
+        </button>
+        <button
+          onClick={() => setSyncModalOpen(true)}
+          className="bg-white text-neutral-900 text-sm font-medium px-4 py-2 rounded-lg border border-neutral-300 hover:bg-neutral-50 transition-colors"
+        >
+          🔄 Sync Devices
         </button>
       </div>
 
@@ -404,6 +460,54 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
         )}
         locale={locale}
       />
+
+      {/* Sync modal */}
+      <SyncModal
+        isOpen={syncModalOpen}
+        onClose={() => setSyncModalOpen(false)}
+        syncCode={syncCode}
+        syncStatus={syncStatus}
+        onEnableSync={enableSync}
+        onJoinSync={joinSync}
+      />
+
+      {/* Merge summary toast */}
+      <MergeSummaryToast summary={mergeSummary} onDismiss={dismissSummary} />
+
+      {/* Sync confirmation dialog */}
+      {showSyncConfirm && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4">
+          <div className="bg-white rounded-xl max-w-sm w-full p-6">
+            <h3 className="font-semibold text-lg mb-2">Merge with another plan?</h3>
+            <p className="text-sm text-neutral-500 mb-4">
+              This will merge your current plan with another device&apos;s plan. Your existing selections will be kept.
+            </p>
+            <div className="flex gap-2">
+              <button
+                onClick={() => {
+                  setShowSyncConfirm(null);
+                  router.replace("/plan");
+                }}
+                className="flex-1 py-2.5 rounded-lg border border-neutral-300 text-sm font-medium hover:bg-neutral-50 transition-colors"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => {
+                  const code = showSyncConfirm;
+                  setShowSyncConfirm(null);
+                  joinSync(code).then(() => {
+                    router.replace("/plan");
+                  });
+                }}
+                className="flex-1 py-2.5 rounded-lg bg-neutral-900 text-white text-sm font-medium hover:bg-neutral-700 transition-colors"
+              >
+                Merge
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
