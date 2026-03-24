@@ -8,7 +8,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { getFilm, getScreening } from "@/lib/data";
+import { getFilm, getScreening, getScreeningDuration } from "@/lib/data";
 import {
   loadStorage,
   saveStorage,
@@ -54,9 +54,9 @@ function screeningsOverlap(idA: string, idB: string): boolean {
   const filmB = getFilm(sB.filmId);
   if (!filmA || !filmB) return false;
   const startA = timeToMinutes(sA.time);
-  const endA = startA + (filmA.runtime ?? 0);
+  const endA = startA + getScreeningDuration(sA, filmA);
   const startB = timeToMinutes(sB.time);
-  const endB = startB + (filmB.runtime ?? 0);
+  const endB = startB + getScreeningDuration(sB, filmB);
   return startA < endB && startB < endA;
 }
 

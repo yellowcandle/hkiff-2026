@@ -4,6 +4,7 @@ import { useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { usePlan } from "@/components/PlanContext";
 import type { Screening, Venue, Film } from "@/lib/types";
+import { getScreeningDuration } from "@/lib/data";
 
 type Props = {
   screenings: Screening[];
@@ -14,7 +15,6 @@ type Props = {
 
 // --- Timeline helpers & constants ---
 const PX_PER_MIN = 2;
-const DEFAULT_RUNTIME = 120;
 const MIN_BLOCK_HEIGHT = 36;
 
 function timeToMinutes(time: string): number {
@@ -61,7 +61,7 @@ export default function ScheduleGrid({ screenings, venues, films, date }: Props)
   for (const s of filtered) {
     const start = timeToMinutes(s.time);
     const film = filmMap.get(s.filmId);
-    const runtime = film?.runtime ?? DEFAULT_RUNTIME;
+    const runtime = getScreeningDuration(s, film);
     const end = start + runtime;
     if (start < dayStartMin) dayStartMin = start;
     if (end > dayEndMin) dayEndMin = end;
@@ -184,8 +184,8 @@ export default function ScheduleGrid({ screenings, venues, films, date }: Props)
                     .sort((a, b) => a.time.localeCompare(b.time))
                     .map((s) => {
                       const film = filmMap.get(s.filmId);
-                      const runtime = film?.runtime ?? DEFAULT_RUNTIME;
-                      const hasRuntime = film?.runtime != null;
+                      const runtime = getScreeningDuration(s, film);
+                      const hasRuntime = film?.runtime != null || s.duration != null;
                       const isPlanned = plan.includes(s.id);
                       const startMin = timeToMinutes(s.time);
                       const top = (startMin - dayStartMin) * PX_PER_MIN;

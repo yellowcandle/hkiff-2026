@@ -15,6 +15,7 @@ import SyncModal from "@/components/SyncModal";
 import MergeSummaryToast from "@/components/MergeSummaryToast";
 import { loadStorage } from "@/lib/storage";
 import type { Film, Screening, Venue } from "@/lib/types";
+import { getScreeningDuration } from "@/lib/data";
 
 interface Props {
   screenings: Screening[];
@@ -338,7 +339,7 @@ export default function PlanPageClient({ screenings, films, venues, locale }: Pr
                 {dayItems.map((item) => {
                   const { id, screening, film, venue } = item;
                   const startMin = timeToMinutes(screening.time);
-                  const endTime = minutesToTime(startMin + (film.runtime ?? 0));
+                  const endTime = minutesToTime(startMin + getScreeningDuration(screening, film));
                   const conflictIds = getConflictsFor(id);
                   const hasConflict = conflictIds.length > 0;
 

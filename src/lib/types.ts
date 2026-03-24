@@ -43,6 +43,7 @@ export type Screening = {
   ticketUrl: string;
   guestAttend?: boolean;
   event?: ScreeningEvent;
+  duration?: number; // total screening slot duration in minutes
 };
 
 export type Venue = {
