@@ -146,6 +146,16 @@ export function getScreeningsForFilm(filmId: string): Screening[] {
   return (screeningsData as Screening[]).filter((s) => s.filmId === filmId);
 }
 
+const DEFAULT_DURATION = 90;
+
+/** Screening duration using fallback chain: screening.duration → film.runtime → 90 */
+export function getScreeningDuration(
+  screening: Pick<Screening, "duration">,
+  film: Pick<Film, "runtime"> | undefined | null
+): number {
+  return screening.duration ?? film?.runtime ?? DEFAULT_DURATION;
+}
+
 export function getScreeningsByDate(date: string): Screening[] {
   return (screeningsData as Screening[]).filter((s) => s.date === date);
 }

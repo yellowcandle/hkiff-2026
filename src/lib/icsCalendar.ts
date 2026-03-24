@@ -1,4 +1,5 @@
 import type { Film, Screening, Venue } from "@/lib/types";
+import { getScreeningDuration } from "@/lib/data";
 
 export interface CalendarScreening {
   screening: Screening;
@@ -77,7 +78,7 @@ function buildVEvent(
     `UID:${screening.id}@hkiff.herballemon.dev`,
     `DTSTAMP:${stamp}`,
     `DTSTART;TZID=Asia/Hong_Kong:${formatDateTime(screening.date, screening.time)}`,
-    `DURATION:PT${film.runtime ?? 120}M`,
+    `DURATION:PT${getScreeningDuration(screening, film)}M`,
     foldLine(`SUMMARY:${escapeText(film.title[locale])}`),
   ];
 
