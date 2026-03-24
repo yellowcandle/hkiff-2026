@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "deploy": "next build && npx wrangler pages deploy out --project-name hkiff-2026",
     "preview": "next build && npx wrangler pages dev out"
   },
@@ -28,6 +30,7 @@
     "eslint-config-next": "15.5.2",
     "tailwindcss": "^4.2.1",
     "typescript": "^5",
+    "vitest": "^4.1.1",
     "wrangler": "^4.71.0"
   }
 }
